@@ -19,7 +19,6 @@
                         "id": 1
                     }
                 ],
-            
                 "prerequisite": []
             }, 
             {
@@ -39,6 +38,10 @@
                     {
                         "period": 1,
                         "id": 2
+                    },
+                    {
+                        "period": 3,
+                        "id": 2
                     }
                 ],
                 "prerequisite": []
@@ -52,6 +55,18 @@
                     {
                         "period": 1,
                         "id": 2
+                    },
+                    {
+                        "period": 3,
+                        "id": 2
+                    },
+                    {
+                        "period": 3,
+                        "id": 3
+                    },
+                    {
+                        "period": 5,
+                        "id": 5
                     }
                 ],
                 "prerequisite": []
@@ -69,6 +84,14 @@
                     {
                         "period": 1,
                         "id": 4
+                    },
+                    {
+                        "period": 4,
+                        "id": 5
+                    },
+                    {
+                        "period": 5,
+                        "id": 5
                     }
                 ],
                 "prerequisite": []
@@ -82,6 +105,14 @@
                     {
                         "period": 1,
                         "id": 5
+                    },
+                    {
+                        "period": 2,
+                        "id": 3
+                    },
+                    {
+                        "period": 2,
+                        "id": 4
                     }
                 ],
                 "prerequisite": []
@@ -95,6 +126,10 @@
                     {
                         "period": 1,
                         "id": 6
+                    },
+                    {
+                        "period": 6,
+                        "id": 6
                     }
                 ],
                 "prerequisite": []
@@ -104,17 +139,31 @@
                 "workload": 30, 
                 "period": 0,
                 "id": 7,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 2,
+                        "id": 1
+                    }
+                ],
                 "prerequisite": []
             }
         ], 
         [
             {
                 "name": "Eletrônica digital", 
-                "workload": 60, 
+                "workload": 60,
                 "period": 1,
                 "id": 0,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 2,
+                        "id": 0
+                    },
+                    {
+                        "period": 5,
+                        "id": 6
+                    }
+                ],
                 "prerequisite": [
                     {
                         "period": 0,
@@ -140,7 +189,32 @@
                 "workload": 60, 
                 "period": 1,
                 "id": 2,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 2,
+                        "id": 2
+                    },
+                    {
+                        "period": 4,
+                        "id": 0
+                    },
+                    {
+                        "period": 6,
+                        "id": 5
+                    },
+                    {
+                        "period": 6,
+                        "id": 6
+                    },
+                    {
+                        "period": 7,
+                        "id": 1
+                    },
+                    {
+                        "period": 7,
+                        "id": 2
+                    }
+                ],
                 "prerequisite": [
                     {
                         "period": 0,
@@ -154,10 +228,15 @@
             }, 
             {
                 "name": "Química teórica I", 
-                "workload": 60,
+                "workload": 30,
                 "period": 1,
                 "id": 3,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 4,
+                        "id": 1
+                    }
+                ],
                 "prerequisite": [
                     {
                         "period": 0,
@@ -183,7 +262,28 @@
                 "workload": 60, 
                 "period": 1,
                 "id": 5,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 2,
+                        "id": 5
+                    },
+                    {
+                        "period": 2,
+                        "id": 5
+                    },
+                    {
+                        "period": 3,
+                        "id": 3
+                    },
+                    {
+                        "period": 3,
+                        "id": 4
+                    },
+                    {
+                        "period": 3,
+                        "id": 7
+                    }
+                ],
                 "prerequisite": [
                     {
                         "period": 0,
@@ -196,7 +296,20 @@
                 "workload": 60, 
                 "period": 1,
                 "id": 6,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 2,
+                        "id": 4
+                    },
+                    {
+                        "period": 3,
+                        "id": 3
+                    },
+                    {
+                        "period": 5,
+                        "id": 5
+                    }
+                ],
                 "prerequisite": [
                     {
                         "period": 0,
@@ -209,7 +322,20 @@
                 "workload": 60, 
                 "period": 1,
                 "id": 7,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 2,
+                        "id": 7
+                    },
+                    {
+                        "period": 2,
+                        "id": 4
+                    },
+                    {
+                        "period": 4,
+                        "id": 4
+                    }
+                ],
                 "prerequisite": []
             }
         ],
@@ -223,6 +349,22 @@
                     {
                         "period": 3,
                         "id": 0
+                    },
+                    {
+                        "period": 4,
+                        "id": 0
+                    },
+                    {
+                        "period": 5,
+                        "id": 0
+                    },
+                    {
+                        "period": 6,
+                        "id": 3
+                    },
+                    {
+                        "period": 6,
+                        "id": 5
                     }
                 ],
                 "prerequisite": [
@@ -259,11 +401,16 @@
                 ]
             },
             {
-                "name": "Estatistica aplicada a engenharia", 
+                "name": "Estatística aplicada a engenharia", 
                 "workload": 90, 
                 "period": 2,
                 "id": 3,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 7,
+                        "id": 2
+                    }
+                ],
                 "prerequisite": [
                     {
                         "period": 0,
@@ -282,6 +429,53 @@
                         "period": 0,
                         "id": 5
                     },
+                    {
+                        "period": 1,
+                        "id": 7
+                    },
+                    {
+                        "period": 1,
+                        "id": 6
+                    }
+                ]
+            },
+            {
+                "name": "Cálculo III", 
+                "workload": 60, 
+                "period": 2,
+                "id": 5,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 5
+                    },
+                    {
+                        "period": 4,
+                        "id": 4
+                    }
+                ]
+            },
+            {
+                "name": "Física experimental A",
+                "workload": 60, 
+                "period": 2,
+                "id": 6,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Física Teórica II", 
+                "workload": 60, 
+                "period": 2,
+                "id": 7,
+                "unlock": [
+                    {
+                        "period": 3,
+                        "id": 7
+                    }
+                ],
+                "prerequisite": [
                     {
                         "period": 1,
                         "id": 7
@@ -316,7 +510,12 @@
                 "workload": 60,
                 "period": 3,
                 "id": 2,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 4,
+                        "id": 2
+                    }
+                ],
                 "prerequisite": [
                     {
                         "period": 0,
@@ -354,7 +553,12 @@
                 "workload": 60,
                 "period": 3,
                 "id": 4,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 5,
+                        "id": 4
+                    }
+                ],
                 "prerequisite": [
                     {
                         "period": 1,
@@ -367,7 +571,12 @@
                 "workload": 30,
                 "period": 3,
                 "id": 5,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 4,
+                        "id": 7
+                    }
+                ],
                 "prerequisite": []
             },
             {
@@ -399,6 +608,548 @@
                         "id": 5
                     }
                 ]
+            }
+        ],
+        [
+            {
+                "name": "Sistemas operacionais", 
+                "workload": 60,
+                "period": 4,
+                "id": 0,
+                "unlock": [
+                    {
+                        "period": 7,
+                        "id": 0
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 2
+                    },
+                    {
+                        "period": 2,
+                        "id": 0
+                    }
+                ]
+            },
+            {
+                "name": "Ciência de Tecnologia dos Materiais", 
+                "workload": 60,
+                "period": 4,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "name": "Engenharia de Software I", 
+                "workload": 60,
+                "period": 4,
+                "id": 2,
+                "unlock": [
+                    {
+                        "period": 5,
+                        "id": 2
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 3,
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "name": "Banco de Dados I",
+                "workload": 60,
+                "period": 4,
+                "id": 3,
+                "unlock": [
+                    {
+                        "period": 5,
+                        "id": 2
+                    },
+                    {
+                        "period": 5,
+                        "id": 3
+                    }
+                ],
+                "prerequisite": []
+            },
+            {
+                "name": "Fenômenos de Transporte",
+                "workload": 60,
+                "period": 4,
+                "id": 4,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 7
+                    },
+                    {
+                        "period": 2,
+                        "id": 5
+                    }
+                ]
+            },
+            {
+                "name": "Lógica para Computação",
+                "workload": 60,
+                "period": 4,
+                "id": 5,
+                "unlock": [
+                    {
+                        "period": 7,
+                        "id": 1
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 4
+                    }
+                ]
+            },
+            {
+                "name": "Eletrônica analógica",
+                "workload": 60,
+                "period": 4,
+                "id": 6,
+                "unlock": [
+                    {
+                        "period": 5,
+                        "id": 6
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 3,
+                        "id": 6
+                    }
+                ]
+            },
+            {
+                "name": "Lab. Eletrônica analógica",
+                "workload": 30,
+                "period": 4,
+                "id": 7,
+                "unlock": [
+                    {
+                        "period": 5,
+                        "id": 6
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 3,
+                        "id": 5
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "name": "Redes de computadores I", 
+                "workload": 60, 
+                "period": 5,
+                "id": 0,
+                "unlock": [
+                    {
+                        "period": 6,
+                        "id": 0
+                    },
+                    {
+                        "period": 7,
+                        "id": 0
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 0
+                    }
+                ]
+            },
+            {
+                "name": "Administração para engenharia", 
+                "workload": 30, 
+                "period": 5,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Engenharia de Software II",
+                "workload": 60,
+                "period": 5,
+                "id": 2,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 4,
+                        "id": 2
+                    },
+                    {
+                        "period": 4,
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "name": "Banco de dados II",
+                "workload": 60,
+                "period": 5,
+                "id": 3,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 4,
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "name": "Análise de sinais e sistemas", 
+                "workload": 60, 
+                "period": 5,
+                "id": 4,
+                "unlock": [
+                    {
+                        "period": 6,
+                        "id": 4
+                    },
+                    {
+                        "period": 7,
+                        "id": 3
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 3,
+                        "id": 4
+                    }
+                ]
+            },
+            {
+                "name": "Linguagens formais e automâtos", 
+                "workload": 60,
+                "period": 5,
+                "id": 5,
+                "unlock": [
+                    {
+                        "period": 6,
+                        "id": 5
+                    },
+                    {
+                        "period": 7,
+                        "id": 5
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 3
+                    },
+                    {
+                        "period": 0,
+                        "id": 4
+                    },
+                    {
+                        "period": 1,
+                        "id": 6
+                    }
+                ]
+            },
+            {
+                "name": "Instrumentação eletrônica", 
+                "workload": 60, 
+                "period": 5,
+                "id": 6,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 0
+                    },
+                    {
+                        "period": 4,
+                        "id": 6
+                    },
+                    {
+                        "period": 4,
+                        "id": 7
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "name": "Redes de Computadores II",
+                "workload": 60,
+                "period": 6,
+                "id": 0,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 5,
+                        "id": 0
+                    }
+                ]
+            },
+            {
+                "name": "Meio ambiente e desenvolvimento sustentável",
+                "workload": 30,
+                "period": 6,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Introdução a Engenharia Econômica",
+                "workload": 30,
+                "period": 6,
+                "id": 2,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Sistemas Microcontrolados",
+                "workload": 60,
+                "period": 6,
+                "id": 3,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 0
+                    }
+                ]
+            },
+            {
+                "name": "Sistemas de Controle I",
+                "workload": 60,
+                "period": 6,
+                "id": 4,
+                "unlock": [
+                    {
+                        "period": 7,
+                        "id": 4
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 5,
+                        "id": 4
+                    }
+                ]
+            },
+            {
+                "name": "Compiladores",
+                "workload": 60,
+                "period": 6,
+                "id": 5,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 2
+                    },
+                    {
+                        "period": 2,
+                        "id": 0
+                    },
+                    {
+                        "period": 5,
+                        "id": 5
+                    }
+                ]
+            },
+            {
+                "name": "Computação gráfica",
+                "workload": 60,
+                "period": 6,
+                "id": 6,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 2
+                    },
+                    {
+                        "period": 0,
+                        "id": 6
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "name": "Sistemas distribuidos I", 
+                "workload": 60,
+                "period": 7,
+                "id": 0,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 4,
+                        "id": 0
+                    },
+                    {
+                        "period": 5,
+                        "id": 0
+                    }
+                ]
+            },
+            {
+                "name": "Inteligência artificial", 
+                "workload": 60,
+                "period": 7,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 2
+                    },
+                    {
+                        "period": 4,
+                        "id": 5
+                    }
+                ]
+            },
+            {
+                "name": "Modelagem e simulação", 
+                "workload": 60,
+                "period": 7,
+                "id": 2,
+                "unlock": [
+                    {
+                        "period": 8,
+                        "id": 0
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 2
+                    },
+                    {
+                        "period": 2,
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "name": "Principios de telecomunicação", 
+                "workload": 60,
+                "period": 7,
+                "id": 3,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 5,
+                        "id": 4
+                    }
+                ]
+            },
+            {
+                "name": "Sistemas de controle II", 
+                "workload": 60,
+                "period": 7,
+                "id": 4,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 6,
+                        "id": 4
+                    }
+                ]
+            },
+            {
+                "name": "Teoria da computação", 
+                "workload": 60,
+                "period": 7,
+                "id": 5,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 5,
+                        "id": 5
+                    }
+                ]
+            },
+            {
+                "name": "Aspectos legais para computação", 
+                "workload": 60,
+                "period": 5,
+                "id": 5,
+                "unlock": [],
+                "prerequisite": []
+            }
+        ],
+        [
+            {
+                "name": "Avaliação de Desempenho de Sistemas",
+                "workload": 60,
+                "period": 8,
+                "id": 0,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 7,
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "name": "Empreendedorismo",
+                "workload": 60,
+                "period": 8,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Trabalho de Conclusão de Curso I",
+                "workload": 60,
+                "period": 8,
+                "id": 2,
+                "unlock": [
+                    {
+                        "period": 9,
+                        "id": 0
+                    }
+                ],
+                "prerequisite": []
+            }
+        ],
+        [
+            {
+                "name": "Trabalho de Conclusão de Curso II",
+                "workload": 60,
+                "period": 9,
+                "id": 0,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 8,
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "name": "Estágio Supervisionado",
+                "workload": 300,
+                "period": 9,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": []
             }
         ]
     ]        
