@@ -11,12 +11,14 @@ export const ContainerBody = styled.div`
 
 
 export const ContainerGrid = styled.div`
-    display: grid;
-    grid-template-columns: repeat(3, 200px);
-    grid-template-rows: 100px 100px; 
-    grid-gap: 50px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 628px;
+    
     align-self: center;
     justify-self: center;
+
+    border: 2px red solid;
 `;
 
 export const useStyles = makeStyles((theme) => {

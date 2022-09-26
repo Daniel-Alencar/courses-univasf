@@ -444,15 +444,16 @@
                 "workload": 60, 
                 "period": 2,
                 "id": 5,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 4,
+                        "id": 4
+                    }
+                ],
                 "prerequisite": [
                     {
                         "period": 1,
                         "id": 5
-                    },
-                    {
-                        "period": 4,
-                        "id": 4
                     }
                 ]
             },

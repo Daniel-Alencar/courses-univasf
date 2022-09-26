@@ -11,7 +11,7 @@ const courses = {
         workTime: 3309
     },
 
-
+    /*
     2: {
         name: edifices.name,
         semesters: edifices.semesters, 
@@ -20,7 +20,7 @@ const courses = {
     },
 
 
-   /*  3: {
+    3: {
         name: edifices.name,
         semesters: edifices.semesters, 
         components: edifices.components, 
@@ -36,7 +36,7 @@ const courses = {
         name: edifices.name,
         semesters: edifices.semesters, 
         components: edifices.components, 
-    }, */
+    },
 
     6: {
         name: telematics.name,
@@ -44,6 +44,7 @@ const courses = {
         components: telematics.components, 
         workTime: 2839
     },
+    */
 }
 
 

@@ -8,12 +8,30 @@ import { makeStyles } from "@material-ui/core/styles";
 const useStyles = makeStyles((theme) => {
 
   return {
+    divContainer: {
+      width: "100vw",
+      position: "fixed",
+      top: "64px",
+
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      backgroundColor: theme.palette.background.default,
+
+      height: 35,
+      zIndex: 1000
+    },
+
     container: {
-      width: "100%",
       display: "flex",
       alignItems: "center", 
       justifyContent: 'space-evenly', 
-      paddingLeft: '.3%'
+      paddingLeft: '.3%',
+      boxSizing: 'border-box',
+      position: "fixed",
+
+      width: "90%",
+      backgroundColor: theme.palette.background.default,
     },
 
     progress: {
@@ -22,7 +40,7 @@ const useStyles = makeStyles((theme) => {
     }, 
 
     label: {
-        width: '5%',
+        width: 60,
         textAlign: 'center'
     }
   };
@@ -31,23 +49,21 @@ const useStyles = makeStyles((theme) => {
 function LinearProgressWithLabel(props) {
   const classes = useStyles();
   return (
-    <React.Fragment>
-       <Typography 
-          variant='caption' 
-          color='textSecondary'
-      > Coeficiente de Progressão Baseado na Carga Horária</Typography>
+    <div className={classes.divContainer}>
       <Box className={classes.container} >
         <Box className={classes.progress} >
           <LinearProgress 
             variant="determinate" {...props} />
         </Box>
         <Box className={classes.label} >
-          <Typography variant="h6" color="primary">{`${Math.round(
-            props.value
-          )}%`}</Typography>
+          <Typography variant="h6" color="primary">
+            {
+            `${Math.round(props.value)}%`
+            }
+          </Typography>
         </Box>
       </Box>
-    </React.Fragment>
+    </div>
   );
 }
 

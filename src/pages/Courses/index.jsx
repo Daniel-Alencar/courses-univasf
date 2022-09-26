@@ -40,16 +40,6 @@ function Courses({paletteType, setPaletteType}) {
                     <ContainerGrid>
 
                         <Button 
-                            startIcon={<BsBuilding />} 
-                            className={classes.button} 
-                            color="primary" 
-                            variant="contained"
-                            onClick={() => history.push('/course/2')}
-                        >
-                            Construção de Edifícios
-                        </Button>
-      
-                        <Button 
                             startIcon={<BsFillCpuFill />} 
                             className={classes.button} 
                             color="primary" 
@@ -60,33 +50,17 @@ function Courses({paletteType, setPaletteType}) {
                         </Button>
 
                         {/* TODO: ADD NEW COURSES */}
-              
+
                         {/* <Button 
-                            startIcon={<FaLanguage/>} 
+                            startIcon={<BsBuilding />} 
                             className={classes.button} 
                             color="primary" 
                             variant="contained"
+                            onClick={() => history.push('/course/2')}
                         >
-                            Letras - Lingua Portuguesa
-                        </Button> */}
-     
-                       {/*  <Button 
-                            startIcon={<FaThermometerThreeQuarters/>} 
-                            className={classes.button} 
-                            color="primary" 
-                            variant="contained"
-                        >
-                            Licenciatura em Física
-                        </Button> */}
-                 
-                        {/* <Button 
-                            startIcon={<VscSymbolOperator/>} 
-                            className={classes.button} 
-                            color="primary" 
-                            variant="contained"
-                        >
-                            Licenciatura de Matemática 
-                        </Button> */}
+                            Construção de Edifícios
+                        </Button>
+            
               
                         <Button 
                             startIcon={<GiSatelliteCommunication/>} 
@@ -97,6 +71,56 @@ function Courses({paletteType, setPaletteType}) {
                         >
                             Telemática
                         </Button>
+
+                        
+                        <Button 
+                            startIcon={<GiSatelliteCommunication/>} 
+                            className={classes.button} 
+                            color="primary" 
+                            variant="contained"
+                            onClick={() => history.push('/course/6')}
+                        >
+                            Telemática
+                        </Button>
+
+
+                        <Button 
+                            startIcon={<GiSatelliteCommunication/>} 
+                            className={classes.button} 
+                            color="primary" 
+                            variant="contained"
+                            onClick={() => history.push('/course/6')}
+                        >
+                            Telemática
+                        </Button>
+
+                        <Button 
+                            startIcon={<GiSatelliteCommunication/>} 
+                            className={classes.button} 
+                            color="primary" 
+                            variant="contained"
+                            onClick={() => history.push('/course/6')}
+                        >
+                            Telemática
+                        </Button>
+                        <Button 
+                            startIcon={<GiSatelliteCommunication/>} 
+                            className={classes.button} 
+                            color="primary" 
+                            variant="contained"
+                            onClick={() => history.push('/course/6')}
+                        >
+                            Telemática
+                        </Button>
+                        <Button 
+                            startIcon={<GiSatelliteCommunication/>} 
+                            className={classes.button} 
+                            color="primary" 
+                            variant="contained"
+                            onClick={() => history.push('/course/6')}
+                        >
+                            Telemática
+                        </Button> */}
         
                     </ContainerGrid>
                 </ContainerBody>

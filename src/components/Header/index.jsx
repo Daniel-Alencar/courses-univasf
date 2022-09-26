@@ -10,8 +10,8 @@ import Link from '@material-ui/core/Link'
 import Brightness7Icon from '@material-ui/icons/Brightness7'
 import Brightness4Icon from '@material-ui/icons/Brightness4'
 
-import logoLight from '../../assets/img/ifpb_light.png'
-import logoDark from '../../assets/img/ifpb_dark.png'
+import logoLight from '../../assets/img/univasf_light.png'
+import logoDark from '../../assets/img/univasf_dark.png'
 
 const useStyles = makeStyles((theme) => {
     return {
@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => {
 
 
 
-export default function Header( {paletteType, setPaletteType, title} ) {
+export default function Header( {paletteType, setPaletteType, title, children} ) {
     
     const classes = useStyles(); 
 
@@ -47,17 +47,23 @@ export default function Header( {paletteType, setPaletteType, title} ) {
         <AppBar className={classes.AppBar} elevation={0} >
             <Toolbar>
                 <img src={paletteType? logoLight : logoDark } className={classes.img} alt='logo'/>
+
                 <Typography variant='h6' color='textSecondary' className={classes.date} >
-                    Cursos IFPB <br/>
-                    <Typography variant='body2' >
-                        Campina Grande
+                    Cursos UNIVASF
+                    <br/>
+                    <Typography variant='body2'>
+                        Juazeiro
                     </Typography>
                 </Typography>  
+
                 <Typography 
                     className={classes.date} 
                     variant='overline' 
                     color='textSecondary'
-                > {title} </Typography>
+                >
+                    {title}
+                </Typography>
+
                 <Link className={classes.links} href='/courses' > Cursos </Link>    
                 <Link className={classes.links} href='/docs' > Documentação </Link>
                 <Link className={classes.links} href='/about' > Sobre </Link>
@@ -68,6 +74,7 @@ export default function Header( {paletteType, setPaletteType, title} ) {
                     </IconButton>
                 </Tooltip>
             </Toolbar>
+            {children}
         </AppBar>
     )
 }

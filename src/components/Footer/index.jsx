@@ -31,7 +31,13 @@ export default function Footer() {
             <Link className={classes.text} href='/' > Cursos  </Link>
             <Link className={classes.text} href='/docs' > Documentação </Link>
             <Link className={classes.text} href='/about' > Sobre </Link>
-            <Link className={classes.text} target="_blanck" href='https://www.ifpb.edu.br/' > IFPB Oficial </Link>
+            <Link 
+                className={classes.text} 
+                target="_blanck" 
+                href='https://www.ifpb.edu.br/' 
+            >
+                 UNIVASF Oficial
+            </Link>
         </footer>
     )
 }

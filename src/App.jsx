@@ -20,9 +20,9 @@ function App() {
   const theme = createTheme({
     palette: {
       primary: {
-        light: '#6fbf73', 
-        main: '#4caf50',
-        dark: '#357a38'
+        light: '#1E88F9', 
+        main: '#0089E1',
+        dark: '#245992'
       },
       error: {
         main: '#fff'
