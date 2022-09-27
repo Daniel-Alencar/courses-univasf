@@ -9,7 +9,7 @@ export const ContainerBody = styled.div`
     align-items: center;
     justify-content: center;
 
-    border: 2px red solid;
+    /* border: 2px red solid; */
 ` 
 
 
@@ -19,7 +19,7 @@ export const ContainerGrid = styled.div`
     max-width: 628px;
     justify-content: center;
 
-    border: 2px red solid;
+    /* border: 2px red solid; */
 `;
 
 export const useStyles = makeStyles((theme) => {

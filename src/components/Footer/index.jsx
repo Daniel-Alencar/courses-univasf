@@ -34,7 +34,7 @@ export default function Footer() {
             <Link 
                 className={classes.text} 
                 target="_blanck" 
-                href='https://www.ifpb.edu.br/' 
+                href='https://portais.univasf.edu.br/' 
             >
                  UNIVASF Oficial
             </Link>

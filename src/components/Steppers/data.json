@@ -9,7 +9,7 @@
     "stepsParagraph": [
         "Ao marcar uma disciplina desbloqueada como finalizada, todas as disciplinas que também dependem desta, também serão desbloqueadas.",
         "Ao ativar uma disciplina bloqueada, todas as disciplinas as quais esta depende serão automaticamente marcadas como finalizadas. Para cada disciplina finalizada será aplicada a regra 1 citada acima.",
-        "Ao desativar uma disciplina préviamente ativada, todas as disciplinas ativas que dependem desta automaticamente serão marcadas como componente bloqueada e para cada componente bloqueada, o processo se repetirá sucessivamente.",
+        "Ao desativar uma disciplina previamente ativada, todas as disciplinas ativas que dependem desta automaticamente serão marcadas como componente bloqueada e para cada componente bloqueada, o processo se repetirá sucessivamente.",
         "Para marcar como finalizado o período inteiro basta clicar no botão referente ao semestre em questão. Todos as disciplinas serão marcadas como finalizadas se pelo menos houver uma não finalizada, caso contrário, se todas já estiverem finalizadas, todas serão marcadas como desbloqueadas."
     ]
 }

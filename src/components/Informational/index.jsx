@@ -8,14 +8,17 @@ import Authors from '../Authors';
 const useStyles = makeStyles((theme) => {
     return ({
         root: {
-            marginTop: theme.spacing(12), 
+            marginTop: 64, 
             marginLeft: 'auto', 
             marginRight: 'auto', 
-            width: '60%',
+            maxWidth: 1000,
+            padding: 10,
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'flex-start',
-            alignItems: 'flex-start' 
+            alignItems: 'flex-start', 
+
+            border: '1px red solid',    
         },
 
         
@@ -39,9 +42,17 @@ export default function Informational() {
     
     return (
         <div className={classes.root} >
-            <Typography variant='h5' className={classes.heading} > Sobre o Projeto </Typography>
-            <Typography variant='body2' className={classes.paragraph} > {data.aboutTheProject}  </Typography>
-            <Typography variant='h5' className={classes.heading} > Sobre o Autor  </Typography>
+            <Typography variant='h5' className={classes.heading} >
+                 Sobre o Projeto 
+            </Typography>
+            <Typography variant='body2' className={classes.paragraph} >
+                 {data.aboutTheProject} 
+            </Typography>
+            <Typography variant='h5' className={classes.heading} >
+                 Sobre os  autores 
+            </Typography>
+
+            <Authors />
             <Authors />
         </div>
     )           

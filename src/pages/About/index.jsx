@@ -10,6 +10,7 @@ const useStyles = makeStyles((theme) => {
         root: {
             width: '100%',
             minHeight: '100vh',
+            
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'flex-start',

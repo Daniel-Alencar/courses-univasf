@@ -9,16 +9,16 @@ import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa'; 
 
 import data from './data.json'
-import authorProfile from '../../assets/img/author.jpg'
+import authorProfile1 from '../../assets/img/author1.jpg'
 
 
 const useStyles = makeStyles((theme) => {
     return ({
         root: {
-            marginTop: theme.spacing(3),
+            marginTop: theme.spacing(2),
             marginButton: theme.spacing(3),
-            marginLeft: 'auto', 
-            marginRight: 'auto', 
+            marginLeft: 10, 
+            marginRight: 10,
             width: '100%',
             display: 'flex',
             flexDirection: 'row',
@@ -97,8 +97,8 @@ export default function Authors() {
             <div className={classes.profile} >
                 <Avatar 
                     className={classes.avatar} 
-                    alt='Rafael Guimarães' 
-                    src={authorProfile} 
+                    alt='Daniel Alencar' 
+                    src={authorProfile1} 
                 />
                 <Icons /> 
             </div>
