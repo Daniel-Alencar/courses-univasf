@@ -13,8 +13,6 @@ code {
     monospace;
 }
 
-
-
 .containerCourses {
   display: flex;
   justify-content: flex-start; 
@@ -22,5 +20,3 @@ code {
   flex-direction: column;
   width: min-content;
 }
-
-

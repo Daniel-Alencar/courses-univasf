@@ -1,12 +1,55 @@
 import styled from "styled-components";
 
 export const ContainerGrid = styled.div`
-    margin-top: 99px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    position: absolute;
+    bottom: 40px;
+
+    width: 100vw;
+    height: calc(100vh - 64px - 35px - 40px);
+    overflow-x: auto;
+    overflow-y: auto;
+/* 
+    &::-webkit-scrollbar-corner {
+        border-radius: 50px;
+
+        // border: 3px black solid;
+    }
+    &::-webkit-scrollbar-track {
+        border-radius: 50px;
+
+        // border: 3px green solid;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: #00000026;
+
+        border-radius: 50px;
+
+        // border: 3px black solid;
+    }
+*/
+    &::-webkit-scrollbar {
+        width: 15px;
+        height: 15px;
+
+        // border: 3px blue solid;
+        border-radius: 50px;
+        display: none;
+    }
+/*
+    &::-webkit-scrollbar-track-piece {
+        background-color: #00000026;
+
+        // border: 3px yellow solid;
+    }
+    &::-webkit-scrollbar-button {
+        // border: 3px green solid;
+
+        display: block;
+        height: 5px;
+        width: 5px;
+    }
+*/
 `

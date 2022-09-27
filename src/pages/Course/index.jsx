@@ -19,15 +19,13 @@ const useStyles = makeStyles((theme, id) => {
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'flex-start',
-            alignItems: 'flex-start',
+            alignItems: 'flex-start'
         },
         teste: { 
             height: 150,
             width: '100%',
             backgroundColor: theme.palette.background.default,
         }
-
-
     });
 })
 
@@ -56,7 +54,6 @@ export default function Course({paletteType, setPaletteType}) {
 
     return (
         <div className={classes.root}>
-            {/* <div className={classes.teste}/> */}
             <Header 
                 paletteType={paletteType} 
                 setPaletteType={setPaletteType} 

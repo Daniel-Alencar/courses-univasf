@@ -18,6 +18,7 @@ const useStyles = makeStyles((theme) => {
         AppBar: {
             display: 'flex',
             backgroundColor: theme.palette.background.default, 
+            height: 64
         },
         img: {
             margin: theme.spacing(2), 

@@ -20,6 +20,11 @@ export const useStyles = makeStyles((theme) => {
             justifyContent: "center",
             alignItems: 'center',
             flexDirection: "column", 
+
+            // position: 'sticky',
+            // top: 0,
+            // backgroundColor: theme.palette.background.default,
+            // zIndex: 1200,
         }, 
 
         period: {
