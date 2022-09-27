@@ -31,100 +31,216 @@ function Courses({paletteType, setPaletteType}) {
         <div className={classes.root} >
             <Header paletteType={paletteType} setPaletteType={setPaletteType} />
                 
-                <ContainerBody> 
+            <ContainerBody> 
 
-                    <Typography className={classes.title} variant="h5" color='textSecondary'     > 
-                        Selecione o curso
-                    </Typography>
-                    
-                    <ContainerGrid>
+                <Typography className={classes.title} variant="h5" color='textSecondary'     > 
+                    Selecione o curso
+                </Typography>
+                
+                <ContainerGrid>
 
-                        <Button 
-                            startIcon={<BsFillCpuFill />} 
-                            className={classes.button} 
-                            color="primary" 
-                            variant="contained"
-                            onClick={() => history.push('/course/1')}
-                        >
-                            Engenharia de Computação
-                        </Button>
+                    <Button 
+                        startIcon={<BsFillCpuFill />} 
+                        className={classes.button} 
+                        color="primary" 
+                        variant="contained"
+                        onClick={() => history.push('/course/1')}
+                    >
+                        Engenharia de Computação
+                    </Button>
 
-                        {/* TODO: ADD NEW COURSES */}
+                    <Button 
+                        startIcon={<BsFillCpuFill />} 
+                        className={classes.button} 
+                        color="primary" 
+                        variant="contained"
+                        onClick={() => history.push('/course/1')}
+                    >
+                        Engenharia de Computação
+                    </Button>
 
-                        {/* <Button 
-                            startIcon={<BsBuilding />} 
-                            className={classes.button} 
-                            color="primary" 
-                            variant="contained"
-                            onClick={() => history.push('/course/2')}
-                        >
-                            Construção de Edifícios
-                        </Button>
-            
-              
-                        <Button 
-                            startIcon={<GiSatelliteCommunication/>} 
-                            className={classes.button} 
-                            color="primary" 
-                            variant="contained"
-                            onClick={() => history.push('/course/6')}
-                        >
-                            Telemática
-                        </Button>
+                    <Button 
+                        startIcon={<BsFillCpuFill />} 
+                        className={classes.button} 
+                        color="primary" 
+                        variant="contained"
+                        onClick={() => history.push('/course/1')}
+                    >
+                        Engenharia de Computação
+                    </Button>
 
-                        
-                        <Button 
-                            startIcon={<GiSatelliteCommunication/>} 
-                            className={classes.button} 
-                            color="primary" 
-                            variant="contained"
-                            onClick={() => history.push('/course/6')}
-                        >
-                            Telemática
-                        </Button>
+                    <Button 
+                        startIcon={<BsFillCpuFill />} 
+                        className={classes.button} 
+                        color="primary" 
+                        variant="contained"
+                        onClick={() => history.push('/course/1')}
+                    >
+                        Engenharia de Computação
+                    </Button>
 
+                    <Button 
+                        startIcon={<BsFillCpuFill />} 
+                        className={classes.button} 
+                        color="primary" 
+                        variant="contained"
+                        onClick={() => history.push('/course/1')}
+                    >
+                        Engenharia de Computação
+                    </Button>
 
-                        <Button 
-                            startIcon={<GiSatelliteCommunication/>} 
-                            className={classes.button} 
-                            color="primary" 
-                            variant="contained"
-                            onClick={() => history.push('/course/6')}
-                        >
-                            Telemática
-                        </Button>
+                    <Button 
+                        startIcon={<BsFillCpuFill />} 
+                        className={classes.button} 
+                        color="primary" 
+                        variant="contained"
+                        onClick={() => history.push('/course/1')}
+                    >
+                        Engenharia de Computação
+                    </Button>
 
-                        <Button 
-                            startIcon={<GiSatelliteCommunication/>} 
-                            className={classes.button} 
-                            color="primary" 
-                            variant="contained"
-                            onClick={() => history.push('/course/6')}
-                        >
-                            Telemática
-                        </Button>
-                        <Button 
-                            startIcon={<GiSatelliteCommunication/>} 
-                            className={classes.button} 
-                            color="primary" 
-                            variant="contained"
-                            onClick={() => history.push('/course/6')}
-                        >
-                            Telemática
-                        </Button>
-                        <Button 
-                            startIcon={<GiSatelliteCommunication/>} 
-                            className={classes.button} 
-                            color="primary" 
-                            variant="contained"
-                            onClick={() => history.push('/course/6')}
-                        >
-                            Telemática
-                        </Button> */}
+                    <Button 
+                        startIcon={<BsFillCpuFill />} 
+                        className={classes.button} 
+                        color="primary" 
+                        variant="contained"
+                        onClick={() => history.push('/course/1')}
+                    >
+                        Engenharia de Computação
+                    </Button>
+
+                    <Button 
+                        startIcon={<BsFillCpuFill />} 
+                        className={classes.button} 
+                        color="primary" 
+                        variant="contained"
+                        onClick={() => history.push('/course/1')}
+                    >
+                        Engenharia de Computação
+                    </Button>
+
+                    <Button 
+                        startIcon={<BsFillCpuFill />} 
+                        className={classes.button} 
+                        color="primary" 
+                        variant="contained"
+                        onClick={() => history.push('/course/1')}
+                    >
+                        Engenharia de Computação
+                    </Button>
+                    <Button 
+                        startIcon={<BsFillCpuFill />} 
+                        className={classes.button} 
+                        color="primary" 
+                        variant="contained"
+                        onClick={() => history.push('/course/1')}
+                    >
+                        Engenharia de Computação
+                    </Button>
+                    <Button 
+                        startIcon={<BsFillCpuFill />} 
+                        className={classes.button} 
+                        color="primary" 
+                        variant="contained"
+                        onClick={() => history.push('/course/1')}
+                    >
+                        Engenharia de Computação
+                    </Button>
+                    <Button 
+                        startIcon={<BsFillCpuFill />} 
+                        className={classes.button} 
+                        color="primary" 
+                        variant="contained"
+                        onClick={() => history.push('/course/1')}
+                    >
+                        Engenharia de Computação
+                    </Button>
+                    <Button 
+                        startIcon={<BsFillCpuFill />} 
+                        className={classes.button} 
+                        color="primary" 
+                        variant="contained"
+                        onClick={() => history.push('/course/1')}
+                    >
+                        Engenharia de Computação
+                    </Button>
+
+                    {/* TODO: ADD NEW COURSES */}
+
+                    {/* <Button 
+                        startIcon={<BsBuilding />} 
+                        className={classes.button} 
+                        color="primary" 
+                        variant="contained"
+                        onClick={() => history.push('/course/2')}
+                    >
+                        Construção de Edifícios
+                    </Button>
         
-                    </ContainerGrid>
-                </ContainerBody>
-            <Footer />
+            
+                    <Button 
+                        startIcon={<GiSatelliteCommunication/>} 
+                        className={classes.button} 
+                        color="primary" 
+                        variant="contained"
+                        onClick={() => history.push('/course/6')}
+                    >
+                        Telemática
+                    </Button>
+
+                    
+                    <Button 
+                        startIcon={<GiSatelliteCommunication/>} 
+                        className={classes.button} 
+                        color="primary" 
+                        variant="contained"
+                        onClick={() => history.push('/course/6')}
+                    >
+                        Telemática
+                    </Button>
+
+
+                    <Button 
+                        startIcon={<GiSatelliteCommunication/>} 
+                        className={classes.button} 
+                        color="primary" 
+                        variant="contained"
+                        onClick={() => history.push('/course/6')}
+                    >
+                        Telemática
+                    </Button>
+
+                    <Button 
+                        startIcon={<GiSatelliteCommunication/>} 
+                        className={classes.button} 
+                        color="primary" 
+                        variant="contained"
+                        onClick={() => history.push('/course/6')}
+                    >
+                        Telemática
+                    </Button>
+                    <Button 
+                        startIcon={<GiSatelliteCommunication/>} 
+                        className={classes.button} 
+                        color="primary" 
+                        variant="contained"
+                        onClick={() => history.push('/course/6')}
+                    >
+                        Telemática
+                    </Button>
+                    <Button 
+                        startIcon={<GiSatelliteCommunication/>} 
+                        className={classes.button} 
+                        color="primary" 
+                        variant="contained"
+                        onClick={() => history.push('/course/6')}
+                    >
+                        Telemática
+                    </Button> */}
+    
+                </ContainerGrid>
+            </ContainerBody>
+            <Footer />  
         </div>
     )
 }

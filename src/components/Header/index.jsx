@@ -26,7 +26,8 @@ const useStyles = makeStyles((theme) => {
         }, 
         date: {
             flexGrow: 1, 
-            marginLeft: theme.spacing(2)
+            marginLeft: 0,
+            lineHeight: 1
         },
         avatar: {
             margin: theme.spacing(2), 
@@ -51,7 +52,6 @@ export default function Header( {paletteType, setPaletteType, title, children} )
 
                 <Typography variant='h6' color='textSecondary' className={classes.date} >
                     Cursos UNIVASF
-                    <br/>
                     <Typography variant='body2'>
                         Juazeiro
                     </Typography>

@@ -3,10 +3,13 @@ import makeStyles  from "@material-ui/styles/makeStyles";
 
 export const ContainerBody = styled.div`
     width: 100%;
-    margin-top: auto;
-    display: grid; 
+    margin-top: calc(64px);
+    display: flex; 
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    border: 2px red solid;
 ` 
 
 
@@ -14,9 +17,7 @@ export const ContainerGrid = styled.div`
     display: flex;
     flex-wrap: wrap;
     max-width: 628px;
-    
-    align-self: center;
-    justify-self: center;
+    justify-content: center;
 
     border: 2px red solid;
 `;
