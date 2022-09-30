@@ -11,6 +11,10 @@ export const ContainerGrid = styled.div`
     height: calc(100vh - 64px - 35px - 40px);
     overflow-x: auto;
     overflow-y: auto;
+
+    display: flex;
+    justify-content: center;
+
 /* 
     &::-webkit-scrollbar-corner {
         border-radius: 50px;

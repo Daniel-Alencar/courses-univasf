@@ -10,10 +10,7 @@ import Footer from "../../components/Footer"
 // icons
 import { BsBuilding  } from "react-icons/bs"; 
 import { BsFillCpuFill } from "react-icons/bs";
-import { GiSatelliteCommunication } from "react-icons/gi"; 
-// import { FaThermometerThreeQuarters } from "react-icons/fa"; 
-// import { FaLanguage } from "react-icons/fa"
-// import { VscSymbolOperator } from "react-icons/vsc"; 
+import { GiSatelliteCommunication } from "react-icons/gi";
 
 import { ContainerGrid } from "./styles";
 import { ContainerBody } from "./styles"; 
@@ -167,7 +164,8 @@ function Courses({paletteType, setPaletteType}) {
 
                     {/* TODO: ADD NEW COURSES */}
 
-                    {/* <Button 
+                    {/* 
+                    <Button 
                         startIcon={<BsBuilding />} 
                         className={classes.button} 
                         color="primary" 
@@ -176,67 +174,8 @@ function Courses({paletteType, setPaletteType}) {
                     >
                         Construção de Edifícios
                     </Button>
+                    */}
         
-            
-                    <Button 
-                        startIcon={<GiSatelliteCommunication/>} 
-                        className={classes.button} 
-                        color="primary" 
-                        variant="contained"
-                        onClick={() => history.push('/course/6')}
-                    >
-                        Telemática
-                    </Button>
-
-                    
-                    <Button 
-                        startIcon={<GiSatelliteCommunication/>} 
-                        className={classes.button} 
-                        color="primary" 
-                        variant="contained"
-                        onClick={() => history.push('/course/6')}
-                    >
-                        Telemática
-                    </Button>
-
-
-                    <Button 
-                        startIcon={<GiSatelliteCommunication/>} 
-                        className={classes.button} 
-                        color="primary" 
-                        variant="contained"
-                        onClick={() => history.push('/course/6')}
-                    >
-                        Telemática
-                    </Button>
-
-                    <Button 
-                        startIcon={<GiSatelliteCommunication/>} 
-                        className={classes.button} 
-                        color="primary" 
-                        variant="contained"
-                        onClick={() => history.push('/course/6')}
-                    >
-                        Telemática
-                    </Button>
-                    <Button 
-                        startIcon={<GiSatelliteCommunication/>} 
-                        className={classes.button} 
-                        color="primary" 
-                        variant="contained"
-                        onClick={() => history.push('/course/6')}
-                    >
-                        Telemática
-                    </Button>
-                    <Button 
-                        startIcon={<GiSatelliteCommunication/>} 
-                        className={classes.button} 
-                        color="primary" 
-                        variant="contained"
-                        onClick={() => history.push('/course/6')}
-                    >
-                        Telemática
-                    </Button> */}
     
                 </ContainerGrid>
             </ContainerBody>
