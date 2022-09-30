@@ -19,7 +19,6 @@ const useStyles = makeStyles((theme) => {
             display: 'flex',
             backgroundColor: theme.palette.background.default, 
             height: 64,
-            border: '1px red solid'
         },
         img: {
             margin: theme.spacing(2), 

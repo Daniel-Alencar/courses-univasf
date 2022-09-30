@@ -16,20 +16,18 @@ const useStyles = makeStyles((theme) => {
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'flex-start',
-            alignItems: 'flex-start', 
-
-            border: '1px red solid',    
+            alignItems: 'flex-start',  
         },
 
         
         heading: {
-            marginTop: theme.spacing(3),
+            marginBotton: theme.spacing(3),
             marginButton: theme.spacing(3),
             color: theme.palette.text.primary
         },
         
         paragraph: {
-            marginTop: theme.spacing(2),
+            marginBottom: theme.spacing(2),
             marginButton: theme.spacing(2),
             color: theme.palette.text.primary
         }

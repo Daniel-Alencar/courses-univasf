@@ -13,7 +13,7 @@ export const ContainerGrid = styled.div`
     overflow-y: auto;
 
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 
 /* 
     &::-webkit-scrollbar-corner {
@@ -35,11 +35,10 @@ export const ContainerGrid = styled.div`
     }
 */
     &::-webkit-scrollbar {
-        width: 15px;
-        height: 15px;
+        /* width: 15px; */
+        /* height: 15px; */
 
-        // border: 3px blue solid;
-        border-radius: 50px;
+        /* border-radius: 50px; */
         display: none;
     }
 /*

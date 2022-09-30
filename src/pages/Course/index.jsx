@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme, id) => {
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'flex-start',
-            alignItems: 'flex-start'
+            alignItems: 'center'
         },
         teste: { 
             height: 150,
