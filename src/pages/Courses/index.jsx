@@ -8,16 +8,10 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer"
 
 // icons
-import { BsBuilding  } from "react-icons/bs"; 
 import { BsFillCpuFill } from "react-icons/bs";
-import { GiSatelliteCommunication } from "react-icons/gi";
 
 import { ContainerGrid } from "./styles";
-import { ContainerBody } from "./styles"; 
-
-
-
-
+import { ContainerBody } from "./styles";
 
 function Courses({paletteType, setPaletteType}) {
 

@@ -1,0 +1,20 @@
+{
+    "authors": [
+        {
+            "key": 0,
+            "name": "Daniel Alencar",
+            "description": "Estudante de Engenharia da Computação da UNIVASF - Campus Juazeiro.",
+            "image": "https://avatars.githubusercontent.com/u/51214434?v=4",
+            "github": "https://github.com/Daniel-Alencar", 
+            "linkedin": "https://www.linkedin.com/in/daniel746/"
+        },
+        {
+            "key": 1,
+            "name": "Daniel Alencar",
+            "description": "Estudante de Engenharia da Computação da UNIVASF - Campus Juazeiro.",
+            "image": "https://avatars.githubusercontent.com/u/51214434?v=4",
+            "github": "https://github.com/Daniel-Alencar", 
+            "linkedin": "https://www.linkedin.com/in/daniel746/"
+        }
+    ]
+}

@@ -35,10 +35,6 @@ export const ContainerGrid = styled.div`
     }
 */
     &::-webkit-scrollbar {
-        /* width: 15px; */
-        /* height: 15px; */
-
-        /* border-radius: 50px; */
         display: none;
     }
 /*

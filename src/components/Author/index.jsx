@@ -8,9 +8,6 @@ import Link from '@material-ui/core/Link'
 import { FaLinkedin } from 'react-icons/fa'; 
 import { FaGithub } from 'react-icons/fa'; 
 
-import data from './data.json'
-import authorProfile1 from '../../assets/img/author1.jpg'
-
 
 const useStyles = makeStyles((theme) => {
     return ({
@@ -67,7 +64,7 @@ const useStyles = makeStyles((theme) => {
 
 
 
-export default function Authors() {
+export default function Author(props) {
     
     const classes = useStyles(); 
 
@@ -77,14 +74,14 @@ export default function Authors() {
                 <Link 
                     alt='Github' 
                     target='_blank' 
-                    href={data.github}
+                    href={props.github}
                 > 
                     <FaGithub className={classes.icon} size={20} />
                 </Link>
                 <Link 
                     alt='Linkedin' 
                     target='_blank' 
-                    href={data.linkedin}
+                    href={props.linkedin}
                 > 
                     <FaLinkedin className={classes.icon} size={20} />
                 </Link>
@@ -97,10 +94,10 @@ export default function Authors() {
             <div className={classes.profile} >
                 <Avatar 
                     className={classes.avatar} 
-                    alt='Daniel Alencar' 
-                    src={authorProfile1} 
+                    alt={props.name}
+                    src={props.image} 
                 />
-                <Icons /> 
+                <Icons github={props.github} linkedin={props.linkedin}/> 
             </div>
         ) 
     }   
@@ -112,7 +109,7 @@ export default function Authors() {
                 className={classes.paragraph}
                 variant='body2'  
             > 
-                {data.author} 
+                {props.description} 
             </Typography>
         </div>
     )           

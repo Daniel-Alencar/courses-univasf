@@ -75,10 +75,16 @@ export default function Documentations() {
     
     return (
         <div className={classes.root} >
-            <Typography variant='h5' className={classes.heading}> {data.legend} </Typography>
+            <Typography variant='h5' className={classes.heading}>
+                 {data.legend} 
+            </Typography>
             <Courses />
-            <Typography variant='h5' className={classes.heading}> {data.usage} </Typography>
-            <Typography variant='body2' className={classes.paragraph}> {data.usageParagraph}</Typography>
+            <Typography variant='h5' className={classes.heading}>
+                 {data.usage} 
+            </Typography>
+            <Typography variant='body2' className={classes.paragraph}>
+                 {data.usageParagraph}
+            </Typography>
             <Steppers />
         </div>
     )

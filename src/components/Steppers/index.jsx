@@ -73,7 +73,9 @@ export default function Steppers() {
                     onClick={handleNext}
                     className={classes.button}
                   >
-                    <Typography color='error' variant='caption' > {activeStep === steps.length - 1 ? 'Finalizar' : 'Próximo'} </Typography>
+                    <Typography color='error' variant='caption' > 
+                      {activeStep === steps.length - 1 ? 'Finalizar'   : 'Próximo'} 
+                    </Typography>
                   </Button>
                 </div>
               </div>
@@ -81,13 +83,18 @@ export default function Steppers() {
           </Step>
         ))}
       </Stepper>
-      {activeStep === steps.length && (
-        <div>
-          <Button onClick={handleReset} className={classes.button} color='primary' >
-            Reiniciar
-          </Button>
-        </div>
-      )}
+      {
+        activeStep === steps.length && (
+          <div>
+            <Button onClick={handleReset} className={classes.button} color='primary' >
+              Reiniciar
+            </Button>
+          </div>
+        )
+      }
+      <Typography variant='body2' className={classes.paragraph}>
+        OBS.: Para usar o scroll horizontal, use a tecla SHIFT + scroll.
+      </Typography>
     </div>
   );
 }

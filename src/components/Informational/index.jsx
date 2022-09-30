@@ -3,7 +3,10 @@ import makeStyles  from '@material-ui/styles/makeStyles';
 import Typography  from '@material-ui/core/Typography';
 
 import data from './data.json'
-import Authors from '../Authors';
+
+import Author from '../Author';
+import dataAuthors from '../Author/data.json';
+
 
 const useStyles = makeStyles((theme) => {
     return ({
@@ -49,9 +52,22 @@ export default function Informational() {
             <Typography variant='h5' className={classes.heading} >
                  Sobre os  autores 
             </Typography>
-
-            <Authors />
-            <Authors />
+            
+            {
+                dataAuthors.authors.map((author, index) => {
+                    return(
+                        <Author 
+                            key={author.key}
+                            name={author.name}
+                            image={author.image}
+                            github={author.github}
+                            linkedin={author.linkedin}
+                            description={author.description}
+                        />
+                    )
+                })
+            }
+            
         </div>
     )           
 }
