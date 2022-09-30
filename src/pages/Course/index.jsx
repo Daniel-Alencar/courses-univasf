@@ -47,9 +47,9 @@ export default function Course({paletteType, setPaletteType}) {
     const updateProgress = (succeed) => {
         const { workTime, components } = course; 
         let timeWorked = getTimeWorked(components, succeed); 
-        const updateProgress = timeWorked * 100 / workTime; 
-        localStorage.setItem(`progress:${id}`, updateProgress);
-        setProgress(updateProgress)
+        const updateProgressNumber = timeWorked * 100 / workTime; 
+        localStorage.setItem(`progress:${id}`, updateProgressNumber);
+        setProgress(updateProgressNumber)
     }
 
     return (

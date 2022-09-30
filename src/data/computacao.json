@@ -887,6 +887,22 @@
                         "id": 7
                     }
                 ]
+            },
+            {
+                "name": "Eletiva I", 
+                "workload": 60, 
+                "period": 5,
+                "id": 7,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Eletiva II", 
+                "workload": 60, 
+                "period": 5,
+                "id": 8,
+                "unlock": [],
+                "prerequisite": []
             }
         ],
         [
@@ -1128,6 +1144,38 @@
                     }
                 ],
                 "prerequisite": []
+            },
+            {
+                "name": "Optativa I", 
+                "workload": 60, 
+                "period": 8,
+                "id": 3,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Optativa II", 
+                "workload": 60, 
+                "period": 8,
+                "id": 4,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Optativa III", 
+                "workload": 60, 
+                "period": 8,
+                "id": 5,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Núcleo Temático", 
+                "workload": 120, 
+                "period": 8,
+                "id": 6,
+                "unlock": [],
+                "prerequisite": []
             }
         ],
         [
@@ -1149,6 +1197,14 @@
                 "workload": 300,
                 "period": 9,
                 "id": 1,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Optativa IV", 
+                "workload": 60, 
+                "period": 9,
+                "id": 2,
                 "unlock": [],
                 "prerequisite": []
             }

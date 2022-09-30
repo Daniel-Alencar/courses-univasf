@@ -6,7 +6,7 @@ const courses = {
         name: computation.name,
         semesters: computation.semesters, 
         components: computation.components, 
-        workTime: 3309
+        workTime: 4290
     }
 }
 
