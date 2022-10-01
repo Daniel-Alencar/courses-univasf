@@ -1,0 +1,429 @@
+{
+
+  "name": "Bacharelado em Engenharia elétrica", 
+  "semesters": 10,
+  "components": [
+    [
+        {
+            "name": "Eletônica analógica", 
+            "workload": 60, 
+            "period": 5,
+            "id": 0,
+            "unlock": [],
+            "prerequisite": [
+                {
+                    "period": 4,
+                    "id": 1
+                }
+            ]
+        },
+        {
+            "name": "Laboratório de eletrônica analógica", 
+            "workload": 30, 
+            "period": 5,
+            "id": 1,
+            "unlock": [],
+            "prerequisite": []
+        },
+        {
+            "name": "Ciscuitos elétricos III", 
+            "workload": 60, 
+            "period": 5,
+            "id": 2,
+            "unlock": [],
+            "prerequisite": [
+                {
+                    "period": 4,
+                    "id": 2
+                }
+            ]
+        },
+        {
+            "name": "Materiais elétricos", 
+            "workload": 60, 
+            "period": 5,
+            "id": 3,
+            "unlock": [],
+            "prerequisite": [
+                {
+                    "period": 1,
+                    "id": 8
+                },
+                {
+                    "period": 3,
+                    "id": 4
+                }
+            ]
+        },
+        {
+            "name": "Eletromagnetismo", 
+            "workload": 60, 
+            "period": 5,
+            "id": 4,
+            "unlock": [],
+            "prerequisite": [
+                {
+                    "period": 4,
+                    "id": 4
+                }
+            ]
+        },
+        {
+            "name": "Conversão eletromeca", 
+            "workload": 60, 
+            "period": 5,
+            "id": 5,
+            "unlock": [],
+            "prerequisite": [
+                {
+                    "period": 3,
+                    "id": 4
+                }
+            ]
+        },
+        {
+            "name": "Controle I", 
+            "workload": 60, 
+            "period": 5,
+            "id": 6,
+            "unlock": [],
+            "prerequisite": [
+                {
+                    "period": 4,
+                    "id": 5
+                },
+                {
+                    "period": 4,
+                    "id": 6
+                }
+            ]
+        },
+        {
+            "name": "Laboratório de controle I", 
+            "workload": 30, 
+            "period": 5,
+            "id": 7,
+            "unlock": [],
+            "prerequisite": []
+        },
+        {
+            "name": "Resistência dos materiais", 
+            "workload": 60, 
+            "period": 5,
+            "id": 8,
+            "unlock": [],
+            "prerequisite": [
+                {
+                    "period": 2,
+                    "id": 2
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "name": "Eletrônica industrial",
+            "workload": 60,
+            "period": 6,
+            "id": 0,
+            "unlock": [],
+            "prerequisite": [
+                {
+                    "period": 5,
+                    "id": 0
+                }
+            ]
+        },
+        {
+            "name": "Lab. Eletrônica industrial",
+            "workload": 30,
+            "period": 6,
+            "id": 1,
+            "unlock": [],
+            "prerequisite": []
+        },
+        {
+            "name": "Redes de computadores",
+            "workload": 60,
+            "period": 6,
+            "id": 2,
+            "unlock": [],
+            "prerequisite": [
+                {
+                    "period": 4,
+                    "id": 0
+                }
+            ]
+        },
+        {
+            "name": "Sistemas elétricos I",
+            "workload": 60,
+            "period": 6,
+            "id": 3,
+            "unlock": [],
+            "prerequisite": [
+                {
+                    "period": 5,
+                    "id": 2
+                }
+            ]
+        },
+        {
+            "name": "Princípios de comunicação",
+            "workload": 60,
+            "period": 6,
+            "id": 4,
+            "unlock": [],
+            "prerequisite": [
+                {
+                    "period": 4,
+                    "id": 6
+                }
+            ]
+        },
+        {
+            "name": "Medidas eletromagnéticas",
+            "workload": 90,
+            "period": 6,
+            "id": 5,
+            "unlock": [],
+            "prerequisite": [
+                {
+                    "period": 3,
+                    "id": 4
+                },
+                {
+                    "period": 5,
+                    "id": 2
+                }
+            ]
+        },
+        {
+            "name": "Higiene e segurança do trabalho",
+            "workload": 45,
+            "period": 6,
+            "id": 6,
+            "unlock": [],
+            "prerequisite": []
+        },
+        {
+            "name": "Controle II",
+            "workload": 60,
+            "period": 6,
+            "id": 7,
+            "unlock": [],
+            "prerequisite": [
+                {
+                    "period": 5,
+                    "id": 6
+                }
+            ]
+        },
+        {
+            "name": "Lab. Controle II",
+            "workload": 30,
+            "period": 6,
+            "id": 8,
+            "unlock": [],
+            "prerequisite": []
+        }
+    ],
+    [
+        {
+            "name": "Instrumentação eletrônica",
+            "workload": 60,
+            "period": 7,
+            "id": 0,
+            "unlock": [],
+            "prerequisite": [
+                {
+                    "period": 5,
+                    "id": 0
+                }
+            ]
+        },
+        {
+            "name": "Instalações elétricas",
+            "workload": 60,
+            "period": 7,
+            "id": 1,
+            "unlock": [],
+            "prerequisite": [
+                {
+                    "period": 5,
+                    "id": 3
+                }
+            ]
+        },
+        {
+            "name": "Sistemas elétricos II",
+            "workload": 90,
+            "period": 7,
+            "id": 2,
+            "unlock": [],
+            "prerequisite": [
+                {
+                    "period": 6,
+                    "id": 2
+                }
+            ]
+        },
+        {
+            "name": "Máquinas elétricas",
+            "workload": 60,
+            "period": 7,
+            "id": 3,
+            "unlock": [],
+            "prerequisite": [
+                {
+                    "period": 5,
+                    "id": 5
+                }
+            ]
+        },
+        {
+            "name": "Lab. Máquinas elétricas",
+            "workload": 30,
+            "period": 7,
+            "id": 4,
+            "unlock": [],
+            "prerequisite": []
+        },
+        {
+            "name": "Administração",
+            "workload": 30,
+            "period": 7,
+            "id": 5,
+            "unlock": [],
+            "prerequisite": []
+        },
+        {
+            "name": "Engenharia Econômica",
+            "workload": 60,
+            "period": 7,
+            "id": 6,
+            "unlock": [],
+            "prerequisite": []
+        },
+        {
+            "name": "Núcleo temático I",
+            "workload": 60,
+            "period": 7,
+            "id": 7,
+            "unlock": [],
+            "prerequisite": []
+        }
+    ],
+    [
+        {
+            "name": "Automação industrial", 
+            "workload": 90, 
+            "period": 8,
+            "id": 0,
+            "unlock": [],
+            "prerequisite": [
+                {
+                    "period": 6,
+                    "id": 6
+                }
+            ]
+        },
+        {
+            "name": "Optativa I", 
+            "workload": 60, 
+            "period": 8,
+            "id": 1,
+            "unlock": [],
+            "prerequisite": []
+        },
+        {
+            "name": "Geração transmissão e distribuição", 
+            "workload": 60, 
+            "period": 8,
+            "id": 2,
+            "unlock": [],
+            "prerequisite": [
+                {
+                    "period": 7,
+                    "id": 2
+                }
+            ]
+        },
+        {
+            "name": "Acionamentos elétricos", 
+            "workload": 60, 
+            "period": 8,
+            "id": 3,
+            "unlock": [],
+            "prerequisite": [
+                {
+                    "period": 6,
+                    "id": 6
+                },
+                {
+                    "period": 7,
+                    "id": 3 
+                }
+            ]
+        },
+        {
+            "name": "Aspectos legais em engenharia", 
+            "workload": 30, 
+            "period": 8,
+            "id": 4,
+            "unlock": [],
+            "prerequisite": []
+        },
+        {
+            "name": "TCC", 
+            "workload": 60, 
+            "period": 8,
+            "id": 4,
+            "unlock": [],
+            "prerequisite": []
+        },
+        {
+            "name": "Núcleo temático II", 
+            "workload": 60, 
+            "period": 8,
+            "id": 5,
+            "unlock": [],
+            "prerequisite": []
+        },
+        {
+            "name": "Eletiva I", 
+            "workload": 90, 
+            "period": 8,
+            "id": 0,
+            "unlock": [],
+            "prerequisite": []
+        }
+    ],
+    [
+      {
+        "name": "Estágio supervionado", 
+        "workload": 240, 
+        "period": 9,
+        "id": 0,
+        "unlock": [],
+        "prerequisite": []
+      },
+      {
+        "name": "Optativa II", 
+        "workload": 60, 
+        "period": 9,
+        "id": 1,
+        "unlock": [],
+        "prerequisite": []
+      },
+      {
+        "name": "Eletiva II", 
+        "workload": 60, 
+        "period": 9,
+        "id": 1,
+        "unlock": [],
+        "prerequisite": []
+      }
+    ]
+  ]
+}
