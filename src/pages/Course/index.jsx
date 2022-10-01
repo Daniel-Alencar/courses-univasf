@@ -32,7 +32,8 @@ const useStyles = makeStyles((theme, id) => {
 export default function Course({paletteType, setPaletteType}) {
     
     
-    const { id } = useParams(); 
+    const { key } = useParams();
+    const id = key;
     const classes = useStyles(id);
     const [course, setCourse] = useState(courses[id]); 
     const [progress, setProgress] = useState(recoverProgress(id));

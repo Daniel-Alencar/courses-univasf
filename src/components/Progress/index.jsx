@@ -4,6 +4,10 @@ import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import { makeStyles } from "@material-ui/core/styles";
 
+import IconButton from '@material-ui/core/IconButton'
+import Tooltip  from '@material-ui/core/Tooltip'
+
+import LoopIcon from '@material-ui/icons/Loop';
 
 const useStyles = makeStyles((theme) => {
 
@@ -29,6 +33,7 @@ const useStyles = makeStyles((theme) => {
       paddingLeft: '.3%',
       boxSizing: 'border-box',
       position: "fixed",
+      height: 35,
 
       width: "90%",
       backgroundColor: theme.palette.background.default,
@@ -51,12 +56,17 @@ function LinearProgressWithLabel(props) {
   return (
     <div className={classes.divContainer}>
       <Box className={classes.container} >
+        <Tooltip title={'Tema claro'} >
+          <IconButton onClick={() => {}} color='primary' >
+            <LoopIcon fontSize='inherit' fontWeight='bold' />
+          </IconButton>
+        </Tooltip>
         <Box className={classes.progress} >
           <LinearProgress 
             variant="determinate" {...props} />
         </Box>
         <Box className={classes.label} >
-          <Typography variant="h6" color="primary">
+          <Typography style={{ fontSize: 17 }} variant="h6" color="primary">
             {
             `${Math.round(props.value)}%`
             }

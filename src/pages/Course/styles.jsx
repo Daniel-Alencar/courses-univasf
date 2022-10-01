@@ -11,11 +11,14 @@ export const ContainerGrid = styled.div`
     height: calc(100vh - 64px - 35px - 40px);
     overflow-x: auto;
     overflow-y: auto;
-
+    
     display: flex;
-    /* justify-content: center; */
 
-/* 
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    
+    /*
     &::-webkit-scrollbar-corner {
         border-radius: 50px;
 
@@ -33,11 +36,7 @@ export const ContainerGrid = styled.div`
 
         // border: 3px black solid;
     }
-*/
-    &::-webkit-scrollbar {
-        display: none;
-    }
-/*
+
     &::-webkit-scrollbar-track-piece {
         background-color: #00000026;
 
@@ -50,5 +49,5 @@ export const ContainerGrid = styled.div`
         height: 5px;
         width: 5px;
     }
-*/
+    */
 `

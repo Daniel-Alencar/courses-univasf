@@ -18,7 +18,7 @@ export default function Routes({paletteType, setPaletteType}) {
                     <Courses paletteType={paletteType} setPaletteType={setPaletteType} />
                 </Route>
                 
-                <Route path="/course/:id" >  
+                <Route path="/course/:key" >  
                     <Course paletteType={paletteType} setPaletteType={setPaletteType} />
                 </Route>
                 
