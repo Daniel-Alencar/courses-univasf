@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router';
+import { Redirect, useParams } from 'react-router-dom';
 import makeStyles  from '@material-ui/styles/makeStyles';
 import LinearProgressWithLabel from '../../components/Progress';
 import Header from '../../components/Header';
 import Grid from '../../containers/Grid';
 import Footer from '../../components/Footer'
 import { ContainerGrid } from './styles';
+import { useHistory } from "react-router";
+
 
 
 import courses from '../../data'; 
@@ -31,7 +33,7 @@ const useStyles = makeStyles((theme, id) => {
 
 export default function Course({paletteType, setPaletteType}) {
     
-    
+    const history = useHistory();
     const { key } = useParams();
     const id = key;
     const classes = useStyles(id);
@@ -53,6 +55,13 @@ export default function Course({paletteType, setPaletteType}) {
         setProgress(updateProgressNumber)
     }
 
+    const resetProgress = () => {
+        localStorage.setItem(`progress:${id}`, 0);
+        setProgress(0);
+        
+        history.go(0);
+    }
+
     return (
         <div className={classes.root}>
             <Header 
@@ -61,7 +70,7 @@ export default function Course({paletteType, setPaletteType}) {
                 title={courseName}
             >
             </Header>
-            <LinearProgressWithLabel value={progress} id={id} />
+            <LinearProgressWithLabel resetFunction={resetProgress} value={progress} id={id} />
             <ContainerGrid> 
                 <Grid 
                     id={id} 

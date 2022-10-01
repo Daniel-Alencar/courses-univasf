@@ -9,6 +9,8 @@ import Tooltip  from '@material-ui/core/Tooltip'
 
 import LoopIcon from '@material-ui/icons/Loop';
 
+import { Redirect, useHistory, useParams } from 'react-router-dom';
+
 const useStyles = makeStyles((theme) => {
 
   return {
@@ -51,13 +53,16 @@ const useStyles = makeStyles((theme) => {
   };
 });
 
+
 function LinearProgressWithLabel(props) {
+
   const classes = useStyles();
+
   return (
     <div className={classes.divContainer}>
       <Box className={classes.container} >
-        <Tooltip title={'Tema claro'} >
-          <IconButton onClick={() => {}} color='primary' >
+        <Tooltip title={'Limpar'} >
+          <IconButton onClick={props.resetFunction} color='primary' >
             <LoopIcon fontSize='inherit' fontWeight='bold' />
           </IconButton>
         </Tooltip>
