@@ -13,7 +13,7 @@ const courses = {
         name: eletrica.name,
         semesters: eletrica.semesters, 
         components: eletrica.components, 
-        workTime: 4290
+        workTime: 4215
     }
 }
 

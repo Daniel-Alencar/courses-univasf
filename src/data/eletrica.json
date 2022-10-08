@@ -17,7 +17,12 @@
             "workload": 60,
             "period": 0,
             "id": 1,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 1,
+                    "id": 1
+                }
+            ],
             "prerequisite": []
         },
         {
@@ -33,7 +38,12 @@
             "workload": 60,
             "period": 0,
             "id": 3,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 1,
+                    "id": 8
+                }
+            ],
             "prerequisite": []
         },
         {
@@ -41,7 +51,12 @@
             "workload": 30,
             "period": 0,
             "id": 4,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 1,
+                    "id": 4
+                }
+            ],
             "prerequisite": []
         },
         {
@@ -49,7 +64,24 @@
             "workload": 60,
             "period": 0,
             "id": 5,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 2,
+                    "id": 1
+                },
+                {
+                    "period": 2,
+                    "id": 2
+                },
+                {
+                    "period": 2,
+                    "id": 4
+                },
+                {
+                    "period": 1,
+                    "id": 5
+                }
+            ],
             "prerequisite": []
         },
         {
@@ -67,7 +99,16 @@
             "workload": 60,
             "period": 1,
             "id": 0,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 3,
+                    "id": 1
+                },
+                {
+                    "period": 2,
+                    "id": 0
+                }
+            ],
             "prerequisite": []
         },
         {
@@ -75,7 +116,12 @@
             "workload": 60,
             "period": 1,
             "id": 1,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 2,
+                    "id": 2
+                }
+            ],
             "prerequisite": [
                 {
                     "period": 0,
@@ -96,7 +142,12 @@
             "workload": 30,
             "period": 1,
             "id": 3,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 2,
+                    "id": 3
+                }
+            ],
             "prerequisite": []
         },
         {
@@ -104,7 +155,20 @@
             "workload": 60,
             "period": 1,
             "id": 4,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 4,
+                    "id": 7
+                },
+                {
+                    "period": 2,
+                    "id": 2
+                },
+                {
+                    "period": 2,
+                    "id": 4
+                }
+            ],
             "prerequisite": [
                 {
                     "period": 0,
@@ -117,7 +181,24 @@
             "workload": 60,
             "period": 1,
             "id": 5,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 4,
+                    "id": 7
+                },
+                {
+                    "period": 3,
+                    "id": 1
+                },
+                {
+                    "period": 3,
+                    "id": 4
+                },
+                {
+                    "period": 2,
+                    "id": 5
+                }
+            ],
             "prerequisite": [
                 {
                     "period": 0,
@@ -146,7 +227,12 @@
             "workload": 60,
             "period": 1,
             "id": 8,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 5,
+                    "id": 3
+                }
+            ],
             "prerequisite": [
                 {
                     "period": 0,
@@ -161,7 +247,12 @@
             "workload": 60,
             "period": 2,
             "id": 0,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 3,
+                    "id": 0
+                }
+            ],
             "prerequisite": [
                 {
                     "period": 1,
@@ -187,7 +278,16 @@
             "workload": 60,
             "period": 2,
             "id": 2,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 5,
+                    "id": 8
+                },
+                {
+                    "period": 4,
+                    "id": 7
+                }
+            ],
             "prerequisite": [
                 {
                     "period": 0,
@@ -221,7 +321,16 @@
             "workload": 60,
             "period": 2,
             "id": 4,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 3,
+                    "id": 3
+                },
+                {
+                    "period": 3,
+                    "id": 4
+                }
+            ],
             "prerequisite": [
                 {
                     "period": 0,
@@ -238,7 +347,12 @@
             "workload": 60,
             "period": 2,
             "id": 5,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 3,
+                    "id": 5
+                }
+            ],
             "prerequisite": [
                 {
                     "period": 1,
@@ -253,7 +367,12 @@
             "workload": 75,
             "period": 3,
             "id": 0,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 4,
+                    "id": 0
+                }
+            ],
             "prerequisite": [
                 {
                     "period": 2,
@@ -283,7 +402,12 @@
             "workload": 60,
             "period": 3,
             "id": 2,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 4,
+                    "id": 2
+                }
+            ],
             "prerequisite": []
         },
         {
@@ -291,7 +415,12 @@
             "workload": 30,
             "period": 3,
             "id": 3,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 4,
+                    "id": 3
+                }
+            ],
             "prerequisite": [
                 {
                     "period": 2,
@@ -304,7 +433,28 @@
             "workload": 60,
             "period": 3,
             "id": 4,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 6,
+                    "id": 5
+                },
+                {
+                    "period": 5,
+                    "id": 5
+                },
+                {
+                    "period": 5,
+                    "id": 3
+                },
+                {
+                    "period": 4,
+                    "id": 1
+                },
+                {
+                    "period": 4,
+                    "id": 4
+                }
+            ],
             "prerequisite": [
                 {
                     "period": 1,
@@ -321,7 +471,16 @@
             "workload": 60,
             "period": 3,
             "id": 5,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 4,
+                    "id": 5
+                },
+                {
+                    "period": 4,
+                    "id": 6
+                }
+            ],
             "prerequisite": [
                 {
                     "period": 2,
@@ -336,7 +495,12 @@
             "workload": 75,
             "period": 4,
             "id": 0,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 6,
+                    "id": 2
+                }
+            ],
             "prerequisite": [
                 {
                     "period": 3,
@@ -349,7 +513,12 @@
             "workload": 60,
             "period": 4,
             "id": 1,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 5,
+                    "id": 0
+                }
+            ],
             "prerequisite": [
                 {
                     "period": 3,
@@ -362,7 +531,12 @@
             "workload": 90,
             "period": 4,
             "id": 2,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 5,
+                    "id": 2
+                }
+            ],
             "prerequisite": [
                 {
                     "period": 3,
@@ -388,7 +562,12 @@
             "workload": 60,
             "period": 4,
             "id": 4,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 5,
+                    "id": 4
+                }
+            ],
             "prerequisite": [
                 {
                     "period": 3,
@@ -401,7 +580,12 @@
             "workload": 60,
             "period": 4,
             "id": 5,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 5,
+                    "id": 6
+                }
+            ],
             "prerequisite": [
                 {
                     "period": 3,
@@ -414,7 +598,16 @@
             "workload": 60,
             "period": 4,
             "id": 6,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 6,
+                    "id": 4
+                },
+                {
+                    "period": 5,
+                    "id": 6
+                }
+            ],
             "prerequisite": [
                 {
                     "period": 3,
@@ -446,11 +639,20 @@
     ],
     [
         {
-            "name": "Eletônica analógica", 
+            "name": "Eletrônica analógica", 
             "workload": 60, 
             "period": 5,
             "id": 0,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 7,
+                    "id": 0
+                },
+                {
+                    "period": 6,
+                    "id": 0
+                }
+            ],
             "prerequisite": [
                 {
                     "period": 4,
@@ -467,11 +669,20 @@
             "prerequisite": []
         },
         {
-            "name": "Ciscuitos elétricos III", 
+            "name": "Circuitos elétricos III", 
             "workload": 60, 
             "period": 5,
             "id": 2,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 6,
+                    "id": 5
+                },
+                {
+                    "period": 6,
+                    "id": 3
+                }
+            ],
             "prerequisite": [
                 {
                     "period": 4,
@@ -484,7 +695,12 @@
             "workload": 60, 
             "period": 5,
             "id": 3,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 7,
+                    "id": 1
+                }
+            ],
             "prerequisite": [
                 {
                     "period": 1,
@@ -510,11 +726,16 @@
             ]
         },
         {
-            "name": "Conversão eletromeca", 
+            "name": "Conversão eletromecânica", 
             "workload": 60, 
             "period": 5,
             "id": 5,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 7,
+                    "id": 3
+                }
+            ],
             "prerequisite": [
                 {
                     "period": 3,
@@ -527,7 +748,12 @@
             "workload": 60, 
             "period": 5,
             "id": 6,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 6,
+                    "id": 7
+                }
+            ],
             "prerequisite": [
                 {
                     "period": 4,
@@ -588,7 +814,12 @@
             "workload": 60,
             "period": 6,
             "id": 2,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 7,
+                    "id": 2
+                }
+            ],
             "prerequisite": [
                 {
                     "period": 4,
@@ -644,7 +875,16 @@
             "workload": 45,
             "period": 6,
             "id": 6,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 8,
+                    "id": 0
+                },
+                {
+                    "period": 8,
+                    "id": 3
+                }
+            ],
             "prerequisite": []
         },
         {
@@ -675,7 +915,12 @@
             "workload": 60,
             "period": 7,
             "id": 0,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 8,
+                    "id": 0
+                }
+            ],
             "prerequisite": [
                 {
                     "period": 5,
@@ -701,7 +946,12 @@
             "workload": 90,
             "period": 7,
             "id": 2,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 8,
+                    "id": 2
+                }
+            ],
             "prerequisite": [
                 {
                     "period": 6,
@@ -714,7 +964,12 @@
             "workload": 60,
             "period": 7,
             "id": 3,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 8,
+                    "id": 3
+                }
+            ],
             "prerequisite": [
                 {
                     "period": 5,
@@ -751,7 +1006,12 @@
             "workload": 60,
             "period": 7,
             "id": 7,
-            "unlock": [],
+            "unlock": [
+                {
+                    "period": 8,
+                    "id": 6
+                }
+            ],
             "prerequisite": []
         }
     ],
@@ -766,6 +1026,10 @@
                 {
                     "period": 6,
                     "id": 6
+                },
+                {
+                    "period": 7,
+                    "id": 0
                 }
             ]
         },
@@ -832,8 +1096,8 @@
             "prerequisite": []
         },
         {
-            "name": "Eletiva I", 
-            "workload": 90, 
+            "name": "Eletiva I",
+            "workload": 90,
             "period": 8,
             "id": 0,
             "unlock": [],
@@ -841,30 +1105,30 @@
         }
     ],
     [
-      {
-        "name": "Estágio supervionado", 
-        "workload": 240, 
-        "period": 9,
-        "id": 0,
-        "unlock": [],
-        "prerequisite": []
-      },
-      {
-        "name": "Optativa II", 
-        "workload": 60, 
-        "period": 9,
-        "id": 1,
-        "unlock": [],
-        "prerequisite": []
-      },
-      {
-        "name": "Eletiva II", 
-        "workload": 60, 
-        "period": 9,
-        "id": 1,
-        "unlock": [],
-        "prerequisite": []
-      }
+        {
+            "name": "Estágio supervionado", 
+            "workload": 240, 
+            "period": 9,
+            "id": 0,
+            "unlock": [],
+            "prerequisite": []
+        },
+        {
+            "name": "Optativa II", 
+            "workload": 60, 
+            "period": 9,
+            "id": 1,
+            "unlock": [],
+            "prerequisite": []
+        },
+        {
+            "name": "Eletiva II", 
+            "workload": 60, 
+            "period": 9,
+            "id": 1,
+            "unlock": [],
+            "prerequisite": []
+        }
     ]
   ]
 }
