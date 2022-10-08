@@ -9,6 +9,7 @@ import Footer from "../../components/Footer"
 
 // icons
 import { BsFillCpuFill } from "react-icons/bs";
+import { AiFillThunderbolt } from "react-icons/ai";
 
 import { ContainerGrid } from "./styles";
 import { ContainerBody } from "./styles";
@@ -41,7 +42,7 @@ function Courses({paletteType, setPaletteType}) {
                     </Button>
 
                     <Button 
-                        startIcon={<BsFillCpuFill />} 
+                        startIcon={<AiFillThunderbolt />} 
                         className={classes.button} 
                         color="primary" 
                         variant="contained"
