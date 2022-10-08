@@ -1,5 +1,6 @@
 import computation from './computacao.json';
 import eletrica from './eletrica.json';
+import civil from './civil.json';
  
 const courses = {
 
@@ -14,6 +15,12 @@ const courses = {
         semesters: eletrica.semesters, 
         components: eletrica.components, 
         workTime: 4215
+    },
+    3: {
+        name: civil.name,
+        semesters: civil.semesters, 
+        components: civil.components, 
+        workTime: 3825
     }
 }
 

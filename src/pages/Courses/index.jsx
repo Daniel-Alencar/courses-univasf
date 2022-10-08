@@ -42,13 +42,23 @@ function Courses({paletteType, setPaletteType}) {
                     </Button>
 
                     <Button 
-                        startIcon={<AiFillThunderbolt />} 
+                        startIcon={<BsFillCpuFill />} 
                         className={classes.button} 
                         color="primary" 
                         variant="contained"
                         onClick={() => history.push('/course/2')}
                     >
                         Engenharia Elétrica
+                    </Button>
+
+                    <Button
+                        startIcon={<BsFillCpuFill />} 
+                        className={classes.button} 
+                        color="primary" 
+                        variant="contained"
+                        onClick={() => history.push('/course/3')}
+                    >
+                        Engenharia civil
                     </Button>
 
                     {/* TODO: ADD NEW COURSES */}
