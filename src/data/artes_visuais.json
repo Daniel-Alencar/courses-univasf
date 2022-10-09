@@ -1,0 +1,451 @@
+{
+
+    "name": "Bacharelado em Artes visuais", 
+    "semesters": 10,
+    "components": [
+        [
+            {
+                "name": "Pesquisa de materias", 
+                "workload": 60, 
+                "period": 0,
+                "id": 0,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Desenho artístico", 
+                "workload": 60, 
+                "period": 0,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Filosofia e história da educação", 
+                "workload": 60, 
+                "period": 0,
+                "id": 2,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Pesquisa em artes visuais", 
+                "workload": 60, 
+                "period": 0,
+                "id": 3,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "História e teoria da arte I", 
+                "workload": 60, 
+                "period": 0,
+                "id": 4,
+                "unlock": [],
+                "prerequisite": []
+            }
+        ],
+        [
+            {
+                "name": "Cerâmica", 
+                "workload": 60, 
+                "period": 1,
+                "id": 0,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Gravura", 
+                "workload": 60, 
+                "period": 1,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Sociologia da educação", 
+                "workload": 60, 
+                "period": 1,
+                "id": 2,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Filosofia da arte", 
+                "workload": 60, 
+                "period": 1,
+                "id": 3,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "História e teoria da arte II", 
+                "workload": 60, 
+                "period": 1,
+                "id": 4,
+                "unlock": [],
+                "prerequisite": []
+            }
+        ],
+        [
+            {
+                "name": "Pintura", 
+                "workload": 60, 
+                "period": 2,
+                "id": 0,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Computação gráfica", 
+                "workload": 60, 
+                "period": 2,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Psicologia da educação", 
+                "workload": 60, 
+                "period": 2,
+                "id": 2,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Política da educação brasileira", 
+                "workload": 60, 
+                "period": 2,
+                "id": 3,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "História e teoria da arte III", 
+                "workload": 60, 
+                "period": 2,
+                "id": 4,
+                "unlock": [],
+                "prerequisite": []
+            }
+        ],
+        [
+            {
+                "name": "Fotografia", 
+                "workload": 60, 
+                "period": 3,
+                "id": 0,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Vídeo", 
+                "workload": 60, 
+                "period": 3,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Fundamentos do ensino das artes visuais", 
+                "workload": 60, 
+                "period": 3,
+                "id": 2,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Gestão da educação brasileira", 
+                "workload": 60, 
+                "period": 3,
+                "id": 3,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Teoria da arte contemporânea", 
+                "workload": 60, 
+                "period": 3,
+                "id": 4,
+                "unlock": [],
+                "prerequisite": []
+            }
+        ],
+        [
+            {
+                "name": "Performance em artes visuais", 
+                "workload": 60, 
+                "period": 4,
+                "id": 0,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Laboratório criativo", 
+                "workload": 60, 
+                "period": 4,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Laboratório de práticas artistico/educativas I", 
+                "workload": 60, 
+                "period": 4,
+                "id": 2,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Didática", 
+                "workload": 60, 
+                "period": 4,
+                "id": 3,
+                "unlock": [
+                    {
+                        "period": 5,
+                        "id": 3
+                    }
+                ],
+                "prerequisite": []
+            },
+            {
+                "name": "Cultura e sociedade", 
+                "workload": 60, 
+                "period": 4,
+                "id": 4,
+                "unlock": [],
+                "prerequisite": []
+            }
+        ],
+        [
+            {
+                "name": "Laboratório criativo", 
+                "workload": 60, 
+                "period": 5,
+                "id": 0,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Laboratório criativo", 
+                "workload": 60, 
+                "period": 5,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Laboratório de práticas artistico/educativas II", 
+                "workload": 60, 
+                "period": 5,
+                "id": 2,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Práticas de ensino em artes visuais I", 
+                "workload": 120, 
+                "period": 5,
+                "id": 3,
+                "unlock": [
+                    {
+                        "period": 6,
+                        "id": 3
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 4,
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "name": "Culturas brasileiras", 
+                "workload": 60, 
+                "period": 5,
+                "id": 4,
+                "unlock": [],
+                "prerequisite": []
+            }
+        ],
+        [
+            {
+                "name": "Laboratório criativo", 
+                "workload": 60, 
+                "period": 6,
+                "id": 0,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Laboratório criativo", 
+                "workload": 60, 
+                "period": 6,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Laboratório de práticas artistico/educativas III", 
+                "workload": 60, 
+                "period": 6,
+                "id": 2,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Práticas de ensino em artes visuais II", 
+                "workload": 160, 
+                "period": 6,
+                "id": 3,
+                "unlock": [
+                    {
+                        "period": 7,
+                        "id": 2
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 5,
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "name": "Teoria da imagem", 
+                "workload": 60, 
+                "period": 6,
+                "id": 4,
+                "unlock": [],
+                "prerequisite": []
+            }
+        ],
+        [
+            {
+                "name": "Laboratório criativo", 
+                "workload": 60, 
+                "period": 7,
+                "id": 0,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Laboratório criativo", 
+                "workload": 60, 
+                "period": 7,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Práticas de ensino em artes visuais III", 
+                "workload": 120, 
+                "period": 7,
+                "id": 2,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 6,
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "name": "Narrativas e visualidades", 
+                "workload": 60, 
+                "period": 7,
+                "id": 3,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Seminários de extensão e pesquisa em artes visuais", 
+                "workload": 120, 
+                "period": 7,
+                "id": 4,
+                "unlock": [],
+                "prerequisite": []
+            }
+        ],
+        [
+            {
+                "name": "Laboratório criativo", 
+                "workload": 60, 
+                "period": 8,
+                "id": 0,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Laboratório criativo", 
+                "workload": 60, 
+                "period": 8,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Libras", 
+                "workload": 60, 
+                "period": 8,
+                "id": 2,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Núcleo temático", 
+                "workload": 120, 
+                "period": 8,
+                "id": 3,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "TCC I", 
+                "workload": 60, 
+                "period": 8,
+                "id": 4,
+                "unlock": [
+                    {
+                        "period": 9,
+                        "id": 2
+                    }
+                ],
+                "prerequisite": []
+            }
+        ],
+        [
+            {
+                "name": "Eletiva", 
+                "workload": 60, 
+                "period": 9,
+                "id": 0,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Eletiva", 
+                "workload": 60, 
+                "period": 9,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "TCC II", 
+                "workload": 60, 
+                "period": 9,
+                "id": 2,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 8,
+                        "id": 4
+                    }
+                ]
+            }
+        ]
+    ]        
+}

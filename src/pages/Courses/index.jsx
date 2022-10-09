@@ -61,6 +61,16 @@ function Courses({paletteType, setPaletteType}) {
                         Engenharia civil
                     </Button>
 
+                    <Button
+                        startIcon={<BsFillCpuFill />} 
+                        className={classes.button} 
+                        color="primary" 
+                        variant="contained"
+                        onClick={() => history.push('/course/4')}
+                    >
+                        Artes visuais
+                    </Button>
+
                     {/* TODO: ADD NEW COURSES */}
 
                     {/* 

@@ -23,7 +23,7 @@
                         "id": 2
                     },
                     {
-                        "period":3,
+                        "period": 3,
                         "id": 4
                     }
                 ],
@@ -553,7 +553,7 @@
                 ],
                 "prerequisite": [
                     {
-                        "period":3,
+                        "period": 3,
                         "id": 2
                     }
                 ]
@@ -571,7 +571,7 @@
                 ],
                 "prerequisite": [
                     {
-                        "period":3,
+                        "period": 3,
                         "id": 4
                     }
                 ]
@@ -587,13 +587,13 @@
                         "id": 7
                     },
                     {
-                        "period":8,
+                        "period": 8,
                         "id": 3
                     }
                 ],
                 "prerequisite": [
                     {
-                        "period":3,
+                        "period": 3,
                         "id": 5
                     }
                 ]
@@ -655,7 +655,7 @@
                 ],
                 "prerequisite": [
                     {
-                        "period":3,
+                        "period": 3,
                         "id": 4
                     }
                 ]
@@ -677,7 +677,7 @@
                 ],
                 "prerequisite": [
                     {
-                        "period":4,
+                        "period": 4,
                         "id": 2
                     }
                 ]
@@ -701,13 +701,13 @@
                         "id": 3
                     },
                     {
-                        "period":8,
+                        "period": 8,
                         "id": 3
                     }
                 ],
                 "prerequisite": [
                     {
-                        "period":3,
+                        "period": 3,
                         "id": 4
                     }
                 ]
@@ -731,13 +731,13 @@
                         "id": 3
                     },
                     {
-                        "period":8,
+                        "period": 8,
                         "id": 3
                     }
                 ],
                 "prerequisite": [
                     {
-                        "period":4,
+                        "period": 4,
                         "id": 4
                     }
                 ]
@@ -810,7 +810,7 @@
                         "id": 1
                     },
                     {
-                        "period":9,
+                        "period": 9,
                         "id": 4
                     }
                 ],
@@ -999,7 +999,7 @@
                 "unlock": [],
                 "prerequisite": [
                     {
-                        "period":6,
+                        "period": 6,
                         "id": 4
                     }
                 ]
@@ -1099,7 +1099,7 @@
                         "id": 5
                     },
                     {
-                        "period":5,
+                        "period": 5,
                         "id": 4
                     }
                 ]
