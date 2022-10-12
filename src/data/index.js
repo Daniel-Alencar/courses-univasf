@@ -2,6 +2,7 @@ import computation from './computacao.json';
 import eletrica from './eletrica.json';
 import civil from './civil.json';
 import artes from './artes_visuais.json';
+import producao from './producao.json';
  
 const courses = {
 
@@ -27,6 +28,12 @@ const courses = {
         name: artes.name,
         semesters: artes.semesters, 
         components: artes.components, 
+        workTime: 3360
+    },
+    5: {
+        name: producao.name,
+        semesters: producao.semesters, 
+        components: producao.components, 
         workTime: 3360
     }
 }

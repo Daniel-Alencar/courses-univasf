@@ -1,0 +1,249 @@
+{
+    "name": "Bacharelado em Engenharia de Produção",
+    "semesters": 10,
+    "components": [
+        [
+            {
+                "name": "Cálculo I", 
+                "workload": 60, 
+                "period": 0,
+                "id": 0,
+                "unlock": [
+                    {
+                        "period": 1,
+                        "id": 0
+                    },
+                    {
+                        "period": 2,
+                        "id": 1
+                    },
+                    {
+                        "period": 3,
+                        "id": 1
+                    },
+                    {
+                        "period": 2,
+                        "id": 2
+                    }
+                ],
+                "prerequisite": []
+            },
+            {
+                "name": "Física Básica", 
+                "workload": 30, 
+                "period": 0,
+                "id": 1,
+                "unlock": [
+                    {
+                        "period": 1,
+                        "id": 1
+                    }
+                ],
+                "prerequisite": []
+            },
+            {
+                "name": "Geometria Analítica", 
+                "workload": 60, 
+                "period": 0,
+                "id": 2,
+                "unlock": [
+                    {
+                        "period": 1,
+                        "id": 3
+                    }
+                ],
+                "prerequisite": []
+            },
+            {
+                "name": "Metodologia da Pesquisa", 
+                "workload": 30, 
+                "period": 0,
+                "id": 3,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Química Geral Teórica", 
+                "workload": 30, 
+                "period": 0,
+                "id": 4,
+                "unlock": [
+                    {
+                        "period": 7,
+                        "id": 3
+                    },
+                    {
+                        "period": 5,
+                        "id": 5
+                    }
+                ],
+                "prerequisite": []
+            },
+            {
+                "name": "Química Geral Prática", 
+                "workload": 30, 
+                "period": 0,
+                "id": 5,
+                "unlock": [
+                    {
+                        "period": 5,
+                        "id": 5
+                    },
+                    {
+                        "period": 7,
+                        "id": 3
+                    }
+                ],
+                "prerequisite": []
+            },
+            {
+                "name": "Introdução à Engenharia de Produção", 
+                "workload": 30, 
+                "period": 0,
+                "id": 6,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Sociologia", 
+                "workload": 30,
+                "period": 0,
+                "id": 7,
+                "unlock": [],
+                "prerequisite": []
+            }
+        ],
+        [
+            {
+                "name": "Cálculo II", 
+                "workload": 60,
+                "period": 1,
+                "id": 0,
+                "unlock": [
+                    {
+                        "period": 2,
+                        "id": 0
+                    },
+                    {
+                        "period": 4,
+                        "id": 0
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 0
+                    }
+                ]
+            },
+            {
+                "name": "Física Teórica I", 
+                "workload": 60,
+                "period": 1,
+                "id": 1,
+                "unlock": [
+                    {
+                        "period": 2,
+                        "id": 2
+                    },
+                    {
+                        "period": 3,
+                        "id": 1
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 1
+                    }
+                ]
+            },
+            {
+                "name": "Física Experimental I", 
+                "workload": 30,
+                "period": 1,
+                "id": 2,
+                "unlock": [
+                    {
+                        "period": 2,
+                        "id": 3
+                    }
+                ],
+                "prerequisite": []
+            },
+            {
+                "name": "Álgebra Linear", 
+                "workload": 60,
+                "period": 1,
+                "id": 3,
+                "unlock": [
+                    {
+                        "period": 3,
+                        "id": 1
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "name": "Comunicação e Expressão", 
+                "workload": 30,
+                "period": 1,
+                "id": 4,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Economia", 
+                "workload": 45,
+                "period": 1,
+                "id": 5,
+                "unlock": [
+                    {
+                        "period": 2,
+                        "id": 5
+                    },
+                    {
+                        "period": 8,
+                        "id": 4
+                    }
+                ],
+                "prerequisite": []
+            },
+            {
+                "name": "Evolução das técnicas", 
+                "workload": 30,
+                "period": 1,
+                "id": 6,
+                "unlock": [
+                    {
+                        "period": 7,
+                        "id": 4
+                    },
+                    {
+                        "period": 8,
+                        "id": 2
+                    }
+                ],
+                "prerequisite": []
+            },
+            {
+                "name": "Contabilidade", 
+                "workload": 60,
+                "period": 1,
+                "id": 7,
+                "unlock": [
+                    {
+                        "period": 3,
+                        "id": 6
+                    }
+                ],
+                "prerequisite": []
+            }
+        ]
+    ]
+}
