@@ -365,6 +365,248 @@
                     }
                 ]
             }
+        ],
+        [
+            {
+                "name": "Algoritmo e Programação",
+                "workload": 60,
+                "period": 3,
+                "id": 0,
+                "unlock": [
+                    {
+                        "period": 4,
+                        "id": 0
+                    }
+                ],
+                "prerequisite": []
+            },
+            {
+                "name": "Mecânica dos Sólidos I",
+                "workload": 60,
+                "period": 3,
+                "id": 1,
+                "unlock": [
+                    {
+                        "period": 4,
+                        "id": 1
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 0
+                    },
+                    {
+                        "period": 1,
+                        "id": 3
+                    },
+                    {
+                        "period": 1,
+                        "id": 1
+                    }
+                ]
+            },
+            {
+                "name": "Física Teórica III",
+                "workload": 60,
+                "period": 3,
+                "id": 2,
+                "unlock": [
+                    {
+                        "period": 5,
+                        "id": 4
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "name": "Física Experimental III",
+                "workload": 30,
+                "period": 3,
+                "id": 3,
+                "unlock": [
+                    {
+                        "period": 5,
+                        "id": 4
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "name": "Geometria Descritiva",
+                "workload": 45,
+                "period": 3,
+                "id": 4,
+                "unlock": [
+                    {
+                        "period": 6,
+                        "id": 4
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 4
+                    }
+                ]
+            },
+            {
+                "name": "Engenharia de Métodos",
+                "workload": 30,
+                "period": 3,
+                "id": 5,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Contabilidade Gerencial",
+                "workload": 60,
+                "period": 3,
+                "id": 6,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 7
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "name": "Cálculo Numérico",
+                "workload": 60,
+                "period": 4,
+                "id": 0,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 0
+                    },
+                    {
+                        "period": 3,
+                        "id": 0
+                    }
+                ]
+            },
+            {
+                "name": "Resistência dos materiais",
+                "workload": 60,
+                "period": 4,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 3,
+                        "id": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fenômenos de Transporte",
+                "workload": 60,
+                "period": 4,
+                "id": 2,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 0
+                    },
+                    {
+                        "period": 2,
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "name": "Pesquisa Operacional I",
+                "workload": 60,
+                "period": 4,
+                "id": 3,
+                "unlock": [
+                    {
+                        "period": 5,
+                        "id": 3
+                    },
+                    {
+                        "period": 5,
+                        "id": 2
+                    },
+                    {
+                        "period": 5,
+                        "id": 1
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 1
+                    }
+                ]
+            },
+            {
+                "name": "Análise de Investimentos",
+                "workload": 60,
+                "period": 4,
+                "id": 4,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 5
+                    }
+                ]
+            },
+            {
+                "name": "Marketing Aplicado à Engenharia",
+                "workload": 30,
+                "period": 4,
+                "id": 5,
+                "unlock": [
+                    {
+                        "period": 6,
+                        "id": 4
+                    },
+                    {
+                        "period": 9,
+                        "id": 1
+                    }
+                ],
+                "prerequisite": []
+            },
+            {
+                "name": "Higiene e Segurança do Trabalho",
+                "workload": 45,
+                "period": 4,
+                "id": 6,
+                "unlock": [
+                    {
+                        "period": 5,
+                        "id": 6
+                    }
+                ],
+                "prerequisite": []
+            },
+            {
+                "name": "Optativa I",
+                "workload": 60,
+                "period": 4,
+                "id": 7,
+                "unlock": [],
+                "prerequisite": []
+            }
         ]
     ]
 }
