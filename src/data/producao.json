@@ -244,6 +244,127 @@
                 ],
                 "prerequisite": []
             }
+        ],
+        [
+            {
+                "name": "Cálculo III",
+                "workload": 60,
+                "period": 2,
+                "id": 0,
+                "unlock": [
+                    {
+                        "period": 4,
+                        "id": 2
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 0
+                    }
+                ]
+            },
+            {
+                "name": "Estatística Aplicada",
+                "workload": 60,
+                "period": 2,
+                "id": 1,
+                "unlock": [
+                    {
+                        "period": 7,
+                        "id": 1
+                    },
+                    {
+                        "period": 5,
+                        "id": 2
+                    },
+                    {
+                        "period": 4,
+                        "id": 3
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 0
+                    }
+                ]
+            },
+            {
+                "name": "Física Teórica II",
+                "workload": 60,
+                "period": 2,
+                "id": 2,
+                "unlock": [
+                    {
+                        "period": 3,
+                        "id": 2
+                    },
+                    {
+                        "period": 4,
+                        "id": 2
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 0
+                    },
+                    {
+                        "period": 1,
+                        "id": 1
+                    }
+                ]
+            },
+            {
+                "name": "Física Experimental II",
+                "workload": 60,
+                "period": 2,
+                "id": 3,
+                "unlock": [
+                    {
+                        "period": 3,
+                        "id": 3
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "name": "Desenho Teórico",
+                "workload": 60,
+                "period": 2,
+                "id": 4,
+                "unlock": [
+                    {
+                        "period": 3,
+                        "id": 4
+                    }
+                ],
+                "prerequisite": []
+            },
+            {
+                "name": "Engenharia das Finanças",
+                "workload": 60,
+                "period": 2,
+                "id": 5,
+                "unlock": [
+                    {
+                        "period": 4,
+                        "id": 6
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 5
+                    }
+                ]
+            }
         ]
     ]
 }
