@@ -1,5 +1,4 @@
 {
-
   "name": "Bacharelado em Engenharia elétrica", 
   "semesters": 10,
   "components": [
@@ -1125,7 +1124,7 @@
             "name": "Eletiva II", 
             "workload": 60, 
             "period": 9,
-            "id": 1,
+            "id": 2,
             "unlock": [],
             "prerequisite": []
         }
