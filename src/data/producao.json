@@ -607,6 +607,449 @@
                 "unlock": [],
                 "prerequisite": []
             }
+        ],
+        [
+            {
+                "name": "Gestão de qualidade",
+                "workload": 60,
+                "period": 5,
+                "id": 0,
+                "unlock": [
+                    {
+                        "period": 6,
+                        "id": 4
+                    },
+                    {
+                        "period": 7,
+                        "id": 1
+                    }
+                ],
+                "prerequisite": []
+            },
+            {
+                "name": "Gestão da cadeia de suprimentos",
+                "workload": 60,
+                "period": 5,
+                "id": 1,
+                "unlock": [
+                    {
+                        "period": 6,
+                        "id": 0
+                    },
+                    {
+                        "period": 7,
+                        "id": 0
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 4,
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "name": "Planejamento e controle da produção I",
+                "workload": 60,
+                "period": 5,
+                "id": 2,
+                "unlock": [
+                    {
+                        "period": 6,
+                        "id": 1
+                    },
+                    {
+                        "period": 6,
+                        "id": 2
+                    },
+                    {
+                        "period": 6,
+                        "id": 3
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 1
+                    },
+                    {
+                        "period": 4,
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "name": "Pesquisa Operacional II",
+                "workload": 60,
+                "period": 5,
+                "id": 3,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 4,
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "name": "Eletrotécnica",
+                "workload": 60,
+                "period": 5,
+                "id": 4,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 3,
+                        "id": 2
+                    },
+                    {
+                        "period": 3,
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "name": "Ciência e tecnologia dos materiais",
+                "workload": 60,
+                "period": 5,
+                "id": 5,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 4
+                    },
+                    {
+                        "period": 0,
+                        "id": 5
+                    }
+                ]
+            },
+            {
+                "name": "Ergonomia",
+                "workload": 60,
+                "period": 5,
+                "id": 6,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 4,
+                        "id": 6
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "name": "Logística de suprimentos",
+                "workload": 60,
+                "period": 6,
+                "id": 0,
+                "unlock": [
+                    {
+                        "period": 8,
+                        "id": 2
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 5,
+                        "id": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gestão de serviços",
+                "workload": 60,
+                "period": 6,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 5,
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "name": "Planejamento e controle da produção II",
+                "workload": 60,
+                "period": 6,
+                "id": 2,
+                "unlock": [
+                    {
+                        "period": 8,
+                        "id": 2
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 5,
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "name": "Simulação dos processos produtivos",
+                "workload": 60,
+                "period": 6,
+                "id": 3,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 5,
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "name": "Engenharia do produto",
+                "workload": 60,
+                "period": 6,
+                "id": 4,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 3,
+                        "id": 4
+                    },
+                    {
+                        "period": 5,
+                        "id": 0
+                    },
+                    {
+                        "period": 4,
+                        "id": 5
+                    }
+                ]
+            },
+            {
+                "name": "Meio ambiente e desenvolvimento sustentável",
+                "workload": 30,
+                "period": 6,
+                "id": 5,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Ética e responsabilidade social",
+                "workload": 45,
+                "period": 6,
+                "id": 6,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Eletiva I",
+                "workload": 60,
+                "period": 6,
+                "id": 7,
+                "unlock": [],
+                "prerequisite": []
+            }
+        ],
+        [
+            {
+                "name": "Logística de distribuição",
+                "workload": 60,
+                "period": 7,
+                "id": 0,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 5,
+                        "id": 1
+                    }
+                ]
+            },
+            {
+                "name": "Controle estatístico da qualidade",
+                "workload": 60,
+                "period": 7,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 5,
+                        "id": 0
+                    },
+                    {
+                        "period": 2,
+                        "id": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gestão da tecnologia e inovação",
+                "workload": 45,
+                "period": 7,
+                "id": 2,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Processos industriais",
+                "workload": 60,
+                "period": 7,
+                "id": 3,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 4
+                    },
+                    {
+                        "period": 0,
+                        "id": 5
+                    }
+                ]
+            },
+            {
+                "name": "Sistemas de informação gerencial",
+                "workload": 60,
+                "period": 7,
+                "id": 4,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 6
+                    }
+                ]
+            },
+            {
+                "name": "Núcleo temático",
+                "workload": 120,
+                "period": 7,
+                "id": 5,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Eletiva II",
+                "workload": 60,
+                "period": 7,
+                "id": 6,
+                "unlock": [],
+                "prerequisite": []
+            }
+        ],
+        [
+            {
+                "name": "Metrologia",
+                "workload": 45,
+                "period": 8,
+                "id": 0,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Psicologia organizacional",
+                "workload": 30,
+                "period": 8,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Projeto de Fábrica",
+                "workload": 60,
+                "period": 8,
+                "id": 2,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 6
+                    },
+                    {
+                        "period": 6,
+                        "id": 0
+                    },
+                    {
+                        "period": 6,
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "name": "Projeto de TFC",
+                "workload": 30,
+                "period": 8,
+                "id": 3,
+                "unlock": [
+                    {
+                        "period": 9,
+                        "id": 2
+                    }
+                ],
+                "prerequisite": []
+            },
+            {
+                "name": "Agronegócio",
+                "workload": 60,
+                "period": 8,
+                "id": 4,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 5
+                    }
+                ]
+            },
+            {
+                "name": "Estágio Supervisionado",
+                "workload": 240,
+                "period": 8,
+                "id": 5,
+                "unlock": [],
+                "prerequisite": []
+            }
+        ],
+        [
+            {
+                "name": "Tópicos Jurídicos",
+                "workload": 30,
+                "period": 9,
+                "id": 0,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Empreendedorismo",
+                "workload": 30,
+                "period": 9,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 4,
+                        "id": 5
+                    }
+                ]
+            },
+            {
+                "name": "TFC Monografia",
+                "workload": 180,
+                "period": 9,
+                "id": 2,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 8,
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "name": "Optativa II",
+                "workload": 60,
+                "period": 9,
+                "id": 3,
+                "unlock": [],
+                "prerequisite": []
+            }
         ]
     ]
 }
