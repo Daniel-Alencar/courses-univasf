@@ -644,6 +644,406 @@
                 "unlock": [],
                 "prerequisite": []
             }
+        ],
+        [
+            {
+                "name": "Transferência de Calor I", 
+                "workload": 60,
+                "period": 5,
+                "id": 0,
+                "unlock": [
+                    {
+                        "period": 6,
+                        "id": 0
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "name": "Mecânica dos Flúidos II", 
+                "workload": 60,
+                "period": 5,
+                "id": 1,
+                "unlock": [
+                    {
+                        "period": 6,
+                        "id": 1
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 4,
+                        "id": 1
+                    }
+                ]
+            },
+            {
+                "name": "Termodinâmica Aplicada", 
+                "workload": 60,
+                "period": 5,
+                "id": 2,
+                "unlock": [
+                    {
+                        "period": 7,
+                        "id": 0
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 4,
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "name": "Mecanismos", 
+                "workload": 60,
+                "period": 5,
+                "id": 3,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 3,
+                        "id": 5
+                    }
+                ]
+            },
+            {
+                "name": "Tecnologia Mecânica", 
+                "workload": 60,
+                "period": 5,
+                "id": 4,
+                "unlock": [
+                    {
+                        "period": 7,
+                        "id": 3
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 6
+                    }
+                ]
+            },
+            {
+                "name": "Elementos de Máquinas I", 
+                "workload": 60,
+                "period": 5,
+                "id": 5,
+                "unlock": [
+                    {
+                        "period": 6,
+                        "id": 5
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 4,
+                        "id": 5
+                    },
+                    {
+                        "period": 3,
+                        "id": 5
+                    }
+                ]
+            },
+            {
+                "name": "Optativa I", 
+                "workload": 60,
+                "period": 5,
+                "id": 6,
+                "unlock": [],
+                "prerequisite": []
+            }
+        ],
+        [
+            {
+                "name": "Transferência de Calor II", 
+                "workload": 60,
+                "period": 6,
+                "id": 0,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 5,
+                        "id": 0
+                    }
+                ]
+            },
+            {
+                "name": "Máquinas de Fluxo", 
+                "workload": 60,
+                "period": 6,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 5,
+                        "id": 1
+                    }
+                ]
+            },
+            {
+                "name": "Optativa II", 
+                "workload": 60,
+                "period": 6,
+                "id": 2,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Processos de Fabricação I", 
+                "workload": 60,
+                "period": 6,
+                "id": 3,
+                "unlock": [
+                    {
+                        "period": 7,
+                        "id": 2
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 4,
+                        "id": 4
+                    }
+                ]
+            },
+            {
+                "name": "VAGO", 
+                "workload": 60,
+                "period": 6,
+                "id": 4,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Elementos de Máquinas II", 
+                "workload": 60,
+                "period": 6,
+                "id": 5,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 5,
+                        "id": 5
+                    }
+                ]
+            },
+            {
+                "name": "Eletiva II", 
+                "workload": 60,
+                "period": 6,
+                "id": 6,
+                "unlock": [],
+                "prerequisite": []
+            }
+        ],
+        [
+            {
+                "name": "Máquinas Térmicas", 
+                "workload": 60,
+                "period": 7,
+                "id": 0,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 5,
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "name": "Núcleo Temático I", 
+                "workload": 60,
+                "period": 7,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Processos de Fabricação II", 
+                "workload": 60,
+                "period": 7,
+                "id": 2,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 6,
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "name": "Manutenção Mecânica e Lubrificação", 
+                "workload": 60,
+                "period": 7,
+                "id": 3,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 5,
+                        "id": 4
+                    }
+                ]
+            },
+            {
+                "name": "Vibrações em Sistemas Mecânicos", 
+                "workload": 60,
+                "period": 7,
+                "id": 4,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 4,
+                        "id": 5
+                    },
+                    {
+                        "period": 3,
+                        "id": 5
+                    }
+                ]
+            },
+            {
+                "name": "Sistemas Hidráulicos e Pneumáticos", 
+                "workload": 60,
+                "period": 7,
+                "id": 5,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 4,
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "name": "Meio Ambiente e Desenvolvimento Sustentável", 
+                "workload": 60,
+                "period": 7,
+                "id": 6,
+                "unlock": [],
+                "prerequisite": []
+            }
+        ],
+        [
+            {
+                "name": "Optativa III", 
+                "workload": 60,
+                "period": 8,
+                "id": 0,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Economia para Engenharia", 
+                "workload": 30,
+                "period": 8,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Instrumentação Industrial", 
+                "workload": 45,
+                "period": 8,
+                "id": 2,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 7
+                    }
+                ]
+            },
+            {
+                "name": "Higiene e Segurança do Trabalho", 
+                "workload": 45,
+                "period": 8,
+                "id": 3,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Optativa IV", 
+                "workload": 60,
+                "period": 8,
+                "id": 4,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Núcleo Temático II", 
+                "workload": 60,
+                "period": 8,
+                "id": 5,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Estágio Supervisionado", 
+                "workload": 240,
+                "period": 8,
+                "id": 6,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Sociologia", 
+                "workload": 30,
+                "period": 8,
+                "id": 7,
+                "unlock": [],
+                "prerequisite": []
+            }
+        ],
+        [
+            {
+                "name": "Aspectos Jurídicos da Engenharia", 
+                "workload": 30,
+                "period": 9,
+                "id": 0,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Optativa V", 
+                "workload": 60,
+                "period": 9,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Optativa VI", 
+                "workload": 30,
+                "period": 9,
+                "id": 2,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Administração para Engenharia", 
+                "workload": 30,
+                "period": 9,
+                "id": 3,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Trabalho de Conclusão de Curso", 
+                "workload": 120,
+                "period": 9,
+                "id": 4,
+                "unlock": [],
+                "prerequisite": []
+            }
         ]
     ]
 }
