@@ -171,7 +171,7 @@
                     },
                     {
                         "period": 4,
-                        "id": 1
+                        "id": 0
                     }
                 ],
                 "prerequisite": [
@@ -264,7 +264,7 @@
                     },
                     {
                         "period": 4,
-                        "id": 1
+                        "id": 0
                     }
                 ],
                 "prerequisite": [
@@ -316,7 +316,7 @@
                     },
                     {
                         "period": 4,
-                        "id": 2
+                        "id": 1
                     }
                 ],
                 "prerequisite": [
@@ -386,7 +386,7 @@
                     },
                     {
                         "period": 4,
-                        "id": 4
+                        "id": 3
                     },
                     {
                         "period": 5,
@@ -444,7 +444,7 @@
                 "unlock": [
                     {
                         "period": 4,
-                        "id": 3
+                        "id": 2
                     }
                 ],
                 "prerequisite": [
@@ -518,7 +518,7 @@
                 "unlock": [
                     {
                         "period": 4,
-                        "id": 5
+                        "id": 4
                     }
                 ],
                 "prerequisite": [
@@ -531,18 +531,10 @@
         ],
         [
             {
-                "name": "VAGO", 
-                "workload": 60, 
-                "period": 4,
-                "id": 0,
-                "unlock": [],
-                "prerequisite": []
-            },
-            {
                 "name": "Mecânica dos Flúidos I", 
                 "workload": 60, 
                 "period": 4,
-                "id": 1,
+                "id": 0,
                 "unlock": [
                     {
                         "period": 5,
@@ -564,7 +556,7 @@
                 "name": "Termodinâmica Básica", 
                 "workload": 60,
                 "period": 4,
-                "id": 2,
+                "id": 1,
                 "unlock": [
                     {
                         "period": 5,
@@ -582,7 +574,7 @@
                 "name": "Eletrotécnica Geral", 
                 "workload": 60,
                 "period": 4,
-                "id": 3,
+                "id": 2,
                 "unlock": [
                     {
                         "period": 7,
@@ -600,7 +592,7 @@
                 "name": "Materiais de Construção Mecânica", 
                 "workload": 60,
                 "period": 4,
-                "id": 4,
+                "id": 3,
                 "unlock": [
                     {
                         "period": 6,
@@ -618,7 +610,7 @@
                 "name": "Resistência dos Materiais II", 
                 "workload": 60,
                 "period": 4,
-                "id": 5,
+                "id": 4,
                 "unlock": [
                     {
                         "period": 5,
@@ -640,7 +632,7 @@
                 "name": "Eletiva I", 
                 "workload": 60,
                 "period": 4,
-                "id": 6,
+                "id": 5,
                 "unlock": [],
                 "prerequisite": []
             }
@@ -678,7 +670,7 @@
                 "prerequisite": [
                     {
                         "period": 4,
-                        "id": 1
+                        "id": 0
                     }
                 ]
             },
@@ -696,7 +688,7 @@
                 "prerequisite": [
                     {
                         "period": 4,
-                        "id": 2
+                        "id": 1
                     }
                 ]
             },
@@ -739,13 +731,13 @@
                 "unlock": [
                     {
                         "period": 6,
-                        "id": 5
+                        "id": 4
                     }
                 ],
                 "prerequisite": [
                     {
                         "period": 4,
-                        "id": 5
+                        "id": 4
                     },
                     {
                         "period": 3,
@@ -811,23 +803,15 @@
                 "prerequisite": [
                     {
                         "period": 4,
-                        "id": 4
+                        "id": 3
                     }
                 ]
-            },
-            {
-                "name": "VAGO", 
-                "workload": 60,
-                "period": 6,
-                "id": 4,
-                "unlock": [],
-                "prerequisite": []
             },
             {
                 "name": "Elementos de Máquinas II", 
                 "workload": 60,
                 "period": 6,
-                "id": 5,
+                "id": 4,
                 "unlock": [],
                 "prerequisite": [
                     {
@@ -840,7 +824,7 @@
                 "name": "Eletiva II", 
                 "workload": 60,
                 "period": 6,
-                "id": 6,
+                "id": 5,
                 "unlock": [],
                 "prerequisite": []
             }
@@ -902,7 +886,7 @@
                 "prerequisite": [
                     {
                         "period": 4,
-                        "id": 5
+                        "id": 4
                     },
                     {
                         "period": 3,
@@ -919,7 +903,7 @@
                 "prerequisite": [
                     {
                         "period": 4,
-                        "id": 3
+                        "id": 2
                     }
                 ]
             },
