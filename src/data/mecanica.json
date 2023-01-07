@@ -1,0 +1,649 @@
+{
+    "name": "Bacharelado em Engenharia Mecânica", 
+    "semesters": 10,
+    "components": [
+        [
+            {
+                "name": "Cálculo I", 
+                "workload": 60, 
+                "period": 0,
+                "id": 0,
+                "unlock": [
+                    {
+                        "period": 1,
+                        "id": 0
+                    },
+                    {
+                        "period": 2,
+                        "id": 1
+                    },
+                    {
+                        "period": 2,
+                        "id": 2
+                    },
+                    {
+                        "period": 2,
+                        "id": 5
+                    }
+                ],
+                "prerequisite": []
+            },
+            {
+                "name": "Geometria Analítica", 
+                "workload": 60, 
+                "period": 0,
+                "id": 1,
+                "unlock": [
+                    {
+                        "period": 1,
+                        "id": 1
+                    }
+                ],
+                "prerequisite": []
+            },
+            {
+                "name": "Física Básica", 
+                "workload": 30, 
+                "period": 0,
+                "id": 2,
+                "unlock": [
+                    {
+                        "period": 1,
+                        "id": 2
+                    }
+                ],
+                "prerequisite": []
+            },
+            {
+                "name": "Comunicação e Expressão", 
+                "workload": 30, 
+                "period": 0,
+                "id": 3,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Desenho Técnico", 
+                "workload": 60, 
+                "period": 0,
+                "id": 4,
+                "unlock": [
+                    {
+                        "period": 1,
+                        "id": 4
+                    }
+                ],
+                "prerequisite": []
+            },
+            {
+                "name": "Introdução à Engenharia Mecânica", 
+                "workload": 60, 
+                "period": 0,
+                "id": 5,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Química Geral Teórica", 
+                "workload": 30, 
+                "period": 0,
+                "id": 6,
+                "unlock": [
+                    {
+                        "period": 2,
+                        "id": 6
+                    }
+                ],
+                "prerequisite": []
+            },
+            {
+                "name": "Química Geral Experimental", 
+                "workload": 30, 
+                "period": 0,
+                "id": 7,
+                "unlock": [
+                    {
+                        "period": 2,
+                        "id": 6
+                    }
+                ],
+                "prerequisite": []
+            }
+        ],
+        [
+            {
+                "name": "Cálculo II", 
+                "workload": 60, 
+                "period": 1,
+                "id": 0,
+                "unlock": [
+                    {
+                        "period": 2,
+                        "id": 0
+                    },
+                    {
+                        "period": 3,
+                        "id": 1
+                    },
+                    {
+                        "period": 3,
+                        "id": 2
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 0
+                    }
+                ]
+            },
+            {
+                "name": "Álgebra Linear", 
+                "workload": 60, 
+                "period": 1,
+                "id": 1,
+                "unlock": [
+                    {
+                        "period": 2,
+                        "id": 1
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 1
+                    }
+                ]
+            },
+            {
+                "name": "Física Teórica I", 
+                "workload": 60, 
+                "period": 1,
+                "id": 2,
+                "unlock": [
+                    {
+                        "period": 2,
+                        "id": 1
+                    },
+                    {
+                        "period": 2,
+                        "id": 2
+                    },
+                    {
+                        "period": 4,
+                        "id": 1
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "name": "Física Experimental I", 
+                "workload": 30, 
+                "period": 1,
+                "id": 3,
+                "unlock": [
+                    {
+                        "period": 2,
+                        "id": 3
+                    },
+                    {
+                        "period": 3,
+                        "id": 3
+                    }
+                ],
+                "prerequisite": []
+            },
+            {
+                "name": "Geometria Descritiva", 
+                "workload": 45, 
+                "period": 1,
+                "id": 4,
+                "unlock": [
+                    {
+                        "period": 2,
+                        "id": 4
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 4
+                    }
+                ]
+            },
+            {
+                "name": "Metodologia da Pesquisa", 
+                "workload": 30, 
+                "period": 1,
+                "id": 5,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Algoritmo e Programação", 
+                "workload": 60, 
+                "period": 1,
+                "id": 6,
+                "unlock": [
+                    {
+                        "period": 3,
+                        "id": 1
+                    }
+                ],
+                "prerequisite": []
+            },
+            {
+                "name": "Metrologia", 
+                "workload": 60, 
+                "period": 1,
+                "id": 7,
+                "unlock": [
+                    {
+                        "period": 8,
+                        "id": 2
+                    }
+                ],
+                "prerequisite": []
+            }
+        ],
+        [
+            {
+                "name": "Cálculo III", 
+                "workload": 60, 
+                "period": 2,
+                "id": 0,
+                "unlock": [
+                    {
+                        "period": 3,
+                        "id": 0
+                    },
+                    {
+                        "period": 4,
+                        "id": 1
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 0
+                    }
+                ]
+            },
+            {
+                "name": "Mecânica dos Sólidos I - Estática", 
+                "workload": 60, 
+                "period": 2,
+                "id": 1,
+                "unlock": [
+                    {
+                        "period": 3,
+                        "id": 6
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 0
+                    },
+                    {
+                        "period": 1,
+                        "id": 1
+                    },
+                    {
+                        "period": 1,
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "name": "Física Teórica II", 
+                "workload": 60, 
+                "period": 2,
+                "id": 2,
+                "unlock": [
+                    {
+                        "period": 3,
+                        "id": 2
+                    },
+                    {
+                        "period": 5,
+                        "id": 0
+                    },
+                    {
+                        "period": 4,
+                        "id": 2
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 0
+                    },
+                    {
+                        "period": 1,
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "name": "Física Experimental II", 
+                "workload": 30, 
+                "period": 2,
+                "id": 3,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "name": "Desenho de Máquinas", 
+                "workload": 45, 
+                "period": 2,
+                "id": 4,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 4
+                    }
+                ]
+            },
+            {
+                "name": "Estatística Básica", 
+                "workload": 60, 
+                "period": 2,
+                "id": 5,
+                "unlock": [
+                    {
+                        "period": 3,
+                        "id": 5
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 0
+                    }
+                ]
+            },
+            {
+                "name": "Ciência e Tecnologia dos Materiais", 
+                "workload": 60, 
+                "period": 2,
+                "id": 6,
+                "unlock": [
+                    {
+                        "period": 3,
+                        "id": 4
+                    },
+                    {
+                        "period": 4,
+                        "id": 4
+                    },
+                    {
+                        "period": 5,
+                        "id": 4
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 6
+                    },
+                    {
+                        "period": 0,
+                        "id": 7
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "name": "Cálculo IV", 
+                "workload": 60, 
+                "period": 3,
+                "id": 0,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 0
+                    }
+                ]
+            },
+            {
+                "name": "Cálculo Numérico", 
+                "workload": 60, 
+                "period": 3,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 0
+                    },
+                    {
+                        "period": 1,
+                        "id": 6
+                    }
+                ]
+            },
+            {
+                "name": "Física Teórica III", 
+                "workload": 60, 
+                "period": 3,
+                "id": 2,
+                "unlock": [
+                    {
+                        "period": 4,
+                        "id": 3
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 2
+                    },
+                    {
+                        "period": 2,
+                        "id": 1
+                    }
+                ]
+            },
+            {
+                "name": "Física Experimental III", 
+                "workload": 30, 
+                "period": 3,
+                "id": 3,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "name": "Ensaios Mecânicos", 
+                "workload": 60, 
+                "period": 3,
+                "id": 4,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 6
+                    }
+                ]
+            },
+            {
+                "name": "Mecânica dos Sólidos II - Dinâmica", 
+                "workload": 60, 
+                "period": 3,
+                "id": 5,
+                "unlock": [
+                    {
+                        "period": 5,
+                        "id": 5
+                    },
+                    {
+                        "period": 5,
+                        "id": 3
+                    },
+                    {
+                        "period": 7,
+                        "id": 4
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 1
+                    }
+                ]
+            },
+            {
+                "name": "Resistência dos Materiais I", 
+                "workload": 60, 
+                "period": 3,
+                "id": 6,
+                "unlock": [
+                    {
+                        "period": 4,
+                        "id": 5
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 1
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "name": "VAGO", 
+                "workload": 60, 
+                "period": 4,
+                "id": 0,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Mecânica dos Flúidos I", 
+                "workload": 60, 
+                "period": 4,
+                "id": 1,
+                "unlock": [
+                    {
+                        "period": 5,
+                        "id": 1
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 0
+                    },
+                    {
+                        "period": 1,
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "name": "Termodinâmica Básica", 
+                "workload": 60,
+                "period": 4,
+                "id": 2,
+                "unlock": [
+                    {
+                        "period": 5,
+                        "id": 2
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "name": "Eletrotécnica Geral", 
+                "workload": 60,
+                "period": 4,
+                "id": 3,
+                "unlock": [
+                    {
+                        "period": 7,
+                        "id": 5
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 3,
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "name": "Materiais de Construção Mecânica", 
+                "workload": 60,
+                "period": 4,
+                "id": 4,
+                "unlock": [
+                    {
+                        "period": 6,
+                        "id": 3
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 6
+                    }
+                ]
+            },
+            {
+                "name": "Resistência dos Materiais II", 
+                "workload": 60,
+                "period": 4,
+                "id": 5,
+                "unlock": [
+                    {
+                        "period": 5,
+                        "id": 5
+                    },
+                    {
+                        "period": 7,
+                        "id": 4
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 3,
+                        "id": 6
+                    }
+                ]
+            },
+            {
+                "name": "Eletiva I", 
+                "workload": 60,
+                "period": 4,
+                "id": 6,
+                "unlock": [],
+                "prerequisite": []
+            }
+        ]
+    ]
+}

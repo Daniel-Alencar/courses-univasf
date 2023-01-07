@@ -78,23 +78,19 @@ function Courses({paletteType, setPaletteType}) {
                         variant="contained"
                         onClick={() => history.push('/course/5')}
                     >
-                        Engenharia de Produção
-                    </Button>
-
-                    {/* TODO: ADD NEW COURSES */}
-
-                    {/* 
-                    <Button 
-                        startIcon={<BsBuilding />} 
+                        Engenharia mecânica
+                    </Button>        
+                    
+                    <Button
+                        startIcon={<BsFillCpuFill />} 
                         className={classes.button} 
                         color="primary" 
                         variant="contained"
-                        onClick={() => history.push('/course/2')}
+                        onClick={() => history.push('/course/6')}
                     >
-                        Construção de Edifícios
+                        Engenharia de Produção
                     </Button>
-                    */}
-        
+
     
                 </ContainerGrid>
             </ContainerBody>
