@@ -9,7 +9,6 @@ import Footer from "../../components/Footer"
 
 // icons
 import { BsFillCpuFill } from "react-icons/bs";
-import { AiFillThunderbolt } from "react-icons/ai";
 
 import { ContainerGrid } from "./styles";
 import { ContainerBody } from "./styles";
@@ -31,12 +30,32 @@ function Courses({paletteType, setPaletteType}) {
                 
                 <ContainerGrid>
 
-                    <Button 
+                    <Button
                         startIcon={<BsFillCpuFill />} 
                         className={classes.button} 
                         color="primary" 
                         variant="contained"
                         onClick={() => history.push('/course/1')}
+                    >
+                        Engenharia Agrícola e Ambiental
+                    </Button>
+
+                    <Button
+                        startIcon={<BsFillCpuFill />} 
+                        className={classes.button} 
+                        color="primary" 
+                        variant="contained"
+                        onClick={() => history.push('/course/2')}
+                    >
+                        Engenharia civil
+                    </Button>
+
+                    <Button 
+                        startIcon={<BsFillCpuFill />} 
+                        className={classes.button} 
+                        color="primary" 
+                        variant="contained"
+                        onClick={() => history.push('/course/3')}
                     >
                         Engenharia de Computação
                     </Button>
@@ -46,29 +65,9 @@ function Courses({paletteType, setPaletteType}) {
                         className={classes.button} 
                         color="primary" 
                         variant="contained"
-                        onClick={() => history.push('/course/2')}
-                    >
-                        Engenharia Elétrica
-                    </Button>
-
-                    <Button
-                        startIcon={<BsFillCpuFill />} 
-                        className={classes.button} 
-                        color="primary" 
-                        variant="contained"
-                        onClick={() => history.push('/course/3')}
-                    >
-                        Engenharia civil
-                    </Button>
-
-                    <Button
-                        startIcon={<BsFillCpuFill />} 
-                        className={classes.button} 
-                        color="primary" 
-                        variant="contained"
                         onClick={() => history.push('/course/4')}
                     >
-                        Artes visuais
+                        Engenharia Elétrica
                     </Button>
 
                     <Button
@@ -79,8 +78,8 @@ function Courses({paletteType, setPaletteType}) {
                         onClick={() => history.push('/course/5')}
                     >
                         Engenharia mecânica
-                    </Button>        
-                    
+                    </Button>
+
                     <Button
                         startIcon={<BsFillCpuFill />} 
                         className={classes.button} 
@@ -98,10 +97,9 @@ function Courses({paletteType, setPaletteType}) {
                         variant="contained"
                         onClick={() => history.push('/course/7')}
                     >
-                        Engenharia Agrícola e Ambiental
+                        Artes visuais
                     </Button>
 
-    
                 </ContainerGrid>
             </ContainerBody>
             <Footer />  
