@@ -8,7 +8,24 @@
                 "workload": 60, 
                 "period": 0,
                 "id": 0,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 1,
+                        "id": 1
+                    },
+                    {
+                        "period": 2,
+                        "id": 4
+                    },
+                    {
+                        "period": 2,
+                        "id": 6
+                    },
+                    {
+                        "period": 3,
+                        "id": 5
+                    }
+                ],
                 "prerequisite": []
             },
             {
@@ -16,7 +33,16 @@
                 "workload": 60, 
                 "period": 0,
                 "id": 1,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 3,
+                        "id": 7
+                    },
+                    {
+                        "period": 4,
+                        "id": 2
+                    }
+                ],
                 "prerequisite": []
             },
             {
@@ -24,22 +50,32 @@
                 "workload": 30, 
                 "period": 0,
                 "id": 2,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 1,
+                        "id": 3
+                    }
+                ],
                 "prerequisite": []
             },
             {
                 "name": "Geometria Analítica", 
                 "workload": 60, 
                 "period": 0,
-                "id": 2,
-                "unlock": [],
+                "id": 3,
+                "unlock": [
+                    {
+                        "period": 1,
+                        "id": 7
+                    }
+                ],
                 "prerequisite": []
             },
             {
                 "name": "Introdução a Engenharia Agrícola e Ambiental", 
                 "workload": 30, 
                 "period": 0,
-                "id": 3,
+                "id": 4,
                 "unlock": [],
                 "prerequisite": []
             },
@@ -47,8 +83,29 @@
                 "name": "Química Geral Prática", 
                 "workload": 30, 
                 "period": 0,
-                "id": 4,
+                "id": 5,
                 "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Química Geral Teórica", 
+                "workload": 30, 
+                "period": 0,
+                "id": 6,
+                "unlock": [
+                    {
+                        "period": 1,
+                        "id": 5
+                    },
+                    {
+                        "period": 1,
+                        "id": 6
+                    },
+                    {
+                        "period": 2,
+                        "id": 7
+                    }
+                ],
                 "prerequisite": []
             }
         ],
@@ -58,7 +115,12 @@
                 "workload": 60, 
                 "period": 1,
                 "id": 0,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 2,
+                        "id": 1
+                    }
+                ],
                 "prerequisite": []
             },
             {
@@ -66,15 +128,34 @@
                 "workload": 60, 
                 "period": 1,
                 "id": 1,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 2,
+                        "id": 2
+                    },
+                    {
+                        "period": 3,
+                        "id": 3
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 0
+                    }
+                ]
             },
             {
                 "name": "Física Experimental I", 
                 "workload": 30, 
                 "period": 1,
                 "id": 2,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 2,
+                        "id": 5
+                    }
+                ],
                 "prerequisite": []
             },
             {
@@ -82,8 +163,26 @@
                 "workload": 60, 
                 "period": 1,
                 "id": 3,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 2,
+                        "id": 6
+                    },
+                    {
+                        "period": 3,
+                        "id": 5
+                    },
+                    {
+                        "period": 4,
+                        "id": 2
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 2
+                    }
+                ]
             },
             {
                 "name": "Metodologia da Pesquisa", 
@@ -98,24 +197,54 @@
                 "workload": 60,
                 "period": 1,
                 "id": 5,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 4,
+                        "id": 4
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 6
+                    }
+                ]
             },
             {
                 "name": "Química Orgânica", 
                 "workload": 60,
                 "period": 1,
                 "id": 6,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 2,
+                        "id": 0
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 6
+                    }
+                ]
             },
             {
                 "name": "Álgebra Linear", 
                 "workload": 60,
                 "period": 1,
                 "id": 7,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 3,
+                        "id": 5
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 3
+                    }
+                ]
             }
         ],
         [
@@ -124,24 +253,54 @@
                 "workload": 60,
                 "period": 2,
                 "id": 0,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 3,
+                        "id": 6
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 6
+                    }
+                ]
             },
             {
                 "name": "Botânica", 
                 "workload": 60,
                 "period": 2,
                 "id": 1,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 5,
+                        "id": 1
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 0
+                    }
+                ]
             },
             {
                 "name": "Cálculo III", 
                 "workload": 60,
                 "period": 2,
                 "id": 2,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 4,
+                        "id": 0
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 1
+                    }
+                ]
             },
             {
                 "name": "Ecologia Geral", 
@@ -156,32 +315,92 @@
                 "workload": 60,
                 "period": 2,
                 "id": 4,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 3,
+                        "id": 1
+                    },
+                    {
+                        "period": 5,
+                        "id": 3
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 0
+                    }
+                ]
             },
             {
                 "name": "Física Experimental II", 
                 "workload": 30,
                 "period": 2,
                 "id": 5,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 3,
+                        "id": 2
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 2
+                    }
+                ]
             },
             {
                 "name": "Física Teórica II", 
                 "workload": 60,
                 "period": 2,
                 "id": 6,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 3,
+                        "id": 3
+                    },
+                    {
+                        "period": 4,
+                        "id": 0
+                    },
+                    {
+                        "period": 4,
+                        "id": 1
+                    },
+                    {
+                        "period": 5,
+                        "id": 5
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 0
+                    },
+                    {
+                        "period": 1,
+                        "id": 3
+                    }
+                ]
             },
             {
                 "name": "Geologia Aplicada a Solos", 
                 "workload": 45,
                 "period": 2,
                 "id": 7,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 3,
+                        "id": 4
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 6
+                    }
+                ]
             }
         ],
         [
@@ -199,55 +418,132 @@
                 "period": 3,
                 "id": 1,
                 "unlock": [],
-                "prerequisite": []
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 4
+                    }
+                ]
             },
             {
                 "name": "Física Experimental III", 
                 "workload": 30,
                 "period": 3,
                 "id": 2,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 6,
+                        "id": 7
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 5
+                    }
+                ]
             },
             {
                 "name": "Física Teórica III", 
                 "workload": 60,
                 "period": 3,
                 "id": 3,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 5,
+                        "id": 0
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 1
+                    },
+                    {
+                        "period": 2,
+                        "id": 6
+                    }
+                ]
             },
             {
                 "name": "Gênese, Morfologia e Classificação de solos", 
                 "workload": 60,
                 "period": 3,
                 "id": 4,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 4,
+                        "id": 4
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 7
+                    }
+                ]
             },
             {
                 "name": "Mecânica dos Sólidos - Estática", 
                 "workload": 60,
                 "period": 3,
                 "id": 5,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 4,
+                        "id": 5
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 0
+                    },
+                    {
+                        "period": 1,
+                        "id": 3
+                    },
+                    {
+                        "period": 1,
+                        "id": 7
+                    }
+                ]
             },
             {
                 "name": "Microbiologia Geral", 
                 "workload": 60,
                 "period": 3,
                 "id": 6,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 4,
+                        "id": 3
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 0
+                    }
+                ]
             },
             {
                 "name": "Topografia Planimetria", 
                 "workload": 60,
                 "period": 3,
                 "id": 7,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 4,
+                        "id": 6
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 1
+                    }
+                ]
             }
         ],
         [
@@ -256,56 +552,158 @@
                 "workload": 60,
                 "period": 4,
                 "id": 0,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 6,
+                        "id": 1
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 2
+                    },
+                    {
+                        "period": 2,
+                        "id": 6
+                    }
+                ]
             },
             {
                 "name": "Hidráulica", 
                 "workload": 60,
                 "period": 4,
                 "id": 1,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 6,
+                        "id": 5
+                    },
+                    {
+                        "period": 7,
+                        "id": 6
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 6
+                    }
+                ]
             },
             {
                 "name": "Materiais e Técnicas de Construção", 
                 "workload": 60,
                 "period": 4,
                 "id": 2,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 6,
+                        "id": 3
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 1
+                    },
+                    {
+                        "period": 1,
+                        "id": 3
+                    }
+                ]
             },
             {
                 "name": "Microbiologia Ambiental", 
                 "workload": 60,
                 "period": 4,
                 "id": 3,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 5,
+                        "id": 6
+                    },
+                    {
+                        "period": 8,
+                        "id": 1
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 3,
+                        "id": 6
+                    }
+                ]
             },
             {
                 "name": "Propriedades e Processos do Solo", 
                 "workload": 60,
                 "period": 4,
                 "id": 4,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 5,
+                        "id": 4
+                    },
+                    {
+                        "period": 5,
+                        "id": 6
+                    },
+                    {
+                        "period": 8,
+                        "id": 1
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 5
+                    },
+                    {
+                        "period": 3,
+                        "id": 4
+                    }
+                ]
             },
             {
                 "name": "Resistência dos Materiais I", 
                 "workload": 60,
                 "period": 4,
                 "id": 5,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 6,
+                        "id": 2
+                    },
+                    {
+                        "period": 6,
+                        "id": 3
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 3,
+                        "id": 5
+                    }
+                ]
             },
             {
                 "name": "Topografia Altimetria", 
                 "workload": 60,
                 "period": 4,
                 "id": 6,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 5,
+                        "id": 2
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 3,
+                        "id": 7
+                    }
+                ]
             }
         ],
         [
@@ -314,8 +712,18 @@
                 "workload": 60,
                 "period": 5,
                 "id": 0,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 6,
+                        "id": 4
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 3,
+                        "id": 3
+                    }
+                ]
             },
             {
                 "name": "Fitotecnia", 
@@ -323,7 +731,12 @@
                 "period": 5,
                 "id": 1,
                 "unlock": [],
-                "prerequisite": []
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 1
+                    }
+                ]
             },
             {
                 "name": "Geoprocessamento", 
@@ -331,7 +744,12 @@
                 "period": 5,
                 "id": 2,
                 "unlock": [],
-                "prerequisite": []
+                "prerequisite": [
+                    {
+                        "period": 4,
+                        "id": 6
+                    }
+                ]
             },
             {
                 "name": "Hidrologia", 
@@ -339,7 +757,12 @@
                 "period": 5,
                 "id": 3,
                 "unlock": [],
-                "prerequisite": []
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 4
+                    }
+                ]
             },
             {
                 "name": "Manejo e Conservação do Solo e da Água", 
@@ -347,23 +770,60 @@
                 "period": 5,
                 "id": 4,
                 "unlock": [],
-                "prerequisite": []
+                "prerequisite": [
+                    {
+                        "period": 4,
+                        "id": 4
+                    }
+                ]
             },
             {
                 "name": "Metereologia e Climatologia", 
                 "workload": 60,
                 "period": 5,
                 "id": 5,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 6,
+                        "id": 5
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 6
+                    }
+                ]
             },
             {
                 "name": "Poluição Ambiental", 
                 "workload": 60,
                 "period": 5,
                 "id": 6,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 6,
+                        "id": 6
+                    },
+                    {
+                        "period": 7,
+                        "id": 4
+                    },
+                    {
+                        "period": 7,
+                        "id": 6
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 4,
+                        "id": 3
+                    },
+                    {
+                        "period": 4,
+                        "id": 4
+                    }
+                ]
             }
         ],
         [
@@ -380,24 +840,62 @@
                 "workload": 60,
                 "period": 6,
                 "id": 1,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 7,
+                        "id": 0
+                    },
+                    {
+                        "period": 8,
+                        "id": 4
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 4,
+                        "id": 0
+                    }
+                ]
             },
             {
                 "name": "Elementos de Máquinas I", 
                 "workload": 60,
                 "period": 6,
                 "id": 2,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 7,
+                        "id": 5
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 4,
+                        "id": 5
+                    }
+                ]
             },
             {
                 "name": "Estrutura para Edificações Rurais", 
                 "workload": 45,
                 "period": 6,
                 "id": 3,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 7,
+                        "id": 2
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 4,
+                        "id": 2
+                    },
+                    {
+                        "period": 4,
+                        "id": 5
+                    }
+                ]
             },
             {
                 "name": "Instalações Elétricas e Eletrificação Rural", 
@@ -405,15 +903,34 @@
                 "period": 6,
                 "id": 4,
                 "unlock": [],
-                "prerequisite": []
+                "prerequisite": [
+                    {
+                        "period": 5,
+                        "id": 0
+                    }
+                ]
             },
             {
                 "name": "Irrigação", 
                 "workload": 60,
                 "period": 6,
                 "id": 5,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 7,
+                        "id": 3
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 4,
+                        "id": 1
+                    },
+                    {
+                        "period": 5,
+                        "id": 5
+                    }
+                ]
             },
             {
                 "name": "Tratamento de Resíduos", 
@@ -421,7 +938,12 @@
                 "period": 6,
                 "id": 6,
                 "unlock": [],
-                "prerequisite": []
+                "prerequisite": [
+                    {
+                        "period": 5,
+                        "id": 6
+                    }
+                ]
             },
             {
                 "name": "Utilização de Recursos Energéticos", 
@@ -429,7 +951,12 @@
                 "period": 6,
                 "id": 7,
                 "unlock": [],
-                "prerequisite": []
+                "prerequisite": [
+                    {
+                        "period": 3,
+                        "id": 2
+                    }
+                ]
             }
         ],
         [
@@ -438,8 +965,18 @@
                 "workload": 60,
                 "period": 7,
                 "id": 0,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 8,
+                        "id": 0
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 6,
+                        "id": 1
+                    }
+                ]
             },
             {
                 "name": "Avaliação e Perícias de Imóveis Rurais", 
@@ -455,7 +992,12 @@
                 "period": 7,
                 "id": 2,
                 "unlock": [],
-                "prerequisite": []
+                "prerequisite": [
+                    {
+                        "period": 6,
+                        "id": 3
+                    }
+                ]
             },
             {
                 "name": "Drenagem de Solos Agrícolas", 
@@ -463,7 +1005,12 @@
                 "period": 7,
                 "id": 3,
                 "unlock": [],
-                "prerequisite": []
+                "prerequisite": [
+                    {
+                        "period": 6,
+                        "id": 5
+                    }
+                ]
             },
             {
                 "name": "Gestão e Legislação Ambiental", 
@@ -471,15 +1018,30 @@
                 "period": 7,
                 "id": 4,
                 "unlock": [],
-                "prerequisite": []
+                "prerequisite": [
+                    {
+                        "period": 5,
+                        "id": 6
+                    }
+                ]
             },
             {
                 "name": "Máquinas e Implementos Agrícolas", 
                 "workload": 60,
                 "period": 7,
                 "id": 5,
-                "unlock": [],
-                "prerequisite": []
+                "unlock": [
+                    {
+                        "period": 8,
+                        "id": 2
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 6,
+                        "id": 2
+                    }
+                ]
             },
             {
                 "name": "Saneamento Básico", 
@@ -487,7 +1049,16 @@
                 "period": 7,
                 "id": 6,
                 "unlock": [],
-                "prerequisite": []
+                "prerequisite": [
+                    {
+                        "period": 4,
+                        "id": 1
+                    },
+                    {
+                        "period": 5,
+                        "id": 6
+                    }
+                ]
             },
             {
                 "name": "Tópicos Especiais em Engenharia Agrícola I", 
@@ -505,7 +1076,12 @@
                 "period": 8,
                 "id": 0,
                 "unlock": [],
-                "prerequisite": []
+                "prerequisite": [
+                    {
+                        "period": 7,
+                        "id": 0
+                    }
+                ]
             },
             {
                 "name": "Avaliação de Impactos Ambientais", 
@@ -513,7 +1089,16 @@
                 "period": 8,
                 "id": 1,
                 "unlock": [],
-                "prerequisite": []
+                "prerequisite": [
+                    {
+                        "period": 4,
+                        "id": 3
+                    },
+                    {
+                        "period": 4,
+                        "id": 4
+                    }
+                ]
             },
             {
                 "name": "Mecanização Agrícola", 
@@ -521,7 +1106,12 @@
                 "period": 8,
                 "id": 2,
                 "unlock": [],
-                "prerequisite": []
+                "prerequisite": [
+                    {
+                        "period": 7,
+                        "id": 5
+                    }
+                ]
             },
             {
                 "name": "Sociologia e Comunicação Agrícola", 
@@ -537,7 +1127,12 @@
                 "period": 8,
                 "id": 4,
                 "unlock": [],
-                "prerequisite": []
+                "prerequisite": [
+                    {
+                        "period": 6,
+                        "id": 1
+                    }
+                ]
             },
             {
                 "name": "Tópicos Especiais em Engenharia Agrícola II", 
