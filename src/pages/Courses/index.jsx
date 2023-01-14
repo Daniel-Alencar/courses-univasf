@@ -10,6 +10,18 @@ import Footer from "../../components/Footer"
 // icons
 import { BsFillCpuFill } from "react-icons/bs";
 
+import { IoMdConstruct } from 'react-icons/io';
+
+import { BsFillGearFill } from 'react-icons/bs';
+
+import { GiThreeLeaves } from 'react-icons/gi';
+
+import { RiStickyNoteFill } from 'react-icons/ri';
+
+import { AiFillThunderbolt } from "react-icons/ai";
+
+import { FaPaintBrush } from "react-icons/fa";
+
 import { ContainerGrid } from "./styles";
 import { ContainerBody } from "./styles";
 
@@ -31,7 +43,7 @@ function Courses({paletteType, setPaletteType}) {
                 <ContainerGrid>
 
                     <Button
-                        startIcon={<BsFillCpuFill />} 
+                        startIcon={<GiThreeLeaves />} 
                         className={classes.button} 
                         color="primary" 
                         variant="contained"
@@ -41,7 +53,7 @@ function Courses({paletteType, setPaletteType}) {
                     </Button>
 
                     <Button
-                        startIcon={<BsFillCpuFill />} 
+                        startIcon={<IoMdConstruct />} 
                         className={classes.button} 
                         color="primary" 
                         variant="contained"
@@ -61,7 +73,7 @@ function Courses({paletteType, setPaletteType}) {
                     </Button>
 
                     <Button 
-                        startIcon={<BsFillCpuFill />} 
+                        startIcon={<AiFillThunderbolt />} 
                         className={classes.button} 
                         color="primary" 
                         variant="contained"
@@ -71,7 +83,7 @@ function Courses({paletteType, setPaletteType}) {
                     </Button>
 
                     <Button
-                        startIcon={<BsFillCpuFill />} 
+                        startIcon={<BsFillGearFill />} 
                         className={classes.button} 
                         color="primary" 
                         variant="contained"
@@ -81,7 +93,7 @@ function Courses({paletteType, setPaletteType}) {
                     </Button>
 
                     <Button
-                        startIcon={<BsFillCpuFill />} 
+                        startIcon={<RiStickyNoteFill />} 
                         className={classes.button} 
                         color="primary" 
                         variant="contained"
@@ -91,7 +103,7 @@ function Courses({paletteType, setPaletteType}) {
                     </Button>
 
                     <Button
-                        startIcon={<BsFillCpuFill />} 
+                        startIcon={<FaPaintBrush />} 
                         className={classes.button} 
                         color="primary" 
                         variant="contained"
