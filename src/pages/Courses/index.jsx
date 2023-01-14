@@ -91,6 +91,16 @@ function Courses({paletteType, setPaletteType}) {
                         Engenharia de Produção
                     </Button>
 
+                    <Button
+                        startIcon={<BsFillCpuFill />} 
+                        className={classes.button} 
+                        color="primary" 
+                        variant="contained"
+                        onClick={() => history.push('/course/7')}
+                    >
+                        Engenharia Agrícola e Ambiental
+                    </Button>
+
     
                 </ContainerGrid>
             </ContainerBody>
