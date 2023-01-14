@@ -25,6 +25,7 @@ const useStyles = makeStyles((theme) => {
             width: theme.spacing(5)
         }, 
         date: {
+            flexGrow: 1,
             marginLeft: 0,
             lineHeight: 1,
         },
@@ -49,6 +50,8 @@ export default function Header( {paletteType, setPaletteType, title, children} )
             <Toolbar>
 
                 <div href='/' style={{
+                    textDecoration: 'none',
+
                     display: 'flex',
                     flexGrow: 1,
                 }}>
