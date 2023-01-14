@@ -25,9 +25,8 @@ const useStyles = makeStyles((theme) => {
             width: theme.spacing(5)
         }, 
         date: {
-            flexGrow: 1, 
             marginLeft: 0,
-            lineHeight: 1
+            lineHeight: 1,
         },
         avatar: {
             margin: theme.spacing(2), 
@@ -48,14 +47,33 @@ export default function Header( {paletteType, setPaletteType, title, children} )
     return (
         <AppBar className={classes.AppBar} elevation={0} >
             <Toolbar>
-                <img src={paletteType? logoLight : logoDark } className={classes.img} alt='logo'/>
 
-                <Typography variant='h6' color='textSecondary' className={classes.date} >
-                    Cursos UNIVASF
-                    <Typography variant='body2'>
-                        Juazeiro
-                    </Typography>
-                </Typography>  
+                <div href='/' style={{
+                    display: 'flex',
+                    flexGrow: 1,
+                }}>
+                    <Link href='/' style={{
+                        textDecoration: 'none',
+
+                        display: 'flex',
+                        alignItems: 'center',
+
+                        marginLeft: 0,
+                        lineHeight: 1
+                    }}>
+                        <img src={paletteType? logoLight : logoDark } className={classes.img} alt='logo'/>
+                        <Typography 
+                            variant='h6' 
+                            color='textSecondary' 
+                            className={classes.date}
+                        >
+                            Cursos UNIVASF
+                            <Typography variant='body2'>
+                                Juazeiro
+                            </Typography>
+                        </Typography>
+                    </Link>
+                </div>
 
                 <Typography 
                     className={classes.date} 
@@ -69,7 +87,7 @@ export default function Header( {paletteType, setPaletteType, title, children} )
                 <Link className={classes.links} href='/docs' > Documentação </Link>
                 <Link className={classes.links} href='/about' > Sobre </Link>
                 
-                <Tooltip title={!paletteType? 'Tema claro' : 'Tema escuro' } >
+                <Tooltip title={!paletteType? 'Tema claro' : 'Tema escuro' }>
                     <IconButton onClick={() => setPaletteType(!paletteType)} color='primary' >
                         { paletteType?  <Brightness4Icon /> : <Brightness7Icon /> }
                     </IconButton>
