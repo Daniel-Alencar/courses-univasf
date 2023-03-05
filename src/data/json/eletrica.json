@@ -1,1133 +1,1133 @@
 {
-  "name": "Bacharelado em Engenharia elétrica", 
-  "semesters": 10,
-  "components": [
-    [
-        {
-            "name": "Introdução a Engenharia Elétrica",
-            "workload": 30,
-            "period": 0,
-            "id": 0,
-            "unlock": [],
-            "prerequisite": []
-        },
-        {
-            "name": "Geometria Analítica",
-            "workload": 60,
-            "period": 0,
-            "id": 1,
-            "unlock": [
-                {
-                    "period": 1,
-                    "id": 1
-                }
-            ],
-            "prerequisite": []
-        },
-        {
-            "name": "Comunicação e Expressão",
-            "workload": 30,
-            "period": 0,
-            "id": 2,
-            "unlock": [],
-            "prerequisite": []
-        },
-        {
-            "name": "Química Geral",
-            "workload": 60,
-            "period": 0,
-            "id": 3,
-            "unlock": [
-                {
-                    "period": 1,
-                    "id": 8
-                }
-            ],
-            "prerequisite": []
-        },
-        {
-            "name": "Física Básica",
-            "workload": 30,
-            "period": 0,
-            "id": 4,
-            "unlock": [
-                {
-                    "period": 1,
-                    "id": 4
-                }
-            ],
-            "prerequisite": []
-        },
-        {
-            "name": "Cálculo I",
-            "workload": 60,
-            "period": 0,
-            "id": 5,
-            "unlock": [
-                {
-                    "period": 2,
-                    "id": 1
-                },
-                {
-                    "period": 2,
-                    "id": 2
-                },
-                {
-                    "period": 2,
-                    "id": 4
-                },
-                {
-                    "period": 1,
-                    "id": 5
-                }
-            ],
-            "prerequisite": []
-        },
-        {
-            "name": "Sociologia",
-            "workload": 30,
-            "period": 0,
-            "id": 6,
-            "unlock": [],
-            "prerequisite": []
-        }
-    ],
-    [
-        {
-            "name": "Algoritmo e Programação",
-            "workload": 60,
-            "period": 1,
-            "id": 0,
-            "unlock": [
-                {
-                    "period": 3,
-                    "id": 1
-                },
-                {
-                    "period": 2,
-                    "id": 0
-                }
-            ],
-            "prerequisite": []
-        },
-        {
-            "name": "Álgebra Linear",
-            "workload": 60,
-            "period": 1,
-            "id": 1,
-            "unlock": [
-                {
-                    "period": 2,
-                    "id": 2
-                }
-            ],
-            "prerequisite": [
-                {
-                    "period": 0,
-                    "id": 1
-                }
-            ]
-        },
-        {
-            "name": "Desenho Técnico",
-            "workload": 60,
-            "period": 1,
-            "id": 2,
-            "unlock": [],
-            "prerequisite": []
-        },
-        {
-            "name": "Física Experimental I",
-            "workload": 30,
-            "period": 1,
-            "id": 3,
-            "unlock": [
-                {
-                    "period": 2,
-                    "id": 3
-                }
-            ],
-            "prerequisite": []
-        },
-        {
-            "name": "Física Geral I",
-            "workload": 60,
-            "period": 1,
-            "id": 4,
-            "unlock": [
-                {
-                    "period": 4,
-                    "id": 7
-                },
-                {
-                    "period": 2,
-                    "id": 2
-                },
-                {
-                    "period": 2,
-                    "id": 4
-                }
-            ],
-            "prerequisite": [
-                {
-                    "period": 0,
-                    "id": 4
-                }
-            ]
-        },
-        {
-            "name": "Cálculo II",
-            "workload": 60,
-            "period": 1,
-            "id": 5,
-            "unlock": [
-                {
-                    "period": 4,
-                    "id": 7
-                },
-                {
-                    "period": 3,
-                    "id": 1
-                },
-                {
-                    "period": 3,
-                    "id": 4
-                },
-                {
-                    "period": 2,
-                    "id": 5
-                }
-            ],
-            "prerequisite": [
-                {
-                    "period": 0,
-                    "id": 5
-                }
-            ]
-        },
-        {
-            "name": "Metodologia da Pesquisa",
-            "workload": 30,
-            "period": 1,
-            "id": 6,
-            "unlock": [],
-            "prerequisite": []
-        },
-        {
-            "name": "Meio Ambiente e Desenvolvimento Sustentável",
-            "workload": 30,
-            "period": 1,
-            "id": 7,
-            "unlock": [],
-            "prerequisite": []
-        },
-        {
-            "name": "Ciência dos Materiais",
-            "workload": 60,
-            "period": 1,
-            "id": 8,
-            "unlock": [
-                {
-                    "period": 5,
-                    "id": 3
-                }
-            ],
-            "prerequisite": [
-                {
-                    "period": 0,
-                    "id": 3
-                }
-            ]
-        }
-    ],
-    [
-        {
-            "name": "Eletrônica Digital I",
-            "workload": 60,
-            "period": 2,
-            "id": 0,
-            "unlock": [
-                {
-                    "period": 3,
-                    "id": 0
-                }
-            ],
-            "prerequisite": [
-                {
-                    "period": 1,
-                    "id": 0
-                }
-            ]
-        },
-        {
-            "name": "Estatística Aplicada a Engenharia",
-            "workload": 90,
-            "period": 2,
-            "id": 1,
-            "unlock": [],
-            "prerequisite": [
-                {
-                    "period": 0,
-                    "id": 5
-                }
-            ]
-        },
-        {
-            "name": "Mecânica dos Sólidos",
-            "workload": 60,
-            "period": 2,
-            "id": 2,
-            "unlock": [
-                {
-                    "period": 5,
-                    "id": 8
-                },
-                {
-                    "period": 4,
-                    "id": 7
-                }
-            ],
-            "prerequisite": [
-                {
-                    "period": 0,
-                    "id": 5
-                },
-                {
-                    "period": 1,
-                    "id": 1
-                },
-                {
-                    "period": 1,
-                    "id": 4
-                }
-            ]
-        },
-        {
-            "name": "Física Experimental II",
-            "workload": 30,
-            "period": 2,
-            "id": 3,
-            "unlock": [],
-            "prerequisite": [
-                {
-                    "period": 1,
-                    "id": 3
-                }
-            ]
-        },
-        {
-            "name": "Física Geral II",
-            "workload": 60,
-            "period": 2,
-            "id": 4,
-            "unlock": [
-                {
-                    "period": 3,
-                    "id": 3
-                },
-                {
-                    "period": 3,
-                    "id": 4
-                }
-            ],
-            "prerequisite": [
-                {
-                    "period": 0,
-                    "id": 5
-                },
-                {
-                    "period": 1,
-                    "id": 4
-                }
-            ]
-        },
-        {
-            "name": "Cálculo III",
-            "workload": 60,
-            "period": 2,
-            "id": 5,
-            "unlock": [
-                {
-                    "period": 3,
-                    "id": 5
-                }
-            ],
-            "prerequisite": [
-                {
-                    "period": 1,
-                    "id": 5
-                }
-            ]
-        }
-    ],
-    [
-        {
-            "name": "Eletrônica Digital II",
-            "workload": 75,
-            "period": 3,
-            "id": 0,
-            "unlock": [
-                {
-                    "period": 4,
-                    "id": 0
-                }
-            ],
-            "prerequisite": [
-                {
-                    "period": 2,
-                    "id": 0
-                }
-            ]
-        },
-        {
-            "name": "Cálculo Numérico",
-            "workload": 60,
-            "period": 3,
-            "id": 1,
-            "unlock": [],
-            "prerequisite": [
-                {
-                    "period": 1,
-                    "id": 0
-                },
-                {
-                    "period": 1,
-                    "id": 5
-                }
-            ]
-        },
-        {
-            "name": "Circuitos Elétricos I",
-            "workload": 60,
-            "period": 3,
-            "id": 2,
-            "unlock": [
-                {
-                    "period": 4,
-                    "id": 2
-                }
-            ],
-            "prerequisite": []
-        },
-        {
-            "name": "Física Experimental III",
-            "workload": 30,
-            "period": 3,
-            "id": 3,
-            "unlock": [
-                {
-                    "period": 4,
-                    "id": 3
-                }
-            ],
-            "prerequisite": [
-                {
-                    "period": 2,
-                    "id": 4
-                }
-            ]
-        },
-        {
-            "name": "Física Geral III",
-            "workload": 60,
-            "period": 3,
-            "id": 4,
-            "unlock": [
-                {
-                    "period": 6,
-                    "id": 5
-                },
-                {
-                    "period": 5,
-                    "id": 5
-                },
-                {
-                    "period": 5,
-                    "id": 3
-                },
-                {
-                    "period": 4,
-                    "id": 1
-                },
-                {
-                    "period": 4,
-                    "id": 4
-                }
-            ],
-            "prerequisite": [
-                {
-                    "period": 1,
-                    "id": 5
-                },
-                {
-                    "period": 2,
-                    "id": 4
-                }
-            ]
-        },
-        {
-            "name": "Cálculo IV",
-            "workload": 60,
-            "period": 3,
-            "id": 5,
-            "unlock": [
-                {
-                    "period": 4,
-                    "id": 5
-                },
-                {
-                    "period": 4,
-                    "id": 6
-                }
-            ],
-            "prerequisite": [
-                {
-                    "period": 2,
-                    "id": 5
-                }
-            ]
-        }
-    ],
-    [
-        {
-            "name": "Microcontroladores e Microprocessadores",
-            "workload": 75,
-            "period": 4,
-            "id": 0,
-            "unlock": [
-                {
-                    "period": 6,
-                    "id": 2
-                }
-            ],
-            "prerequisite": [
-                {
-                    "period": 3,
-                    "id": 0
-                }
-            ]
-        },
-        {
-            "name": "Materiais e Dispositivos Semicondutores",
-            "workload": 60,
-            "period": 4,
-            "id": 1,
-            "unlock": [
-                {
-                    "period": 5,
-                    "id": 0
-                }
-            ],
-            "prerequisite": [
-                {
-                    "period": 3,
-                    "id": 4
-                }
-            ]
-        },
-        {
-            "name": "Circuitos Elétricos II",
-            "workload": 90,
-            "period": 4,
-            "id": 2,
-            "unlock": [
-                {
-                    "period": 5,
-                    "id": 2
-                }
-            ],
-            "prerequisite": [
-                {
-                    "period": 3,
-                    "id": 2
-                }
-            ]
-        },
-        {
-            "name": "Física Experimental IV",
-            "workload": 30,
-            "period": 4,
-            "id": 3,
-            "unlock": [],
-            "prerequisite": [
-                {
-                    "period": 3,
-                    "id": 3
-                }
-            ]
-        },
-        {
-            "name": "Física Geral IV",
-            "workload": 60,
-            "period": 4,
-            "id": 4,
-            "unlock": [
-                {
-                    "period": 5,
-                    "id": 4
-                }
-            ],
-            "prerequisite": [
-                {
-                    "period": 3,
-                    "id": 4
-                }
-            ]
-        },
-        {
-            "name": "Métodos Matemáticos",
-            "workload": 60,
-            "period": 4,
-            "id": 5,
-            "unlock": [
-                {
-                    "period": 5,
-                    "id": 6
-                }
-            ],
-            "prerequisite": [
-                {
-                    "period": 3,
-                    "id": 5
-                }
-            ]
-        },
-        {
-            "name": "Análise de Sinais e Sistemas",
-            "workload": 60,
-            "period": 4,
-            "id": 6,
-            "unlock": [
-                {
-                    "period": 6,
-                    "id": 4
-                },
-                {
-                    "period": 5,
-                    "id": 6
-                }
-            ],
-            "prerequisite": [
-                {
-                    "period": 3,
-                    "id": 5
-                }   
-            ]
-        },
-        {
-            "name": "Fenômenos de Transporte",
-            "workload": 60,
-            "period": 4,
-            "id": 7,
-            "unlock": [],
-            "prerequisite": [
-                {
-                    "period": 1,
-                    "id": 4
-                },
-                {
-                    "period": 1,
-                    "id": 5
-                },
-                {
-                    "period": 2,
-                    "id": 2
-                }
-            ]
-        }
-    ],
-    [
-        {
-            "name": "Eletrônica analógica", 
-            "workload": 60, 
-            "period": 5,
-            "id": 0,
-            "unlock": [
-                {
-                    "period": 7,
-                    "id": 0
-                },
-                {
-                    "period": 6,
-                    "id": 0
-                }
-            ],
-            "prerequisite": [
-                {
-                    "period": 4,
-                    "id": 1
-                }
-            ]
-        },
-        {
-            "name": "Laboratório de eletrônica analógica", 
-            "workload": 30, 
-            "period": 5,
-            "id": 1,
-            "unlock": [],
-            "prerequisite": []
-        },
-        {
-            "name": "Circuitos elétricos III", 
-            "workload": 60, 
-            "period": 5,
-            "id": 2,
-            "unlock": [
-                {
-                    "period": 6,
-                    "id": 5
-                },
-                {
-                    "period": 6,
-                    "id": 3
-                }
-            ],
-            "prerequisite": [
-                {
-                    "period": 4,
-                    "id": 2
-                }
-            ]
-        },
-        {
-            "name": "Materiais elétricos", 
-            "workload": 60, 
-            "period": 5,
-            "id": 3,
-            "unlock": [
-                {
-                    "period": 7,
-                    "id": 1
-                }
-            ],
-            "prerequisite": [
-                {
-                    "period": 1,
-                    "id": 8
-                },
-                {
-                    "period": 3,
-                    "id": 4
-                }
-            ]
-        },
-        {
-            "name": "Eletromagnetismo", 
-            "workload": 60, 
-            "period": 5,
-            "id": 4,
-            "unlock": [],
-            "prerequisite": [
-                {
-                    "period": 4,
-                    "id": 4
-                }
-            ]
-        },
-        {
-            "name": "Conversão eletromecânica", 
-            "workload": 60, 
-            "period": 5,
-            "id": 5,
-            "unlock": [
-                {
-                    "period": 7,
-                    "id": 3
-                }
-            ],
-            "prerequisite": [
-                {
-                    "period": 3,
-                    "id": 4
-                }
-            ]
-        },
-        {
-            "name": "Controle I", 
-            "workload": 60, 
-            "period": 5,
-            "id": 6,
-            "unlock": [
-                {
-                    "period": 6,
-                    "id": 7
-                }
-            ],
-            "prerequisite": [
-                {
-                    "period": 4,
-                    "id": 5
-                },
-                {
-                    "period": 4,
-                    "id": 6
-                }
-            ]
-        },
-        {
-            "name": "Laboratório de controle I", 
-            "workload": 30, 
-            "period": 5,
-            "id": 7,
-            "unlock": [],
-            "prerequisite": []
-        },
-        {
-            "name": "Resistência dos materiais", 
-            "workload": 60, 
-            "period": 5,
-            "id": 8,
-            "unlock": [],
-            "prerequisite": [
-                {
-                    "period": 2,
-                    "id": 2
-                }
-            ]
-        }
-    ],
-    [
-        {
-            "name": "Eletrônica industrial",
-            "workload": 60,
-            "period": 6,
-            "id": 0,
-            "unlock": [],
-            "prerequisite": [
-                {
-                    "period": 5,
-                    "id": 0
-                }
-            ]
-        },
-        {
-            "name": "Lab. Eletrônica industrial",
-            "workload": 30,
-            "period": 6,
-            "id": 1,
-            "unlock": [],
-            "prerequisite": []
-        },
-        {
-            "name": "Redes de computadores",
-            "workload": 60,
-            "period": 6,
-            "id": 2,
-            "unlock": [
-                {
-                    "period": 7,
-                    "id": 2
-                }
-            ],
-            "prerequisite": [
-                {
-                    "period": 4,
-                    "id": 0
-                }
-            ]
-        },
-        {
-            "name": "Sistemas elétricos I",
-            "workload": 60,
-            "period": 6,
-            "id": 3,
-            "unlock": [],
-            "prerequisite": [
-                {
-                    "period": 5,
-                    "id": 2
-                }
-            ]
-        },
-        {
-            "name": "Princípios de comunicação",
-            "workload": 60,
-            "period": 6,
-            "id": 4,
-            "unlock": [],
-            "prerequisite": [
-                {
-                    "period": 4,
-                    "id": 6
-                }
-            ]
-        },
-        {
-            "name": "Medidas eletromagnéticas",
-            "workload": 90,
-            "period": 6,
-            "id": 5,
-            "unlock": [],
-            "prerequisite": [
-                {
-                    "period": 3,
-                    "id": 4
-                },
-                {
-                    "period": 5,
-                    "id": 2
-                }
-            ]
-        },
-        {
-            "name": "Higiene e segurança do trabalho",
-            "workload": 45,
-            "period": 6,
-            "id": 6,
-            "unlock": [
-                {
-                    "period": 8,
-                    "id": 0
-                },
-                {
-                    "period": 8,
-                    "id": 3
-                }
-            ],
-            "prerequisite": []
-        },
-        {
-            "name": "Controle II",
-            "workload": 60,
-            "period": 6,
-            "id": 7,
-            "unlock": [],
-            "prerequisite": [
-                {
-                    "period": 5,
-                    "id": 6
-                }
-            ]
-        },
-        {
-            "name": "Lab. Controle II",
-            "workload": 30,
-            "period": 6,
-            "id": 8,
-            "unlock": [],
-            "prerequisite": []
-        }
-    ],
-    [
-        {
-            "name": "Instrumentação eletrônica",
-            "workload": 60,
-            "period": 7,
-            "id": 0,
-            "unlock": [
-                {
-                    "period": 8,
-                    "id": 0
-                }
-            ],
-            "prerequisite": [
-                {
-                    "period": 5,
-                    "id": 0
-                }
-            ]
-        },
-        {
-            "name": "Instalações elétricas",
-            "workload": 60,
-            "period": 7,
-            "id": 1,
-            "unlock": [],
-            "prerequisite": [
-                {
-                    "period": 5,
-                    "id": 3
-                }
-            ]
-        },
-        {
-            "name": "Sistemas elétricos II",
-            "workload": 90,
-            "period": 7,
-            "id": 2,
-            "unlock": [
-                {
-                    "period": 8,
-                    "id": 2
-                }
-            ],
-            "prerequisite": [
-                {
-                    "period": 6,
-                    "id": 2
-                }
-            ]
-        },
-        {
-            "name": "Máquinas elétricas",
-            "workload": 60,
-            "period": 7,
-            "id": 3,
-            "unlock": [
-                {
-                    "period": 8,
-                    "id": 3
-                }
-            ],
-            "prerequisite": [
-                {
-                    "period": 5,
-                    "id": 5
-                }
-            ]
-        },
-        {
-            "name": "Lab. Máquinas elétricas",
-            "workload": 30,
-            "period": 7,
-            "id": 4,
-            "unlock": [],
-            "prerequisite": []
-        },
-        {
-            "name": "Administração",
-            "workload": 30,
-            "period": 7,
-            "id": 5,
-            "unlock": [],
-            "prerequisite": []
-        },
-        {
-            "name": "Engenharia Econômica",
-            "workload": 60,
-            "period": 7,
-            "id": 6,
-            "unlock": [],
-            "prerequisite": []
-        },
-        {
-            "name": "Núcleo temático I",
-            "workload": 60,
-            "period": 7,
-            "id": 7,
-            "unlock": [
-                {
-                    "period": 8,
-                    "id": 6
-                }
-            ],
-            "prerequisite": []
-        }
-    ],
-    [
-        {
-            "name": "Automação industrial", 
-            "workload": 90, 
-            "period": 8,
-            "id": 0,
-            "unlock": [],
-            "prerequisite": [
-                {
-                    "period": 6,
-                    "id": 6
-                },
-                {
-                    "period": 7,
-                    "id": 0
-                }
-            ]
-        },
-        {
-            "name": "Optativa I", 
-            "workload": 60, 
-            "period": 8,
-            "id": 1,
-            "unlock": [],
-            "prerequisite": []
-        },
-        {
-            "name": "Geração transmissão e distribuição", 
-            "workload": 60, 
-            "period": 8,
-            "id": 2,
-            "unlock": [],
-            "prerequisite": [
-                {
-                    "period": 7,
-                    "id": 2
-                }
-            ]
-        },
-        {
-            "name": "Acionamentos elétricos", 
-            "workload": 60, 
-            "period": 8,
-            "id": 3,
-            "unlock": [],
-            "prerequisite": [
-                {
-                    "period": 6,
-                    "id": 6
-                },
-                {
-                    "period": 7,
-                    "id": 3 
-                }
-            ]
-        },
-        {
-            "name": "Aspectos legais em engenharia", 
-            "workload": 30, 
-            "period": 8,
-            "id": 4,
-            "unlock": [],
-            "prerequisite": []
-        },
-        {
-            "name": "TCC", 
-            "workload": 60, 
-            "period": 8,
-            "id": 4,
-            "unlock": [],
-            "prerequisite": []
-        },
-        {
-            "name": "Núcleo temático II", 
-            "workload": 60, 
-            "period": 8,
-            "id": 5,
-            "unlock": [],
-            "prerequisite": []
-        },
-        {
-            "name": "Eletiva I",
-            "workload": 90,
-            "period": 8,
-            "id": 0,
-            "unlock": [],
-            "prerequisite": []
-        }
-    ],
-    [
-        {
-            "name": "Estágio supervionado", 
-            "workload": 240, 
-            "period": 9,
-            "id": 0,
-            "unlock": [],
-            "prerequisite": []
-        },
-        {
-            "name": "Optativa II", 
-            "workload": 60, 
-            "period": 9,
-            "id": 1,
-            "unlock": [],
-            "prerequisite": []
-        },
-        {
-            "name": "Eletiva II", 
-            "workload": 60, 
-            "period": 9,
-            "id": 2,
-            "unlock": [],
-            "prerequisite": []
-        }
+    "name": "Bacharelado em Engenharia elétrica", 
+    "semesters": 10,
+    "components": [
+      [
+          {
+              "name": "Introdução a Engenharia Elétrica",
+              "workload": 30,
+              "period": 0,
+              "id": 0,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Geometria Analítica",
+              "workload": 60,
+              "period": 0,
+              "id": 1,
+              "unlock": [
+                  {
+                      "period": 1,
+                      "id": 1
+                  }
+              ],
+              "prerequisite": []
+          },
+          {
+              "name": "Comunicação e Expressão",
+              "workload": 30,
+              "period": 0,
+              "id": 2,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Química Geral",
+              "workload": 60,
+              "period": 0,
+              "id": 3,
+              "unlock": [
+                  {
+                      "period": 1,
+                      "id": 8
+                  }
+              ],
+              "prerequisite": []
+          },
+          {
+              "name": "Física Básica",
+              "workload": 30,
+              "period": 0,
+              "id": 4,
+              "unlock": [
+                  {
+                      "period": 1,
+                      "id": 4
+                  }
+              ],
+              "prerequisite": []
+          },
+          {
+              "name": "Cálculo I",
+              "workload": 60,
+              "period": 0,
+              "id": 5,
+              "unlock": [
+                  {
+                      "period": 2,
+                      "id": 1
+                  },
+                  {
+                      "period": 2,
+                      "id": 2
+                  },
+                  {
+                      "period": 2,
+                      "id": 4
+                  },
+                  {
+                      "period": 1,
+                      "id": 5
+                  }
+              ],
+              "prerequisite": []
+          },
+          {
+              "name": "Sociologia",
+              "workload": 30,
+              "period": 0,
+              "id": 6,
+              "unlock": [],
+              "prerequisite": []
+          }
+      ],
+      [
+          {
+              "name": "Algoritmo e Programação",
+              "workload": 60,
+              "period": 1,
+              "id": 0,
+              "unlock": [
+                  {
+                      "period": 3,
+                      "id": 1
+                  },
+                  {
+                      "period": 2,
+                      "id": 0
+                  }
+              ],
+              "prerequisite": []
+          },
+          {
+              "name": "Álgebra Linear",
+              "workload": 60,
+              "period": 1,
+              "id": 1,
+              "unlock": [
+                  {
+                      "period": 2,
+                      "id": 2
+                  }
+              ],
+              "prerequisite": [
+                  {
+                      "period": 0,
+                      "id": 1
+                  }
+              ]
+          },
+          {
+              "name": "Desenho Técnico",
+              "workload": 60,
+              "period": 1,
+              "id": 2,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Física Experimental I",
+              "workload": 30,
+              "period": 1,
+              "id": 3,
+              "unlock": [
+                  {
+                      "period": 2,
+                      "id": 3
+                  }
+              ],
+              "prerequisite": []
+          },
+          {
+              "name": "Física Geral I",
+              "workload": 60,
+              "period": 1,
+              "id": 4,
+              "unlock": [
+                  {
+                      "period": 4,
+                      "id": 7
+                  },
+                  {
+                      "period": 2,
+                      "id": 2
+                  },
+                  {
+                      "period": 2,
+                      "id": 4
+                  }
+              ],
+              "prerequisite": [
+                  {
+                      "period": 0,
+                      "id": 4
+                  }
+              ]
+          },
+          {
+              "name": "Cálculo II",
+              "workload": 60,
+              "period": 1,
+              "id": 5,
+              "unlock": [
+                  {
+                      "period": 4,
+                      "id": 7
+                  },
+                  {
+                      "period": 3,
+                      "id": 1
+                  },
+                  {
+                      "period": 3,
+                      "id": 4
+                  },
+                  {
+                      "period": 2,
+                      "id": 5
+                  }
+              ],
+              "prerequisite": [
+                  {
+                      "period": 0,
+                      "id": 5
+                  }
+              ]
+          },
+          {
+              "name": "Metodologia da Pesquisa",
+              "workload": 30,
+              "period": 1,
+              "id": 6,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Meio Ambiente e Desenvolvimento Sustentável",
+              "workload": 30,
+              "period": 1,
+              "id": 7,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Ciência dos Materiais",
+              "workload": 60,
+              "period": 1,
+              "id": 8,
+              "unlock": [
+                  {
+                      "period": 5,
+                      "id": 3
+                  }
+              ],
+              "prerequisite": [
+                  {
+                      "period": 0,
+                      "id": 3
+                  }
+              ]
+          }
+      ],
+      [
+          {
+              "name": "Eletrônica Digital I",
+              "workload": 60,
+              "period": 2,
+              "id": 0,
+              "unlock": [
+                  {
+                      "period": 3,
+                      "id": 0
+                  }
+              ],
+              "prerequisite": [
+                  {
+                      "period": 1,
+                      "id": 0
+                  }
+              ]
+          },
+          {
+              "name": "Estatística Aplicada a Engenharia",
+              "workload": 90,
+              "period": 2,
+              "id": 1,
+              "unlock": [],
+              "prerequisite": [
+                  {
+                      "period": 0,
+                      "id": 5
+                  }
+              ]
+          },
+          {
+              "name": "Mecânica dos Sólidos",
+              "workload": 60,
+              "period": 2,
+              "id": 2,
+              "unlock": [
+                  {
+                      "period": 5,
+                      "id": 8
+                  },
+                  {
+                      "period": 4,
+                      "id": 7
+                  }
+              ],
+              "prerequisite": [
+                  {
+                      "period": 0,
+                      "id": 5
+                  },
+                  {
+                      "period": 1,
+                      "id": 1
+                  },
+                  {
+                      "period": 1,
+                      "id": 4
+                  }
+              ]
+          },
+          {
+              "name": "Física Experimental II",
+              "workload": 30,
+              "period": 2,
+              "id": 3,
+              "unlock": [],
+              "prerequisite": [
+                  {
+                      "period": 1,
+                      "id": 3
+                  }
+              ]
+          },
+          {
+              "name": "Física Geral II",
+              "workload": 60,
+              "period": 2,
+              "id": 4,
+              "unlock": [
+                  {
+                      "period": 3,
+                      "id": 3
+                  },
+                  {
+                      "period": 3,
+                      "id": 4
+                  }
+              ],
+              "prerequisite": [
+                  {
+                      "period": 0,
+                      "id": 5
+                  },
+                  {
+                      "period": 1,
+                      "id": 4
+                  }
+              ]
+          },
+          {
+              "name": "Cálculo III",
+              "workload": 60,
+              "period": 2,
+              "id": 5,
+              "unlock": [
+                  {
+                      "period": 3,
+                      "id": 5
+                  }
+              ],
+              "prerequisite": [
+                  {
+                      "period": 1,
+                      "id": 5
+                  }
+              ]
+          }
+      ],
+      [
+          {
+              "name": "Eletrônica Digital II",
+              "workload": 75,
+              "period": 3,
+              "id": 0,
+              "unlock": [
+                  {
+                      "period": 4,
+                      "id": 0
+                  }
+              ],
+              "prerequisite": [
+                  {
+                      "period": 2,
+                      "id": 0
+                  }
+              ]
+          },
+          {
+              "name": "Cálculo Numérico",
+              "workload": 60,
+              "period": 3,
+              "id": 1,
+              "unlock": [],
+              "prerequisite": [
+                  {
+                      "period": 1,
+                      "id": 0
+                  },
+                  {
+                      "period": 1,
+                      "id": 5
+                  }
+              ]
+          },
+          {
+              "name": "Circuitos Elétricos I",
+              "workload": 60,
+              "period": 3,
+              "id": 2,
+              "unlock": [
+                  {
+                      "period": 4,
+                      "id": 2
+                  }
+              ],
+              "prerequisite": []
+          },
+          {
+              "name": "Física Experimental III",
+              "workload": 30,
+              "period": 3,
+              "id": 3,
+              "unlock": [
+                  {
+                      "period": 4,
+                      "id": 3
+                  }
+              ],
+              "prerequisite": [
+                  {
+                      "period": 2,
+                      "id": 4
+                  }
+              ]
+          },
+          {
+              "name": "Física Geral III",
+              "workload": 60,
+              "period": 3,
+              "id": 4,
+              "unlock": [
+                  {
+                      "period": 6,
+                      "id": 5
+                  },
+                  {
+                      "period": 5,
+                      "id": 5
+                  },
+                  {
+                      "period": 5,
+                      "id": 3
+                  },
+                  {
+                      "period": 4,
+                      "id": 1
+                  },
+                  {
+                      "period": 4,
+                      "id": 4
+                  }
+              ],
+              "prerequisite": [
+                  {
+                      "period": 1,
+                      "id": 5
+                  },
+                  {
+                      "period": 2,
+                      "id": 4
+                  }
+              ]
+          },
+          {
+              "name": "Cálculo IV",
+              "workload": 60,
+              "period": 3,
+              "id": 5,
+              "unlock": [
+                  {
+                      "period": 4,
+                      "id": 5
+                  },
+                  {
+                      "period": 4,
+                      "id": 6
+                  }
+              ],
+              "prerequisite": [
+                  {
+                      "period": 2,
+                      "id": 5
+                  }
+              ]
+          }
+      ],
+      [
+          {
+              "name": "Microcontroladores e Microprocessadores",
+              "workload": 75,
+              "period": 4,
+              "id": 0,
+              "unlock": [
+                  {
+                      "period": 6,
+                      "id": 2
+                  }
+              ],
+              "prerequisite": [
+                  {
+                      "period": 3,
+                      "id": 0
+                  }
+              ]
+          },
+          {
+              "name": "Materiais e Dispositivos Semicondutores",
+              "workload": 60,
+              "period": 4,
+              "id": 1,
+              "unlock": [
+                  {
+                      "period": 5,
+                      "id": 0
+                  }
+              ],
+              "prerequisite": [
+                  {
+                      "period": 3,
+                      "id": 4
+                  }
+              ]
+          },
+          {
+              "name": "Circuitos Elétricos II",
+              "workload": 90,
+              "period": 4,
+              "id": 2,
+              "unlock": [
+                  {
+                      "period": 5,
+                      "id": 2
+                  }
+              ],
+              "prerequisite": [
+                  {
+                      "period": 3,
+                      "id": 2
+                  }
+              ]
+          },
+          {
+              "name": "Física Experimental IV",
+              "workload": 30,
+              "period": 4,
+              "id": 3,
+              "unlock": [],
+              "prerequisite": [
+                  {
+                      "period": 3,
+                      "id": 3
+                  }
+              ]
+          },
+          {
+              "name": "Física Geral IV",
+              "workload": 60,
+              "period": 4,
+              "id": 4,
+              "unlock": [
+                  {
+                      "period": 5,
+                      "id": 4
+                  }
+              ],
+              "prerequisite": [
+                  {
+                      "period": 3,
+                      "id": 4
+                  }
+              ]
+          },
+          {
+              "name": "Métodos Matemáticos",
+              "workload": 60,
+              "period": 4,
+              "id": 5,
+              "unlock": [
+                  {
+                      "period": 5,
+                      "id": 6
+                  }
+              ],
+              "prerequisite": [
+                  {
+                      "period": 3,
+                      "id": 5
+                  }
+              ]
+          },
+          {
+              "name": "Análise de Sinais e Sistemas",
+              "workload": 60,
+              "period": 4,
+              "id": 6,
+              "unlock": [
+                  {
+                      "period": 6,
+                      "id": 4
+                  },
+                  {
+                      "period": 5,
+                      "id": 6
+                  }
+              ],
+              "prerequisite": [
+                  {
+                      "period": 3,
+                      "id": 5
+                  }   
+              ]
+          },
+          {
+              "name": "Fenômenos de Transporte",
+              "workload": 60,
+              "period": 4,
+              "id": 7,
+              "unlock": [],
+              "prerequisite": [
+                  {
+                      "period": 1,
+                      "id": 4
+                  },
+                  {
+                      "period": 1,
+                      "id": 5
+                  },
+                  {
+                      "period": 2,
+                      "id": 2
+                  }
+              ]
+          }
+      ],
+      [
+          {
+              "name": "Eletrônica analógica", 
+              "workload": 60, 
+              "period": 5,
+              "id": 0,
+              "unlock": [
+                  {
+                      "period": 7,
+                      "id": 0
+                  },
+                  {
+                      "period": 6,
+                      "id": 0
+                  }
+              ],
+              "prerequisite": [
+                  {
+                      "period": 4,
+                      "id": 1
+                  }
+              ]
+          },
+          {
+              "name": "Laboratório de eletrônica analógica", 
+              "workload": 30, 
+              "period": 5,
+              "id": 1,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Circuitos elétricos III", 
+              "workload": 60, 
+              "period": 5,
+              "id": 2,
+              "unlock": [
+                  {
+                      "period": 6,
+                      "id": 5
+                  },
+                  {
+                      "period": 6,
+                      "id": 3
+                  }
+              ],
+              "prerequisite": [
+                  {
+                      "period": 4,
+                      "id": 2
+                  }
+              ]
+          },
+          {
+              "name": "Materiais elétricos", 
+              "workload": 60, 
+              "period": 5,
+              "id": 3,
+              "unlock": [
+                  {
+                      "period": 7,
+                      "id": 1
+                  }
+              ],
+              "prerequisite": [
+                  {
+                      "period": 1,
+                      "id": 8
+                  },
+                  {
+                      "period": 3,
+                      "id": 4
+                  }
+              ]
+          },
+          {
+              "name": "Eletromagnetismo", 
+              "workload": 60, 
+              "period": 5,
+              "id": 4,
+              "unlock": [],
+              "prerequisite": [
+                  {
+                      "period": 4,
+                      "id": 4
+                  }
+              ]
+          },
+          {
+              "name": "Conversão eletromecânica", 
+              "workload": 60, 
+              "period": 5,
+              "id": 5,
+              "unlock": [
+                  {
+                      "period": 7,
+                      "id": 3
+                  }
+              ],
+              "prerequisite": [
+                  {
+                      "period": 3,
+                      "id": 4
+                  }
+              ]
+          },
+          {
+              "name": "Controle I", 
+              "workload": 60, 
+              "period": 5,
+              "id": 6,
+              "unlock": [
+                  {
+                      "period": 6,
+                      "id": 7
+                  }
+              ],
+              "prerequisite": [
+                  {
+                      "period": 4,
+                      "id": 5
+                  },
+                  {
+                      "period": 4,
+                      "id": 6
+                  }
+              ]
+          },
+          {
+              "name": "Laboratório de controle I", 
+              "workload": 30, 
+              "period": 5,
+              "id": 7,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Resistência dos materiais", 
+              "workload": 60, 
+              "period": 5,
+              "id": 8,
+              "unlock": [],
+              "prerequisite": [
+                  {
+                      "period": 2,
+                      "id": 2
+                  }
+              ]
+          }
+      ],
+      [
+          {
+              "name": "Eletrônica industrial",
+              "workload": 60,
+              "period": 6,
+              "id": 0,
+              "unlock": [],
+              "prerequisite": [
+                  {
+                      "period": 5,
+                      "id": 0
+                  }
+              ]
+          },
+          {
+              "name": "Lab. Eletrônica industrial",
+              "workload": 30,
+              "period": 6,
+              "id": 1,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Redes de computadores",
+              "workload": 60,
+              "period": 6,
+              "id": 2,
+              "unlock": [
+                  {
+                      "period": 7,
+                      "id": 2
+                  }
+              ],
+              "prerequisite": [
+                  {
+                      "period": 4,
+                      "id": 0
+                  }
+              ]
+          },
+          {
+              "name": "Sistemas elétricos I",
+              "workload": 60,
+              "period": 6,
+              "id": 3,
+              "unlock": [],
+              "prerequisite": [
+                  {
+                      "period": 5,
+                      "id": 2
+                  }
+              ]
+          },
+          {
+              "name": "Princípios de comunicação",
+              "workload": 60,
+              "period": 6,
+              "id": 4,
+              "unlock": [],
+              "prerequisite": [
+                  {
+                      "period": 4,
+                      "id": 6
+                  }
+              ]
+          },
+          {
+              "name": "Medidas eletromagnéticas",
+              "workload": 90,
+              "period": 6,
+              "id": 5,
+              "unlock": [],
+              "prerequisite": [
+                  {
+                      "period": 3,
+                      "id": 4
+                  },
+                  {
+                      "period": 5,
+                      "id": 2
+                  }
+              ]
+          },
+          {
+              "name": "Higiene e segurança do trabalho",
+              "workload": 45,
+              "period": 6,
+              "id": 6,
+              "unlock": [
+                  {
+                      "period": 8,
+                      "id": 0
+                  },
+                  {
+                      "period": 8,
+                      "id": 3
+                  }
+              ],
+              "prerequisite": []
+          },
+          {
+              "name": "Controle II",
+              "workload": 60,
+              "period": 6,
+              "id": 7,
+              "unlock": [],
+              "prerequisite": [
+                  {
+                      "period": 5,
+                      "id": 6
+                  }
+              ]
+          },
+          {
+              "name": "Lab. Controle II",
+              "workload": 30,
+              "period": 6,
+              "id": 8,
+              "unlock": [],
+              "prerequisite": []
+          }
+      ],
+      [
+          {
+              "name": "Instrumentação eletrônica",
+              "workload": 60,
+              "period": 7,
+              "id": 0,
+              "unlock": [
+                  {
+                      "period": 8,
+                      "id": 0
+                  }
+              ],
+              "prerequisite": [
+                  {
+                      "period": 5,
+                      "id": 0
+                  }
+              ]
+          },
+          {
+              "name": "Instalações elétricas",
+              "workload": 60,
+              "period": 7,
+              "id": 1,
+              "unlock": [],
+              "prerequisite": [
+                  {
+                      "period": 5,
+                      "id": 3
+                  }
+              ]
+          },
+          {
+              "name": "Sistemas elétricos II",
+              "workload": 90,
+              "period": 7,
+              "id": 2,
+              "unlock": [
+                  {
+                      "period": 8,
+                      "id": 2
+                  }
+              ],
+              "prerequisite": [
+                  {
+                      "period": 6,
+                      "id": 2
+                  }
+              ]
+          },
+          {
+              "name": "Máquinas elétricas",
+              "workload": 60,
+              "period": 7,
+              "id": 3,
+              "unlock": [
+                  {
+                      "period": 8,
+                      "id": 3
+                  }
+              ],
+              "prerequisite": [
+                  {
+                      "period": 5,
+                      "id": 5
+                  }
+              ]
+          },
+          {
+              "name": "Lab. Máquinas elétricas",
+              "workload": 30,
+              "period": 7,
+              "id": 4,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Administração",
+              "workload": 30,
+              "period": 7,
+              "id": 5,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Engenharia Econômica",
+              "workload": 60,
+              "period": 7,
+              "id": 6,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Núcleo temático I",
+              "workload": 60,
+              "period": 7,
+              "id": 7,
+              "unlock": [
+                  {
+                      "period": 8,
+                      "id": 6
+                  }
+              ],
+              "prerequisite": []
+          }
+      ],
+      [
+          {
+              "name": "Automação industrial", 
+              "workload": 90, 
+              "period": 8,
+              "id": 0,
+              "unlock": [],
+              "prerequisite": [
+                  {
+                      "period": 6,
+                      "id": 6
+                  },
+                  {
+                      "period": 7,
+                      "id": 0
+                  }
+              ]
+          },
+          {
+              "name": "Optativa I", 
+              "workload": 60, 
+              "period": 8,
+              "id": 1,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Geração transmissão e distribuição", 
+              "workload": 60, 
+              "period": 8,
+              "id": 2,
+              "unlock": [],
+              "prerequisite": [
+                  {
+                      "period": 7,
+                      "id": 2
+                  }
+              ]
+          },
+          {
+              "name": "Acionamentos elétricos", 
+              "workload": 60, 
+              "period": 8,
+              "id": 3,
+              "unlock": [],
+              "prerequisite": [
+                  {
+                      "period": 6,
+                      "id": 6
+                  },
+                  {
+                      "period": 7,
+                      "id": 3 
+                  }
+              ]
+          },
+          {
+              "name": "Aspectos legais em engenharia", 
+              "workload": 30, 
+              "period": 8,
+              "id": 4,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "TCC", 
+              "workload": 60, 
+              "period": 8,
+              "id": 5,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Núcleo temático II", 
+              "workload": 60, 
+              "period": 8,
+              "id": 6,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Eletiva I",
+              "workload": 90,
+              "period": 8,
+              "id": 7,
+              "unlock": [],
+              "prerequisite": []
+          }
+      ],
+      [
+          {
+              "name": "Estágio supervionado", 
+              "workload": 240, 
+              "period": 9,
+              "id": 0,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Optativa II", 
+              "workload": 60, 
+              "period": 9,
+              "id": 1,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Eletiva II", 
+              "workload": 60, 
+              "period": 9,
+              "id": 2,
+              "unlock": [],
+              "prerequisite": []
+          }
+      ]
     ]
-  ]
-}
+  }

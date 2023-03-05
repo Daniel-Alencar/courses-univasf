@@ -16,7 +16,7 @@ function countWorkTime(course) {
         })
     })
 
-    console.log(workTime);
+    console.log(`Carga horária de ${course.name}: ${workTime} horas`);
 
     return workTime;
 }

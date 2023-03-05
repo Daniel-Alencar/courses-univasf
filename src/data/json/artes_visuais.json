@@ -188,7 +188,7 @@
                 "prerequisite": []
             },
             {
-                "name": "Laboratório de práticas artistico/educativas I", 
+                "name": "Lab. de práticas artistico/educativas I", 
                 "workload": 60, 
                 "period": 4,
                 "id": 2,
@@ -219,7 +219,7 @@
         ],
         [
             {
-                "name": "Laboratório criativo", 
+                "name": "Laboratório criativo ", 
                 "workload": 60, 
                 "period": 5,
                 "id": 0,
@@ -227,7 +227,7 @@
                 "prerequisite": []
             },
             {
-                "name": "Laboratório criativo", 
+                "name": "Laboratório criativo  ", 
                 "workload": 60, 
                 "period": 5,
                 "id": 1,
@@ -235,7 +235,7 @@
                 "prerequisite": []
             },
             {
-                "name": "Laboratório de práticas artistico/educativas II", 
+                "name": "Lab. de práticas artistico/educativas II", 
                 "workload": 60, 
                 "period": 5,
                 "id": 2,
@@ -271,7 +271,7 @@
         ],
         [
             {
-                "name": "Laboratório criativo", 
+                "name": "Laboratório criativo   ", 
                 "workload": 60, 
                 "period": 6,
                 "id": 0,
@@ -279,7 +279,7 @@
                 "prerequisite": []
             },
             {
-                "name": "Laboratório criativo", 
+                "name": "Laboratório criativo    ", 
                 "workload": 60, 
                 "period": 6,
                 "id": 1,
@@ -287,7 +287,7 @@
                 "prerequisite": []
             },
             {
-                "name": "Laboratório de práticas artistico/educativas III", 
+                "name": "Lab. de práticas artistico/educativas III", 
                 "workload": 60, 
                 "period": 6,
                 "id": 2,
@@ -323,7 +323,7 @@
         ],
         [
             {
-                "name": "Laboratório criativo", 
+                "name": "Laboratório criativo     ", 
                 "workload": 60, 
                 "period": 7,
                 "id": 0,
@@ -331,7 +331,7 @@
                 "prerequisite": []
             },
             {
-                "name": "Laboratório criativo", 
+                "name": "Laboratório criativo      ", 
                 "workload": 60, 
                 "period": 7,
                 "id": 1,
@@ -370,7 +370,7 @@
         ],
         [
             {
-                "name": "Laboratório criativo", 
+                "name": "Laboratório criativo       ", 
                 "workload": 60, 
                 "period": 8,
                 "id": 0,
@@ -378,7 +378,7 @@
                 "prerequisite": []
             },
             {
-                "name": "Laboratório criativo", 
+                "name": "Laboratório criativo        ", 
                 "workload": 60, 
                 "period": 8,
                 "id": 1,
@@ -417,7 +417,7 @@
         ],
         [
             {
-                "name": "Eletiva", 
+                "name": "Eletiva I", 
                 "workload": 60, 
                 "period": 9,
                 "id": 0,
@@ -425,7 +425,7 @@
                 "prerequisite": []
             },
             {
-                "name": "Eletiva", 
+                "name": "Eletiva II", 
                 "workload": 60, 
                 "period": 9,
                 "id": 1,

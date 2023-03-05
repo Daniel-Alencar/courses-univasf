@@ -356,6 +356,10 @@
                     {
                         "period": 4,
                         "id": 6
+                    },
+                    {
+                        "period": 4,
+                        "id": 4
                     }
                 ],
                 "prerequisite": [

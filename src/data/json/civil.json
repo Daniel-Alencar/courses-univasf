@@ -466,7 +466,7 @@
                     },
                     {
                         "period": 7,
-                        "id": 7
+                        "id": 0
                     }
                 ],
                 "prerequisite": [
@@ -745,7 +745,7 @@
                 "name": "Instalações elétricas prediais", 
                 "workload": 60, 
                 "period": 5,
-                "id": 0,
+                "id": 5,
                 "unlock": [],
                 "prerequisite": [
                     {
@@ -1023,19 +1023,6 @@
                 "id": 6,
                 "unlock": [],
                 "prerequisite": []
-            },
-            {
-                "name": "Mecânica dos solos II", 
-                "workload": 45, 
-                "period": 7,
-                "id": 7,
-                "unlock": [],
-                "prerequisite": [
-                    {
-                        "period": 3, 
-                        "id": 5
-                    }
-                ]
             }
         ],
         [

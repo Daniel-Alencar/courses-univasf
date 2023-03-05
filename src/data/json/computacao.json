@@ -1103,8 +1103,8 @@
             {
                 "name": "Aspectos legais para computação", 
                 "workload": 60,
-                "period": 5,
-                "id": 5,
+                "period": 7,
+                "id": 6,
                 "unlock": [],
                 "prerequisite": []
             }
