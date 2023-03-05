@@ -5,7 +5,8 @@ import eletrica from './json/eletrica.json';
 import mecanica from './json/mecanica.json';
 import producao from './json/producao.json';
 
-import artes from './json/artes_visuais.json';
+import artes_visuais from './json/artes_visuais.json';
+import ciencias_sociais from './json/ciencias_sociais.json';
 
 function countWorkTime(course) {
     let workTime = 0;
@@ -59,10 +60,16 @@ const courses = {
         workTime: countWorkTime(producao)
     },  
     7: {
-        name: artes.name,
-        semesters: artes.semesters, 
-        components: artes.components, 
-        workTime: countWorkTime(artes)
+        name: artes_visuais.name,
+        semesters: artes_visuais.semesters, 
+        components: artes_visuais.components, 
+        workTime: countWorkTime(artes_visuais)
+    },
+    8: {
+        name: ciencias_sociais.name,
+        semesters: ciencias_sociais.semesters, 
+        components: ciencias_sociais.components, 
+        workTime: countWorkTime(ciencias_sociais)
     }
 }
 

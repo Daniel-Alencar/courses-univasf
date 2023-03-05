@@ -22,6 +22,8 @@ import { AiFillThunderbolt } from "react-icons/ai";
 
 import { FaPaintBrush } from "react-icons/fa";
 
+import { BsPeopleFill } from "react-icons/bs";
+
 import { ContainerGrid } from "./styles";
 import { ContainerBody } from "./styles";
 
@@ -110,6 +112,16 @@ function Courses({paletteType, setPaletteType}) {
                         onClick={() => history.push('/course/7')}
                     >
                         Artes visuais
+                    </Button>
+
+                    <Button
+                        startIcon={<BsPeopleFill />} 
+                        className={classes.button} 
+                        color="primary" 
+                        variant="contained"
+                        onClick={() => history.push('/course/8')}
+                    >
+                        Ciências sociais
                     </Button>
 
                 </ContainerGrid>

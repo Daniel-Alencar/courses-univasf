@@ -1,0 +1,517 @@
+{
+    "name": "Bacharelado em Ciências sociais", 
+    "semesters": 8,
+    "components": [
+        [
+            {
+                "name": "Introdução aos Trabalhos científicos", 
+                "workload": 60, 
+                "period": 0,
+                "id": 0,
+                "unlock": [
+                    {
+                        "period": 2,
+                        "id": 0
+                    }
+                ],
+                "prerequisite": []
+            },
+            {
+                "name": "Introdução à Filosofia",
+                "workload": 60, 
+                "period": 0,
+                "id": 1,
+                "unlock": [
+                    {
+                    "period": 1,
+                    "id": 1
+                }
+                ],
+                "prerequisite": []
+            },
+            {
+                "name": "Teoria Antropológica I", 
+                "workload": 60, 
+                "period": 0,
+                "id": 2,
+                "unlock": [
+                    {
+                        "period": 1,
+                        "id": 2
+                    }
+                ],
+                "prerequisite": []
+            },
+            {
+                "name": "Teoria Sociológica I", 
+                "workload": 60, 
+                "period": 0,
+                "id": 3,
+                "unlock": [
+                    {
+                        "period": 1,
+                        "id": 3
+                    }
+                ],
+                "prerequisite": []
+            },
+            {
+                "name": "Teoria Política I", 
+                "workload": 60, 
+                "period": 0,
+                "id": 4,
+                "unlock": [
+                    {
+                        "period": 1,
+                        "id": 4
+                    }
+                ],
+                "prerequisite": []
+            }
+        ],
+        [
+            {
+                "name": "Organização Política do Brasil", 
+                "workload": 60, 
+                "period": 1,
+                "id": 0,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Filosofia Moderna", 
+                "workload": 60, 
+                "period": 1,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Teoria Antropológica II", 
+                "workload": 60, 
+                "period": 1,
+                "id": 2,
+                "unlock": [
+                    {
+                        "period": 2,
+                        "id": 2
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "name": "Teoria Sociológica II", 
+                "workload": 60, 
+                "period": 1,
+                "id": 3,
+                "unlock": [
+                    {
+                        "period": 2,
+                        "id": 3
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "name": "Teoria Política II", 
+                "workload": 60, 
+                "period": 1,
+                "id": 4,
+                "unlock": [
+                    {
+                        "period": 2,
+                        "id": 4
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 4
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "name": "Epistemologia das Ciências sociais", 
+                "workload": 60, 
+                "period": 2,
+                "id": 0,
+                "unlock": [
+                    {
+                        "period": 3,
+                        "id": 0
+                    },
+                    {
+                        "period": 4,
+                        "id": 0
+                    },
+                    {
+                        "period": 4,
+                        "id": 1
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 0,
+                        "id": 0
+                    }
+                ]
+            },
+            {
+                "name": "História do Brasil escravista", 
+                "workload": 60, 
+                "period": 2,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Teoria Antropológica III", 
+                "workload": 60, 
+                "period": 2,
+                "id": 2,
+                "unlock": [
+                    {
+                        "period": 3,
+                        "id": 2
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "name": "Teoria Sociológica III", 
+                "workload": 60, 
+                "period": 2,
+                "id": 3,
+                "unlock": [
+                    {
+                        "period": 3,
+                        "id": 3
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "name": "Teoria Política III", 
+                "workload": 60, 
+                "period": 2,
+                "id": 4,
+                "unlock": [
+                    {
+                        "period": 3,
+                        "id": 4
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 1,
+                        "id": 4
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "name": "Métodos qualitativos e Etnografia", 
+                "workload": 60, 
+                "period": 3,
+                "id": 0,
+                "unlock": [
+                    {
+                        "period": 5,
+                        "id": 0
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 0
+                    }
+                ]
+            },
+            {
+                "name": "História do Brasil contemporâneo", 
+                "workload": 60, 
+                "period": 3,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Teoria Antropológica IV", 
+                "workload": 60, 
+                "period": 3,
+                "id": 2,
+                "unlock": [
+                    {
+                        "period": 4,
+                        "id": 2
+                    },
+                    {
+                        "period": 5,
+                        "id": 2
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "name": "Teoria Sociológica IV", 
+                "workload": 60, 
+                "period": 3,
+                "id": 3,
+                "unlock": [
+                    {
+                        "period": 4,
+                        "id": 3
+                    },
+                    {
+                        "period": 5,
+                        "id": 3
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "name": "Teoria Política IV", 
+                "workload": 60, 
+                "period": 3,
+                "id": 4,
+                "unlock": [
+                    {
+                        "period": 4,
+                        "id": 4
+                    },
+                    {
+                        "period": 5,
+                        "id": 5
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 2,
+                        "id": 4
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "name": "Métodos quantitativos e Estatística", 
+                "workload": 60, 
+                "period": 4,
+                "id": 0,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Metodologia de projetos de Intervenção social", 
+                "workload": 60, 
+                "period": 4,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Pensamento antropológico no Brasil", 
+                "workload": 60, 
+                "period": 4,
+                "id": 2,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Pensamento sociológico no Brasil", 
+                "workload": 60, 
+                "period": 4,
+                "id": 3,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Pensamento político no Brasil", 
+                "workload": 60, 
+                "period": 4,
+                "id": 4,
+                "unlock": [],
+                "prerequisite": []
+            }
+        ],
+        [
+            {
+                "name": "Projeto de monografia", 
+                "workload": 60, 
+                "period": 5,
+                "id": 0,
+                "unlock": [
+                    {
+                        "period": 6,
+                        "id": 0
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 4,
+                        "id": 0
+                    },
+                    {
+                        "period": 3,
+                        "id": 0
+                    }
+                ]
+            },
+            {
+                "name": "Optativa I", 
+                "workload": 60, 
+                "period": 5,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Teoria Antropológica V", 
+                "workload": 60, 
+                "period": 5,
+                "id": 2,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 3,
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "name": "Teoria Sociológica V", 
+                "workload": 60, 
+                "period": 5,
+                "id": 3,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 3,
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "name": "Teoria Política V", 
+                "workload": 60, 
+                "period": 5,
+                "id": 4,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 3,
+                        "id": 4
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "name": "Seminário de TCC I", 
+                "workload": 60, 
+                "period": 6,
+                "id": 0,
+                "unlock": [
+                    {
+                        "period": 7,
+                        "id": 0
+                    }
+                ],
+                "prerequisite": [
+                    {
+                        "period": 5,
+                        "id": 0   
+                    }
+                ]
+            },
+            {
+                "name": "Núcleo temático", 
+                "workload": 60, 
+                "period": 6,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Optativa II", 
+                "workload": 60, 
+                "period": 6,
+                "id": 2,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Eletiva I", 
+                "workload": 60, 
+                "period": 6,
+                "id": 3,
+                "unlock": [],
+                "prerequisite": []
+            }
+        ],
+        [
+            {
+                "name": "Seminário de TCC II", 
+                "workload": 60, 
+                "period": 7,
+                "id": 0,
+                "unlock": [],
+                "prerequisite": [
+                    {
+                        "period": 6,
+                        "id": 0
+                    }
+                ]
+            },
+            {
+                "name": "Optativa III", 
+                "workload": 60, 
+                "period": 7,
+                "id": 1,
+                "unlock": [],
+                "prerequisite": []
+            },
+            {
+                "name": "Eletiva II", 
+                "workload": 60, 
+                "period": 7,
+                "id": 2,
+                "unlock": [],
+                "prerequisite": []
+            }
+        ]
+    ]
+}
