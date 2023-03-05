@@ -61,7 +61,7 @@ function Courses({paletteType, setPaletteType}) {
                         variant="contained"
                         onClick={() => history.push('/course/2')}
                     >
-                        Engenharia civil
+                        Engenharia Civil
                     </Button>
 
                     <Button 
@@ -91,7 +91,7 @@ function Courses({paletteType, setPaletteType}) {
                         variant="contained"
                         onClick={() => history.push('/course/5')}
                     >
-                        Engenharia mecânica
+                        Engenharia Mecânica
                     </Button>
 
                     <Button
@@ -111,7 +111,7 @@ function Courses({paletteType, setPaletteType}) {
                         variant="contained"
                         onClick={() => history.push('/course/7')}
                     >
-                        Artes visuais
+                        Artes Visuais
                     </Button>
 
                     <Button
@@ -121,7 +121,7 @@ function Courses({paletteType, setPaletteType}) {
                         variant="contained"
                         onClick={() => history.push('/course/8')}
                     >
-                        Ciências sociais
+                        Ciências Sociais
                     </Button>
 
                 </ContainerGrid>
