@@ -108,7 +108,10 @@ export default function Author(props) {
             <Typography 
                 className={classes.paragraph}
                 variant='body2'  
-            > 
+            >
+                
+                <strong>{props.name}</strong>
+                <br/>
                 {props.description} 
             </Typography>
         </div>

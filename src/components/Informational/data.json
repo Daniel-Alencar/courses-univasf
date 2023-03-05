@@ -1,3 +1,8 @@
 {
-    "aboutTheProject": "Esse projeto foi criado com objetivo de mostrar dinamicamente as relações entre componentes curriculares do cursos da UNIVASF usando conceitos de Algoritmos aplicados em Teoria dos Grafos. Todas as suas alterações ficam salvas no histórico do navegador. Através desse projeto você pode ter uma visão mais clara de quais disciplinas foram finalizadas e quais estão desbloqueadas ou não para realizar a sua matrícula."
+    "aboutTheProject": "Esse projeto foi criado com objetivo de mostrar dinamicamente as relações entre componentes curriculares do cursos da UNIVASF usando conceitos de Algoritmos aplicados em Teoria dos Grafos. Todas as suas alterações ficam salvas no histórico do navegador. Através desse projeto você pode ter uma visão mais clara de quais disciplinas foram finalizadas e quais estão desbloqueadas ou não para realizar a sua matrícula.",
+    "contactMessage": "Qualquer sugestão, elogio ou pedido de correção, mandar e-mail para:",
+    "emails": [
+        "maic.santos@discente.univasf.edu.br",
+        "daniel.apcarvalho@discente.univasf.edu.br"
+    ]
 }

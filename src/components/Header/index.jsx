@@ -89,6 +89,7 @@ export default function Header( {paletteType, setPaletteType, title, children} )
                 <Link className={classes.links} href='/courses' > Cursos </Link>    
                 <Link className={classes.links} href='/docs' > Documentação </Link>
                 <Link className={classes.links} href='/about' > Sobre </Link>
+                <Link className={classes.links} href='https://github.com/Daniel-Alencar/courses-univasf' > GitHub </Link>
                 
                 <Tooltip title={!paletteType? 'Tema claro' : 'Tema escuro' }>
                     <IconButton onClick={() => setPaletteType(!paletteType)} color='primary' >

@@ -44,13 +44,26 @@ export default function Informational() {
     return (
         <div className={classes.root} >
             <Typography variant='h5' className={classes.heading} >
-                 Sobre o Projeto 
+                Sobre o Projeto 
             </Typography>
             <Typography variant='body2' className={classes.paragraph} >
-                 {data.aboutTheProject} 
+                {data.aboutTheProject}
+            </Typography>
+            <Typography variant='body2' className={classes.paragraph} >
+                {data.contactMessage}
+                <br/>
+                <ul>
+                    {
+                        data.emails.map(email => {
+                            return (
+                                <li>{email}</li>
+                            )
+                        })
+                    }
+                </ul>
             </Typography>
             <Typography variant='h5' className={classes.heading} >
-                 Sobre os  autores 
+                Sobre os  autores 
             </Typography>
             
             {
