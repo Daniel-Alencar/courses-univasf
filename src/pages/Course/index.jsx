@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Redirect, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import makeStyles  from '@material-ui/styles/makeStyles';
 import LinearProgressWithLabel from '../../components/Progress';
 import Header from '../../components/Header';

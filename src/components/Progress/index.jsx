@@ -9,8 +9,6 @@ import Tooltip  from '@material-ui/core/Tooltip'
 
 import LoopIcon from '@material-ui/icons/Loop';
 
-import { Redirect, useHistory, useParams } from 'react-router-dom';
-
 const useStyles = makeStyles((theme) => {
 
   return {
