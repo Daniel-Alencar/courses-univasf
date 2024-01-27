@@ -14,8 +14,7 @@ const useStyles = makeStyles((theme) => {
   return {
     divContainer: {
       width: "100vw",
-      position: "fixed",
-      top: "64px",
+      position: 'static',
 
       display: "flex",
       flexDirection: "column",
@@ -23,7 +22,6 @@ const useStyles = makeStyles((theme) => {
       backgroundColor: theme.palette.background.default,
 
       height: 35,
-      zIndex: 1000
     },
 
     container: {

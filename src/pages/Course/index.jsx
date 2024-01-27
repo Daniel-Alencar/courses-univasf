@@ -51,7 +51,7 @@ export default function Course({paletteType, setPaletteType}) {
         const { workTime, components } = course; 
         let timeWorked = getTimeWorked(components, succeed);
         
-        console.log(`Horas concluídas: ${timeWorked}`);
+        // console.log(`Horas concluídas: ${timeWorked}`);
 
         const updateProgressNumber = Math.ceil(timeWorked * 100.0 / workTime); 
         localStorage.setItem(`progress:${id}`, updateProgressNumber);
@@ -73,7 +73,11 @@ export default function Course({paletteType, setPaletteType}) {
                 title={courseName}
             >
             </Header>
-            <LinearProgressWithLabel resetFunction={resetProgress} value={progress} id={id} />
+            <LinearProgressWithLabel 
+                resetFunction={resetProgress} 
+                value={progress} 
+                id={id} 
+            />
             <ContainerGrid> 
                 <Grid 
                     id={id} 

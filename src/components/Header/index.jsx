@@ -46,7 +46,7 @@ export default function Header( {paletteType, setPaletteType, title, children} )
     const classes = useStyles(); 
 
     return (
-        <AppBar className={classes.AppBar} elevation={0} >
+        <div className={classes.AppBar} elevation={0} >
             <Toolbar>
 
                 <div href='/' style={{
@@ -98,6 +98,6 @@ export default function Header( {paletteType, setPaletteType, title, children} )
                 </Tooltip>
             </Toolbar>
             {children}
-        </AppBar>
+        </div>
     )
 }

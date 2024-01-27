@@ -139,21 +139,21 @@ export default function Grid({id, course, updateProgress, progress}) {
                     className='containerCourses'   
                     key={period} 
                 >
-                <Paper
-                    className={classes.titleColumn}
-                    elevation={1}
-                > 
-                    <Button 
-                        variant='text' 
-                        fullWidth 
-                        className={classes.period} 
-                        onClick={() => handleSemester(period)}
-                    >
-                        <Typography variant='inherit' color='textSecondary' >
-                            {`${period+1}º Semestre `}
-                        </Typography>
-                    </Button>
-                </Paper>
+                    <Paper
+                        className={classes.titleColumn}
+                        elevation={1}
+                    > 
+                        <Button 
+                            variant='text' 
+                            fullWidth 
+                            className={classes.period} 
+                            onClick={() => handleSemester(period)}
+                        >
+                            <Typography variant='inherit' color='textSecondary' >
+                                {`${period+1}º Semestre `}
+                            </Typography>
+                        </Button>
+                    </Paper>
                     {semester.map((course) => 
                         <Course 
                             key={course.name}
