@@ -9,6 +9,7 @@ import IconButton from '@material-ui/core/IconButton'
 import Link from '@material-ui/core/Link'
 import Brightness7Icon from '@material-ui/icons/Brightness7'
 import Brightness4Icon from '@material-ui/icons/Brightness4'
+import BasicMenu from '../NavigationMenu/index'
 
 import logoLight from '../../assets/img/univasf_light.png'
 import logoDark from '../../assets/img/univasf_dark.png'
@@ -31,10 +32,15 @@ const useStyles = makeStyles((theme) => {
         },
         avatar: {
             margin: theme.spacing(2), 
-        }, 
-
+        },
+        Toolbar : {
+            paddingTop: 16,
+        },
         links: {
-            margin: theme.spacing(1,1)
+            margin: theme.spacing(1,1),
+            '@media(max-width: 680px)' : {
+                display: 'none'
+            }
         }
     }
 })
@@ -47,13 +53,19 @@ export default function Header( {paletteType, setPaletteType, title, children} )
 
     return (
         <AppBar className={classes.AppBar} elevation={0} >
-            <Toolbar>
+            <Toolbar className={classes.Toolbar}>
 
                 <div href='/' style={{
                     textDecoration: 'none',
 
                     display: 'flex',
                     flexGrow: 1,
+                    '@media(max-width: 680px)' : {
+                        justifyContent: 'space-around',
+                        paddingRight: 5,
+                        gap: 5,
+                        width: 'min-content',fontSize: 'meddium',
+                    }
                 }}>
                     <Link href='/' style={{
                         textDecoration: 'none',
@@ -62,7 +74,8 @@ export default function Header( {paletteType, setPaletteType, title, children} )
                         alignItems: 'center',
 
                         marginLeft: 0,
-                        lineHeight: 1
+                        lineHeight: 1,
+                        gap: 5,
                     }}>
                         <img src={paletteType? logoLight : logoDark } className={classes.img} alt='logo'/>
                         <Typography 
@@ -96,6 +109,8 @@ export default function Header( {paletteType, setPaletteType, title, children} )
                         { paletteType?  <Brightness4Icon /> : <Brightness7Icon /> }
                     </IconButton>
                 </Tooltip>
+
+                <BasicMenu className={classes.BasicMenu}/>
             </Toolbar>
             {children}
         </AppBar>
