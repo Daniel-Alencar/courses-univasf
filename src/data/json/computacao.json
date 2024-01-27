@@ -634,7 +634,7 @@
                 ]
             },
             {
-                "name": "Ciência de Tecnologia dos Materiais", 
+                "name": "Ciência e Tecnologia dos Materiais", 
                 "workload": 60,
                 "period": 4,
                 "id": 1,
@@ -670,10 +670,6 @@
                 "period": 4,
                 "id": 3,
                 "unlock": [
-                    {
-                        "period": 5,
-                        "id": 2
-                    },
                     {
                         "period": 5,
                         "id": 3
@@ -794,10 +790,6 @@
                     {
                         "period": 4,
                         "id": 2
-                    },
-                    {
-                        "period": 4,
-                        "id": 3
                     }
                 ]
             },
@@ -880,10 +872,6 @@
                     {
                         "period": 4,
                         "id": 6
-                    },
-                    {
-                        "period": 4,
-                        "id": 7
                     }
                 ]
             },
