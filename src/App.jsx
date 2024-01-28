@@ -1,9 +1,10 @@
 import React, {useState, useEffect} from 'react'
 
 import {createTheme, ThemeProvider} from '@material-ui/core'
-import CssBaseline from '@material-ui/core/CssBaseline';
 
 import Routes from './Routes';
+
+import CssBaseline from '@material-ui/core/CssBaseline';
 
 function App() {
 

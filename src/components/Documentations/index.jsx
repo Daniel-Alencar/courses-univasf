@@ -24,7 +24,8 @@ const useStyles = makeStyles((theme) => {
             marginButton: theme.spacing(2),
             display: 'flex',
             justifyContent: 'flex-start',
-            alignItems: 'flex-start' 
+            alignItems: 'flex-start', 
+            flexWrap: 'wrap',
         },
         heading: {
             marginTop: theme.spacing(3),

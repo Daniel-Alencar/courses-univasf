@@ -8,8 +8,6 @@ import Footer from '../../components/Footer'
 import { ContainerGrid } from './styles';
 import { useHistory } from "react-router";
 
-
-
 import courses from '../../data'; 
 import { getTimeWorked, recoverProgress } from '../../services';
 
@@ -39,20 +37,16 @@ export default function Course({paletteType, setPaletteType}) {
     const classes = useStyles(id);
     const [course, setCourse] = useState(courses[id]); 
     const [progress, setProgress] = useState(recoverProgress(id));
-    const { name: courseName } = course;  
-
+    const { name: courseName } = course;
     
     useEffect(() => {
         setCourse(courses[id]); 
     }, [id])
 
-
     const updateProgress = (succeed) => {
         const { workTime, components } = course; 
         let timeWorked = getTimeWorked(components, succeed);
         
-        // console.log(`Horas concluídas: ${timeWorked}`);
-
         const updateProgressNumber = Math.ceil(timeWorked * 100.0 / workTime); 
         localStorage.setItem(`progress:${id}`, updateProgressNumber);
         setProgress(updateProgressNumber)
@@ -86,7 +80,10 @@ export default function Course({paletteType, setPaletteType}) {
                     progress={progress}
                 />
             </ContainerGrid>
-            <Footer />
+            <Footer 
+                paletteType={paletteType} 
+                setPaletteType={setPaletteType}  
+            />
         </div>
     )
 }

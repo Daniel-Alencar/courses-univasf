@@ -4,7 +4,6 @@ export const ContainerGrid = styled.div`
     padding-left: 10px;
     padding-right: 10px;
 
-    position: absolute;
     bottom: 40px;
 
     width: 100vw;
