@@ -19,6 +19,8 @@ export const ContainerGrid = styled.div`
     max-width: 628px;
     justify-content: center;
 
+    margin-bottom: 60px;
+
     /* border: 2px red solid; */
 `;
 

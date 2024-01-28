@@ -21,9 +21,15 @@ export default function Docs({paletteType, setPaletteType}) {
     const classes = useStyles();
     return (
         <div className={classes.root}>
-            <Header paletteType={paletteType} setPaletteType={setPaletteType} />
+            <Header 
+                paletteType={paletteType} 
+                setPaletteType={setPaletteType} 
+            />
             <Documentations />
-            <Footer />
+            <Footer 
+                paletteType={paletteType} 
+                setPaletteType={setPaletteType}  
+            />
         </div>
     )
 }

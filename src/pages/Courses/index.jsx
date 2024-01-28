@@ -126,7 +126,10 @@ function Courses({paletteType, setPaletteType}) {
 
                 </ContainerGrid>
             </ContainerBody>
-            <Footer />  
+            <Footer 
+                paletteType={paletteType} 
+                setPaletteType={setPaletteType}  
+            /> 
         </div>
     )
 }

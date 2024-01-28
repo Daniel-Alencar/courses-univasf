@@ -15,8 +15,19 @@ const useStyles = makeStyles((theme) => {
             textAlign: 'center',
             alignItems: 'center', 
             backgroundColor: theme.palette.primary.dark,
-            position: 'static !important',
-        }, 
+
+            position: 'fixed !important',
+            bottom: '0 !important',
+        },
+        linksContentContainer: {
+            position: 'fixed !important',
+            bottom: '0 !important',
+
+            width: '100%',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+        },
         text: {
             margin: 10, 
             color: '#fafafa'
@@ -45,17 +56,12 @@ export default function Footer({
 
     if(tamanhoDaTela < 600) {
         return (
-            <div style={{
-                width: '100%',
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-            }}>
+            <footer className={classes.linksContentContainer}>
                 <Links
                     paletteType={paletteType} 
                     setPaletteType={setPaletteType}
                 />
-            </div>
+            </footer>
         )
     } else {
         return (

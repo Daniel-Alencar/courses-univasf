@@ -16,6 +16,8 @@ const useStyles = makeStyles((theme) => {
             justifyContent: 'center',
             textAlign: 'center',
             alignItems: 'center',
+
+            backgroundColor: theme.palette.background.default,
         },
         links: {
             margin: theme.spacing(1,1)

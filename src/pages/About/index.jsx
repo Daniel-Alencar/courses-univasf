@@ -23,9 +23,15 @@ export default function About({paletteType, setPaletteType}) {
     const classes = useStyles();
     return (
         <div className={classes.root}>
-            <Header paletteType={paletteType} setPaletteType={setPaletteType} />
+            <Header 
+                paletteType={paletteType} 
+                setPaletteType={setPaletteType} 
+            />
             <Informational />
-            <Footer />
+            <Footer 
+                paletteType={paletteType}
+                setPaletteType={setPaletteType}
+            />
         </div>
     )
 }
