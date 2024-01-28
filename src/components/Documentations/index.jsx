@@ -16,7 +16,9 @@ const useStyles = makeStyles((theme) => {
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'flex-start',
-            alignItems: 'flex-start' 
+            alignItems: 'flex-start',
+
+            marginBottom: 60,
         },
 
         courses: {

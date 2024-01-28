@@ -13,6 +13,8 @@ export const ContainerGrid = styled.div`
     
     display: flex;
 
+    margin-bottom: 60px;
+
     &::-webkit-scrollbar {
         display: none;
     }

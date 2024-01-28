@@ -9,6 +9,8 @@ export const ContainerBody = styled.div`
     align-items: center;
     justify-content: center;
 
+    margin-bottom: 60px;
+
     /* border: 2px red solid; */
 ` 
 
@@ -18,8 +20,6 @@ export const ContainerGrid = styled.div`
     flex-wrap: wrap;
     max-width: 628px;
     justify-content: center;
-
-    margin-bottom: 60px;
 
     /* border: 2px red solid; */
 `;

@@ -20,8 +20,8 @@ const useStyles = makeStyles((theme) => {
             bottom: '0 !important',
         },
         linksContentContainer: {
-            position: 'fixed !important',
-            bottom: '0 !important',
+            // position: 'fixed !important',
+            // bottom: '0 !important',
 
             width: '100%',
             display: 'flex',
