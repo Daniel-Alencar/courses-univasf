@@ -124,6 +124,16 @@ function Courses({paletteType, setPaletteType}) {
                         Ciências Sociais
                     </Button>
 
+                    <Button
+                        startIcon={<BsFillCpuFill />} 
+                        className={classes.button} 
+                        color="primary" 
+                        variant="contained"
+                        onClick={() => history.push('/course/9')}
+                    >
+                        Engenharia da Computação Novo PPC
+                    </Button>
+
                 </ContainerGrid>
             </ContainerBody>
             <Footer 

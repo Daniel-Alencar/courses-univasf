@@ -7,6 +7,7 @@ import producao from './json/producao.json';
 
 import artes_visuais from './json/artes_visuais.json';
 import ciencias_sociais from './json/ciencias_sociais.json';
+import computation1 from './json/computacao-novo-PPC.json';
 
 function countWorkTime(course) {
     let workTime = 0;
@@ -70,7 +71,13 @@ const courses = {
         semesters: ciencias_sociais.semesters, 
         components: ciencias_sociais.components, 
         workTime: countWorkTime(ciencias_sociais)
-    }
+    },
+    9: {
+        name: computation1.name,
+        semesters: computation1.semesters, 
+        components: computation1.components, 
+        workTime: countWorkTime(computation1),
+    },
 }
 
 export { courses }
