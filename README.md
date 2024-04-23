@@ -24,4 +24,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias.
 Aplicação desenvolvida em React para facilitar o planejamento da vida acadêmida dos estudantes dos cursos de engenheria e ciências humanas da Universidade Federal do Vale do São Francisco (UNIVASF).
 
 # 🚀Como acessar
-A aplicação pode ser acessado de qualquer navegador por meio do link [Link](https://univasf-courses.netlify.app/courses).
+A aplicação pode ser acessado de qualquer navegador por meio do [Link](https://univasf-courses.netlify.app/courses).
