@@ -28,7 +28,15 @@
                 "unlock": [
                     {
                         "period": 1,
+                        "id": 1
+                    },
+                    {
+                        "period": 3, 
                         "id": 0
+                    },
+                    {
+                        "period": 3, 
+                        "id": 6
                     }
                 ],
                 "prerequisite": []
@@ -80,7 +88,16 @@
                 "workload": 30, 
                 "period": 0,
                 "id": 4,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 1, 
+                        "id": 4
+                    },
+                    {
+                        "period": 1, 
+                        "id": 5
+                    }
+                ],
                 "prerequisite": []
             }, 
             {
@@ -107,7 +124,12 @@
                 "workload": 60, 
                 "period": 1,
                 "id": 0,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 3, 
+                        "id": 0
+                    }
+                ],
                 "prerequisite": [
                     {
                         "period": 0,
@@ -120,7 +142,16 @@
                 "workload": 60, 
                 "period": 1,
                 "id": 1,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 3, 
+                        "id": 1
+                    },
+                    {
+                        "period": 3, 
+                        "id": 2
+                    }
+                ],
                 "prerequisite": [
                     {
                         "period": 0,
@@ -136,6 +167,10 @@
                 "unlock": [
                     {
                         "period": 2,
+                        "id": 1
+                    },
+                    {
+                        "period": 2, 
                         "id": 2
                     }
                 ],
@@ -152,12 +187,16 @@
                         "id": 0
                     },
                     {
+                        "period": 5,
+                        "id": 3
+                    },
+                    {
                         "period": 6,
                         "id": 2
                     },
                     {
-                        "period": 6,
-                        "id": 3
+                        "period": 6, 
+                        "id": 4
                     }
                 ],
                 "prerequisite": [
@@ -174,18 +213,18 @@
                 "id": 4,
                 "unlock": [
                     {
-                        "period": 2,
-                        "id": 0
+                        "period": 2, 
+                        "id": 5
                     },
                     {
-                        "period": 5,
+                        "period": 2, 
                         "id": 6
                     }
                 ],
                 "prerequisite": [
                     {
                         "period": 0,
-                        "id": 0
+                        "id": 4
                     }
                 ]
             }, 
@@ -198,7 +237,7 @@
                 "prerequisite": [
                     {
                         "period": 0,
-                        "id": 0
+                        "id": 4
                     }
                 ]
             }
@@ -209,7 +248,12 @@
                 "workload": 60,
                 "period": 2,
                 "id": 0,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 5, 
+                        "id": 3
+                    }
+                ],
                 "prerequisite": [
                     {
                         "period": 0,
@@ -223,7 +267,12 @@
                 "period": 2,
                 "id": 1,
                 "unlock": [],
-                "prerequisite": []
+                "prerequisite": [
+                    {
+                        "period": 1, 
+                        "id": 2
+                    }
+                ]
             },
             {
                 "name": "Física Teórica II", 
@@ -270,11 +319,40 @@
                 "prerequisite": []
             },
             {
-                "name": "Organização e Arquitetura de computadores I", 
+                "name": "Organização e Arquitetura de computadores", 
                 "workload": 60, 
                 "period": 2,
                 "id": 5,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 1, 
+                        "id": 3
+                    },
+                    {
+                        "period": 4, 
+                        "id": 0
+                    },
+                    {
+                        "period": 4, 
+                        "id": 1
+                    },
+                    {
+                        "period": 4, 
+                        "id": 2
+                    },
+                    {
+                        "period": 4, 
+                        "id": 3
+                    },
+                    {
+                        "period": 6, 
+                        "id": 4
+                    },
+                    {
+                        "period": 7, 
+                        "id": 4
+                    }
+                ],
                 "prerequisite": [
                     {
                         "period": 1,
@@ -283,7 +361,7 @@
                 ]
             },
             {
-                "name": "Lab. de OAC", 
+                "name": "Lab. de Organização e Arquitetura de Computadores", 
                 "workload": 30,
                 "period": 2,
                 "id": 6,
@@ -302,7 +380,12 @@
                 "workload": 60,
                 "period": 3,
                 "id": 0,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 7, 
+                        "id": 4
+                    }
+                ],
                 "prerequisite": [
                     {
                         "period": 0,
@@ -323,7 +406,12 @@
                 "workload": 60,
                 "period": 3,
                 "id": 1,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 4, 
+                        "id": 4
+                    }
+                ],
                 "prerequisite": [
                     {
                         "period": 1,
@@ -349,7 +437,12 @@
                 "workload": 60,
                 "period": 3,
                 "id": 3,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 4, 
+                        "id": 3
+                    }
+                ],
                 "prerequisite": [
                     {
                         "period": 2,
@@ -362,7 +455,12 @@
                 "workload": 30,
                 "period": 3,
                 "id": 4,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 4, 
+                        "id": 3
+                    }
+                ],
                 "prerequisite": [
                     {
                         "period": 2,
@@ -375,7 +473,12 @@
                 "workload": 60,
                 "period": 3,
                 "id": 5,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 4, 
+                        "id": 6
+                    }
+                ],
                 "prerequisite": [
                     {
                         "period": 0,
@@ -388,7 +491,12 @@
                 "workload": 60,
                 "period": 3,
                 "id": 6,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 7, 
+                        "id": 4
+                    }
+                ],
                 "prerequisite": [
                     {
                         "period": 0,
@@ -425,7 +533,16 @@
                 "workload": 60,
                 "period": 4,
                 "id": 1,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 5, 
+                        "id": 0
+                    },
+                    {
+                        "period": 8, 
+                        "id": 5
+                    }
+                ],
                 "prerequisite": [
                     {
                         "period": 2,
@@ -438,7 +555,12 @@
                 "workload": 30,
                 "period": 4,
                 "id": 2,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 5, 
+                        "id": 0
+                    }
+                ],
                 "prerequisite": [
                     {
                         "period": 2,
@@ -451,7 +573,12 @@
                 "workload": 60,
                 "period": 4,
                 "id": 3,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 5, 
+                        "id": 1
+                    }
+                ],
                 "prerequisite": [
                     {
                         "period": 0,
@@ -476,7 +603,16 @@
                 "workload": 60,
                 "period": 4,
                 "id": 4,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 6, 
+                        "id": 0
+                    },
+                    {
+                        "period": 6, 
+                        "id": 1
+                    }
+                ],
                 "prerequisite": [
                     {
                         "period": 3,
@@ -495,12 +631,7 @@
                         "id": 5
                     }
                 ],
-                "prerequisite": [
-                    {
-                        "period": 3,
-                        "id": 6
-                    }
-                ]
+                "prerequisite": []
             },
             {
                 "name": "Engenharia de Software I",
@@ -511,6 +642,10 @@
                     {
                         "period": 5,
                         "id": 6
+                    },
+                    {
+                        "period": 7, 
+                        "id": 4
                     }
                 ],
                 "prerequisite": [
@@ -527,7 +662,12 @@
                 "workload": 60, 
                 "period": 5,
                 "id": 0,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 8, 
+                        "id": 5
+                    }
+                ],
                 "prerequisite": [
                     {
                         "period": 4,
@@ -537,7 +677,6 @@
                         "period": 4,
                         "id": 2
                     }
-                    
                 ]
             },
             {
@@ -583,7 +722,16 @@
                 "workload": 60, 
                 "period": 5,
                 "id": 4,
-                "unlock": [],
+                "unlock": [
+                    {
+                        "period": 6, 
+                        "id": 4
+                    },
+                    {
+                        "period": 7, 
+                        "id": 5
+                    }
+                ],
                 "prerequisite": [
                     {
                         "period": 0,
@@ -643,7 +791,7 @@
                 "id": 1,
                 "unlock": [
                     {
-                        "period": 6,
+                        "period": 7,
                         "id": 1
                     }
                 ],
@@ -774,20 +922,20 @@
                 ],
                 "prerequisite": [
                     {
-                        "period": 3,
-                        "id": 6
-                    },
-                    {
                         "period": 2,
                         "id": 5
                     },
                     {
-                        "period": 4,
-                        "id": 6
+                        "period": 3,
+                        "id": 0
                     },
                     {
                         "period": 3,
-                        "id": 0
+                        "id": 6
+                    },
+                    {
+                        "period": 4,
+                        "id": 6
                     }
                 ]
             },
@@ -873,6 +1021,10 @@
                     {
                         "period": 5,
                         "id": 0
+                    },
+                    {
+                        "period": 7, 
+                        "id": 4
                     }
                 ]
             }
