@@ -645,12 +645,7 @@
                         "id": 0
                     }
                 ],
-                "prerequisite": [
-                    {
-                        "period": 4,
-                        "id": 3
-                    }
-                ]
+                "prerequisite": []
             },
             {
                 "name": "Planejamento e controle da produção I",
