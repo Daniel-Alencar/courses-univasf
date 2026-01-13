@@ -76,7 +76,7 @@ const courses = [
   {
     id: 10,
     name: "Medicina Veterinária",
-    campus: "petrolina",
+    campus: "ciências agrárias",
     icon: <FaPaw />
   }
 ];

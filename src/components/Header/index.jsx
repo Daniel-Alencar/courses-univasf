@@ -125,7 +125,7 @@ export default function Header({
                                     Campus Juazeiro
                                 </MenuItem>
                                 <MenuItem className={classes.menuItem} value="petrolina">
-                                    Campus Petrolina
+                                    Campus Ciências Agrárias
                                 </MenuItem>
                                 </Select>
                             )}
