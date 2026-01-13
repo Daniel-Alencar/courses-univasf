@@ -124,7 +124,7 @@ export default function Header({
                                 <MenuItem className={classes.menuItem} value="juazeiro">
                                     Campus Juazeiro
                                 </MenuItem>
-                                <MenuItem className={classes.menuItem} value="petrolina">
+                                <MenuItem className={classes.menuItem} value="ciências agrárias">
                                     Campus Ciências Agrárias
                                 </MenuItem>
                                 </Select>
