@@ -1,0 +1,578 @@
+{
+  "name": "Medicina Veterinária",
+  "semesters": 10,
+  "components": [
+      [
+          {
+              "name": "Metodologia de Pesquisa", 
+              "workload": 60, 
+              "period": 0,
+              "id": 0,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Ciências Ambientais", 
+              "workload": 30, 
+              "period": 0,
+              "id": 1,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Anatomia Veterinária Descritiva I", 
+              "workload": 60, 
+              "period": 0,
+              "id": 2,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Anatomia Veterinária Descritiva II", 
+              "workload": 30, 
+              "period": 0,
+              "id": 3,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Histologia e Embriologia Veterinária", 
+              "workload": 30, 
+              "period": 0,
+              "id": 4,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Bioestatística", 
+              "workload": 30, 
+              "period": 0,
+              "id": 5,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Sociologia Aplicada a Medicina Veterinária", 
+              "workload": 30, 
+              "period": 0,
+              "id": 6,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Unidade Articuladora I", 
+              "workload": 30,
+              "period": 0,
+              "id": 7,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Vivência em Medicina Veterinária I", 
+              "workload": 30,
+              "period": 0,
+              "id": 8,
+              "unlock": [],
+              "prerequisite": []
+          }
+      ],
+      [
+          {
+              "name": "Biofísica Veterinária", 
+              "workload": 60,
+              "period": 1,
+              "id": 0,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Parasitologia Veterinária", 
+              "workload": 60,
+              "period": 1,
+              "id": 1,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Microbiologia", 
+              "workload": 30,
+              "period": 1,
+              "id": 2,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Anatomia Veterinária Topográfica", 
+              "workload": 60,
+              "period": 1,
+              "id": 3,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Bioquímica Veterinária", 
+              "workload": 30,
+              "period": 1,
+              "id": 4,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Genética Veterinária", 
+              "workload": 45,
+              "period": 1,
+              "id": 5,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Extensão Rural", 
+              "workload": 30,
+              "period": 1,
+              "id": 6,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Unidade Articuladora II", 
+              "workload": 60,
+              "period": 1,
+              "id": 7,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Vivência em Medicina Veterinária II", 
+              "workload": 60,
+              "period": 1,
+              "id": 8,
+              "unlock": [],
+              "prerequisite": []
+          }
+      ],
+      [
+          {
+              "name": "Bioética e Deontologia Veterinária",
+              "workload": 60,
+              "period": 2,
+              "id": 0,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Produção e Conservação de Forragens",
+              "workload": 60,
+              "period": 2,
+              "id": 1,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Imunologia Veterinária",
+              "workload": 60,
+              "period": 2,
+              "id": 2,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Fisiologia Veterinária",
+              "workload": 60,
+              "period": 2,
+              "id": 3,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Epidemiologia",
+              "workload": 60,
+              "period": 2,
+              "id": 4,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Gestão e Empreendedorismo Aplicado a Medicina Veterinária",
+              "workload": 60,
+              "period": 2,
+              "id": 5,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+            "name": "Melhoramento Animal",
+            "workload": 60,
+            "period": 2,
+            "id": 6,
+            "unlock": [],
+            "prerequisite": []
+          },
+          {
+              "name": "Unidade Articuladora III",
+              "workload": 60,
+              "period": 2,
+              "id": 7,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Vivência em Medicina Veterinária III",
+              "workload": 60,
+              "period": 2,
+              "id": 8,
+              "unlock": [],
+              "prerequisite": []
+          }
+      ],
+      [
+          {
+              "name": "Ciência de Animais em Laboratório",
+              "workload": 60,
+              "period": 3,
+              "id": 0,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Nutrição e Alimentação Animal",
+              "workload": 60,
+              "period": 3,
+              "id": 1,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Patologia Geral",
+              "workload": 60,
+              "period": 3,
+              "id": 2,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Patologia Clínica Veterinária",
+              "workload": 30,
+              "period": 3,
+              "id": 3,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Farmacologia Veterinária",
+              "workload": 45,
+              "period": 3,
+              "id": 4,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Semiologia Veterinária",
+              "workload": 30,
+              "period": 3,
+              "id": 5,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Unidade Articuladora IV",
+              "workload": 60,
+              "period": 3,
+              "id": 6,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Vivência em Medicina Veterinária IV",
+              "workload": 60,
+              "period": 3,
+              "id": 7,
+              "unlock": [],
+              "prerequisite": []
+          }
+      ],
+      [
+          {
+              "name": "Tecnologia de Produtos de Origem Animal",
+              "workload": 60,
+              "period": 4,
+              "id": 0,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Patologia Veterinária",
+              "workload": 60,
+              "period": 4,
+              "id": 1,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Diagnóstico por Imagem",
+              "workload": 60,
+              "period": 4,
+              "id": 2,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Técnica Cirúrgica",
+              "workload": 60,
+              "period": 4,
+              "id": 3,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Núcleo Temático",
+              "workload": 60,
+              "period": 4,
+              "id": 4,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Unidade Articuladora V",
+              "workload": 30,
+              "period": 4,
+              "id": 5,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Vivência em Medicina Veterinária V",
+              "workload": 60,
+              "period": 4,
+              "id": 6,
+              "unlock": [],
+              "prerequisite": []
+          }
+      ],
+      [
+          {
+              "name": "Zootecnia I",
+              "workload": 60,
+              "period": 5,
+              "id": 0,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Zootecnia II",
+              "workload": 60,
+              "period": 5,
+              "id": 1,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Doenças Parasitárias dos Animais Domésticos",
+              "workload": 60,
+              "period": 5,
+              "id": 2,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Doenças Infecciosas dos Animais Domésticos",
+              "workload": 60,
+              "period": 5,
+              "id": 3,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Fisiopatologia da Reprodução Animal",
+              "workload": 60,
+              "period": 5,
+              "id": 4,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Anestesiologia Veterinária",
+              "workload": 60,
+              "period": 5,
+              "id": 5,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Unidade Articuladora VI",
+              "workload": 30,
+              "period": 5,
+              "id": 6,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Vivência em Medicina Veterinária VI",
+              "workload": 60,
+              "period": 5,
+              "id": 7,
+              "unlock": [],
+              "prerequisite": []
+          }
+      ],
+      [
+          {
+              "name": "Defesa Sanitária Animal",
+              "workload": 60,
+              "period": 6,
+              "id": 0,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Ornipatologia",
+              "workload": 60,
+              "period": 6,
+              "id": 1,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Clínica Médica de Cães e Gatos",
+              "workload": 60,
+              "period": 6,
+              "id": 2,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Clínica Médica de Grandes Animais",
+              "workload": 60,
+              "period": 6,
+              "id": 3,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Ginecologia Obstetrícia e Andrologia Veterinária",
+              "workload": 60,
+              "period": 6,
+              "id": 4,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Toxicologia Veterinária",
+              "workload": 30,
+              "period": 6,
+              "id": 5,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Clínica Médica e Cirúrgica de Animais Silvestres",
+              "workload": 45,
+              "period": 6,
+              "id": 6,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Unidade Articuladora VII",
+              "workload": 60,
+              "period": 6,
+              "id": 7,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Vivência em Medicina Veterinária VII",
+              "workload": 60,
+              "period": 6,
+              "id": 8,
+              "unlock": [],
+              "prerequisite": []
+          }
+      ],
+      [
+          {
+              "name": "Saúde Pública Veterinária",
+              "workload": 60,
+              "period": 7,
+              "id": 0,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Inspeção de Produtos de Origem Animal",
+              "workload": 60,
+              "period": 7,
+              "id": 1,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Biotecnologias da Reprodução Animal",
+              "workload": 45,
+              "period": 7,
+              "id": 2,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Clínica Cirúrgica de Grandes Animais",
+              "workload": 60,
+              "period": 7,
+              "id": 3,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Clínica Cirúrgica de Animais de Companhia",
+              "workload": 60,
+              "period": 7,
+              "id": 4,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Unidade Articuladora VIII",
+              "workload": 120,
+              "period": 7,
+              "id": 5,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Vivência em Medicina Veterinária VIII",
+              "workload": 60,
+              "period": 7,
+              "id": 6,
+              "unlock": [],
+              "prerequisite": []
+          }
+      ],
+      [
+          {
+              "name": "Trabalho de Conclusão de Curso",
+              "workload": 45,
+              "period": 8,
+              "id": 0,
+              "unlock": [],
+              "prerequisite": []
+          },
+          {
+              "name": "Estágio Curricular Obrigatório I",
+              "workload": 120,
+              "period": 8,
+              "id": 1,
+              "unlock": [],
+              "prerequisite": []
+          }
+      ],
+      [
+          {
+              "name": "Estágio Curricular Obrigatório II",
+              "workload": 120,
+              "period": 9,
+              "id": 0,
+              "unlock": [],
+              "prerequisite": []
+          }
+      ]
+  ]
+}

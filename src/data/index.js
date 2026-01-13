@@ -8,6 +8,7 @@ import producao from './json/producao.json';
 import artes_visuais from './json/artes_visuais.json';
 import ciencias_sociais from './json/ciencias_sociais.json';
 import computation1 from './json/computacao-novo-PPC.json';
+import medicina_veterinaria from './json/medicina_veterinaria.json';
 
 function countWorkTime(course) {
     let workTime = 0;
@@ -77,6 +78,12 @@ const courses = {
         semesters: computation1.semesters, 
         components: computation1.components, 
         workTime: countWorkTime(computation1),
+    },
+    10: {
+        name: medicina_veterinaria.name,
+        semesters: medicina_veterinaria.semesters, 
+        components: medicina_veterinaria.components, 
+        workTime: countWorkTime(medicina_veterinaria),
     },
 }
 
